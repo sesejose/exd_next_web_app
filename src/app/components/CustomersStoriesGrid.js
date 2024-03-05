@@ -27,7 +27,7 @@ export default function CustomersStoriesGrid() {
                     <Link href={"/customers/seven-eleven"} className="customer-story-container">
                         <div className="customer-story-image-container">
                             <div className="customer-story-image seven"></div>
-                            <Image src={logo4} className="customer-logo"></Image>
+                            <Image src={logo4} className="customer-logo" alt="image"></Image>
                         </div>
                         <div className="customer-story-description">
                             <div className="red text-1">7-Eleven</div>
@@ -40,7 +40,7 @@ export default function CustomersStoriesGrid() {
                     <Link href={"/customers/drc"} className="customer-story-container">
                         <div className="customer-story-image-container">
                             <div className="customer-story-image drc"></div>
-                            <Image src={logo3} className="customer-logo"></Image>
+                            <Image src={logo3} className="customer-logo" alt="image"></Image>
                         </div>
                         <div className="customer-story-description">
                             <div className="red text-1">Danish Refugee Council</div>
@@ -53,7 +53,7 @@ export default function CustomersStoriesGrid() {
                     <Link href={"/customers/milestone"} className="customer-story-container">
                         <div className="customer-story-image-container">
                             <div className="customer-story-image milestone"></div>
-                            <Image src={logo1} className="customer-logo"></Image>
+                            <Image src={logo1} className="customer-logo" alt="image"></Image>
                         </div>
                         <div className="customer-story-description">
                             <div className="red text-1">Milestone</div>
@@ -66,7 +66,7 @@ export default function CustomersStoriesGrid() {
                     <Link href={"/customers/det"} className="customer-story-container">
                         <div className="customer-story-image-container">
                             <div className="customer-story-image det"></div>
-                            <Image src={logo2} className="customer-logo"></Image>
+                            <Image src={logo2} className="customer-logo" alt="image"></Image>
                         </div>
                         <div className="customer-story-description">
                             <div className="red text-1">Dansk El og Teknik</div>

@@ -1,8 +1,8 @@
-// 'use client';
+'use client';
 
 import { useSearchParams } from "next/navigation";
 
-export default async function post() {
+export default async function Post() {
 
 
   // using the hook to pick up th id of the article

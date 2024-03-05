@@ -1,6 +1,6 @@
 // 'use client';
 
-export default async function posts() {
+export default async function Posts() {
 
     const response = await fetch('https://exd.dk/wp-json/wp/v2/posts');
     const articles = await response.json();

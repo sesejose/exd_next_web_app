@@ -1,8 +1,8 @@
-// 'use client';
+'use client';
 
 // import { useSearchParams } from "next/navigation";
 
-export default async function posts() {
+export default async function Posts() {
 
   // Fetching the posts/articles
   const response = await fetch('https://exd.dk/wp-json/wp/v2/posts');

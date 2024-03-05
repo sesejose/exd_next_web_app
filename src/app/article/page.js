@@ -9,7 +9,7 @@
 // import FetchPost from "../components/FetchPost";
 // import ArticleOthers from "../components/ArticlesOthers";
 // import { useState } from "react";
-import Post from "../components/Post"
+// import Post from "../components/Post"
 // import { useSearchParams } from "next/navigation";
 
 // import Image from "next/image";
@@ -66,7 +66,8 @@ export default async function ArticlePage({ article }) {
 
   return (
     <>
-    <Post key={articleSelected.id} articleSelected={articleSelected} className="post-link"></Post>
+    {/* The following line was active when I've ran build !  */}
+    {/* <Post key={articleSelected.id} articleSelected={articleSelected} className="post-link"></Post> */}
       {/* <div id="article-container" className="col-12 grid-center">
         <div className="hero-title-container">
           <h4>{category}</h4>

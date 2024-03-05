@@ -11,7 +11,7 @@ export default function SolutionUsm() {
     <div id="solution-usm" className="grid">
         <div className="col-1-9">
             <div className="text-1">
-                In today's fast-paced and interconnected world, effective management of service delivery is crucial for organizations across industries. Whether it's IT services, customer support, or facility management, the ability to deliver high-quality services efficiently can make or break a business. 
+                In today`&apos;`s fast-paced and interconnected world, effective management of service delivery is crucial for organizations across industries. Whether it`&apos;`s IT services, customer support, or facility management, the ability to deliver high-quality services efficiently can make or break a business. 
                 <br></br>
                 At its core, USM is a universal methodological approach to managing service delivery. It provides organizations with a simple standardized management system to effectively oversee their people, resources, processes, and services. By explicitly defining a service management architecture, USM establishes a set of rules and guidelines for organizing and governing a service organization. This architecture serves as the foundation for building a successful service organization, allowing for local adaptations while maintaining consistency in decision-making and service delivery. 
                 <br></br>

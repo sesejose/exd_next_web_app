@@ -169,6 +169,7 @@
 
 .icons-gradient .material-symbols-rounded{
   background: -webkit-linear-gradient(#2C0CAD, #FF402C);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
@@ -180,6 +181,7 @@
   padding: var(--p);
   height: 3.75rem;
   background: -webkit-linear-gradient(#2C0CAD, #FF402C) !important;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   box-shadow: var(--shadow);
@@ -190,6 +192,7 @@
 
 .icon-bg-gradient .material-symbols-rounded{
   background: var(--zero);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
@@ -210,6 +213,7 @@
 
 .icons-advantages .material-symbols-rounded{
   background: -webkit-linear-gradient(#2C0CAD, #FF402C);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
@@ -506,6 +510,7 @@ a.icons-gradient {
 
 a.icons-gradient .material-symbols-rounded{
   background: -webkit-linear-gradient(#2C0CAD, #FF402C);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
@@ -526,6 +531,7 @@ a.icons-gradient:hover {
 a.icons-gradient:hover .material-symbols-rounded{
   /* background: -webkit-linear-gradient(#2C0CAD, #FF402C); */
   background: var(--zero);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
@@ -913,14 +919,6 @@ nav ul li a.close {
   padding: 0;
 }
 
-.logo,
-.open,
-.basket-icon,
-.person,
-.phone,
-.contact {
-  /* padding: var(--ps); */
-}
 
 .phone {
   background-color: var(--red);
@@ -1220,6 +1218,7 @@ nav ul li a.close {
 
 .home-hero-text {
   background: -webkit-linear-gradient(rgba(44,12,173,1), rgba(239, 57, 34, 1));
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1276,22 +1275,6 @@ nav ul li a.close {
   text-align: left;
   gap: 1.875rem;
   /* flex-wrap: wrap; */
-}
-
-#home-advantages-title {
-  /* grid-column: 1 / -1;
-  color: var(--purple);
-  align-items: center; */
-}
-
-#home-advantages-title > :last-child {
-  /* width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 0.5rem;
-  flex-wrap: wrap; */
 }
 
 /* Home Revolutioning */
@@ -2124,6 +2107,7 @@ a.post-link:hover .post button {
   bottom: 0;
 }
 .embla__button {
+  appearance: none;
   -webkit-appearance: none;
   background-color: transparent;
   touch-action: manipulation;
