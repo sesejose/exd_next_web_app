@@ -14,23 +14,25 @@
 
 // import Image from "next/image";
 
-export default async function ArticlePage({ article }) {
+// export default async function ArticlePage({ article }) {
 
   // const articles = FetchPosts(); // this has the url from the Articles (from return)
   // const articleSelected = FetchPost(); // this has the url of a single Article with ID (from return)
   // console.log({articles});
   // console.log({articleSelected});
 
-  // using the hook to pick up th id of the article
+  // using the hook to pick up the id of the article
   // const searchParams = useSearchParams();
   // const id = searchParams.get("id");
+
+
   //Fetching a single article
-  const selected = {article};
-  const id = selected.id;
-  const res = await fetch('https://exd.dk/wp-json/wp/v2/posts') + {id} + "?_embed";
-  const articleSelected = await res.json(); // After getting the data convert it to json.
+  // const selected = {article};
+  // const id = selected.id;
+  // const res = await fetch('https://exd.dk/wp-json/wp/v2/posts') + {id} + "?_embed";
+  // const articleSelected = await res.json(); // After getting the data convert it to json.
   //const article = await res.json();
-  console.log({articleSelected});
+  // console.log({articleSelected});
  
 
   // const searchParams = useSearchParams();
@@ -64,7 +66,7 @@ export default async function ArticlePage({ article }) {
     // console.log(category);
   // }
 
-  return (
+  // return (
     <>
     {/* The following line was active when I've ran build !  */}
     {/* <Post key={articleSelected.id} articleSelected={articleSelected} className="post-link"></Post> */}
@@ -96,6 +98,6 @@ export default async function ArticlePage({ article }) {
         </div>
       </div> */}
     </>
-  );
-}
+  // );
+// }
 
