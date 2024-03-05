@@ -1,0 +1,28 @@
+import Link from "next/link"
+
+export default function FourmeRewards() {
+    return (
+        <>
+        <div className="wide ptb-medium">
+
+            <div id="fourme-rewards-title">
+                
+                    <div className="grid flex-column-center text-center gap-2">
+                        <div className="col-3-11">
+                            <h3 className="">Recognition and Rewards</h3>
+                            <div className="text-1 ptb">Click image to read more</div>
+                            <Link href={"/products"} className="btn-secondary m-auto">
+                                <div className="text-2">See Recognitions</div>
+                                <div className="">
+                                    <span className="material-symbols-rounded">arrow_forward</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+
+                
+            </div>
+        </div>
+        </>
+    )
+}

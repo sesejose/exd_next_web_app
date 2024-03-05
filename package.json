@@ -1,0 +1,25 @@
+{
+  "name": "exd_next_web_app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "embla-carousel-autoplay": "^8.0.0",
+    "embla-carousel-react": "^8.0.0-rc23",
+    "material-symbols": "^0.14.7",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-accessible-accordion": "^5.0.0",
+    "react-dom": "^18",
+    "swiper": "^11.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0"
+  }
+}
