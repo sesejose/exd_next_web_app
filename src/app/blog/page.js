@@ -1,12 +1,12 @@
 import Article from "../components/Article";
-// import { reqUrl } from "@/app/config";
+import { reqUrl } from "@/app/config";
 import InsightsHero from "../components/InsightsHero";
 
 // I fetch the articles and pass the them as props to and through the Article component tag 
 
 export default async function Insights() {
 
-  const response = await fetch('https://kea-alt-del.dk/t7/api/products'); // /posts?_fields=id,%20title,excerpt,date,content,slug
+  const response = await fetch('https://exd.dk/wp-json/wp/v2/posts?_fields=id,%20title,excerpt,date,content,slug'); // /posts?_fields=id,%20title,excerpt,date,content,slug
   const articles = await response.json();
   console.log(articles);
     
