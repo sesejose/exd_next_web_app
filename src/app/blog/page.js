@@ -6,7 +6,7 @@ import InsightsHero from "../components/InsightsHero";
 
 export default async function Insights() {
 
-  const response = await fetch('https://exd.grapixmo.com/wp-json/wp/v2/'); // /posts?_fields=id,%20title,excerpt,date,content,slug
+  const response = await fetch('https://https://exdinsights.wordpress.com/wp-json/wp/v2/posts'); // /posts?_fields=id,%20title,excerpt,date,content,slug
   const articles = await response.json();
   console.log(articles);
     
