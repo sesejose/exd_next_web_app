@@ -16,7 +16,7 @@ export default function SolutionProcessSteps() {
             <h4>Transforming Visions into Reality</h4>
 
             <p className="ptb-medium">
-            Embark on a collaborative journey with EXD, where we transform your vision into a digital reality. From framing value propositions to embracing digital adoption, our seamless process ensures innovation and collaboration. Let's shape the future together.
+            Embark on a collaborative journey with EXD, where we transform your vision into a digital reality. From framing value propositions to embracing digital adoption, our seamless process ensures innovation and collaboration. Let&apos;s shape the future together.
             </p>
 
           <Accordion>
