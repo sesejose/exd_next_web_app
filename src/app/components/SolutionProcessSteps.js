@@ -56,15 +56,7 @@ export default function SolutionProcessSteps() {
                 <p>As requirements and the Digital Product is getting finalised, we will start the hand over and testing of the solution. This will include activities like communication & training, support readiness, testing & validation and clear plan for the go-live activities. As the go-live is completed a model feedback loop is established to catch issues, feedback and enhancements captured from users & stakeholders. Priorities, plans and communication for how to implement suggested features and issues is establish as part of the Operating Model for the new digital product. ​</p>
               </AccordionItemPanel>
             </AccordionItem>
-            {/* New item  */}
-            <AccordionItem>
-              <AccordionItemHeading>
-                <AccordionItemButton><h4>Phase 5</h4></AccordionItemButton>
-              </AccordionItemHeading>
-              <AccordionItemPanel>
-                <p>Lorem ipsum dolor sit amet consectetur. Enim rutrum sed eu dignissim aliquam felis nulla diam. In pellentesque amet id diam orci ut orci gravida nunc. Habitant viverra diam sit morbi lacus ante amet eget quis. Lacus netus sit maecenas mi tellus in risus. Lectus amet tortor nisl et urna amet sit vestibulum mauris. Vivamus commodo commodo vivamus nisi in ipsum id orci odio. </p>
-              </AccordionItemPanel>
-            </AccordionItem>
+            
            
           </Accordion>
 
