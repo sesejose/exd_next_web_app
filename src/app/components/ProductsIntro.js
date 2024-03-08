@@ -27,7 +27,7 @@ export default function ProductsIntro() {
         </div>
         <div className="col-9-13">
             <div className="pb"><h4>Autom Mate</h4></div>
-          <div className="text-1 pb">Discover the power of automation with Autom Mate. Our platform streamlines workflows, accelerates processes, and enhances overall efficiency. Embrace a new era of digital transformation with Autom Mate's innovative solutions.</div>
+          <div className="text-1 pb">Discover the power of automation with Autom Mate. Our platform streamlines workflows, accelerates processes, and enhances overall efficiency. Embrace a new era of digital transformation with Autom Mate&aposs innovative solutions.</div>
           <Link href={"/autommate"} className="btn-secondary pt">
                     <div className="text-2">Learn more</div>
                     <div className="">
