@@ -17,12 +17,16 @@ const inter = Inter({ subsets: ["latin"] });
 
 const plus = Plus_Jakarta_Sans({
   subsets: ['latin'],
-  weight: ['400', '600'],
+  weight: ['200', '300', '400', '500', '600', '700', '800'],
   style: ['normal', 'italic'],
   variable: '--body-font'
 });
 
-const epilogue = Epilogue({ subsets: ["latin"], variable: '--headlines' });
+const epilogue = Epilogue({ 
+  subsets: ["latin"], 
+  weight: ['200', '300', '400', '500', '600', '700', '800', '900'], 
+  style: ['normal', 'italic'], 
+  variable: '--headlines' });
 
 export const metadata = {
   title: "EXD",

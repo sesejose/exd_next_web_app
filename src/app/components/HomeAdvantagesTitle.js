@@ -12,7 +12,7 @@ export default function HomeAdvantagesTitle() {
           
           <div className="col-10-13">
             <Link href={"/solution"} className="btn-purple">
-                <div className="text-2">Invest in Growth Today!</div>
+                <div className="text-1 bold">Invest in Growth Today!</div>
                 <span className="material-symbols-rounded">arrow_forward</span>
             </Link>
           </div>

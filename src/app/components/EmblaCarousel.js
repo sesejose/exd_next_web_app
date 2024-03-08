@@ -52,7 +52,7 @@ const EmblaCarousel = (props) => {
                 />
               </div>
               
-              <div className='col-1-6 mtb-medium'>
+              <div className='col-1-6 mt-large'>
                 <div className='text-2'>{SlidesByIndex(index).comment}</div>
                 <div className='red bold mtb'>{SlidesByIndex(index).by}</div>
               </div>

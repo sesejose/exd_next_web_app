@@ -1,9 +1,13 @@
+'use client'
+
 import form from "../../app/styles/form.css"
 import Form from "../components/ContactForm"
+
 
 export default function Contact(){
     return(
         <>
+        
         <div className="wide">
             <div id="contact-form">
                 <div className="heros-container grid-center">
@@ -22,6 +26,7 @@ export default function Contact(){
                 </div>
             </div>
         </div>
+        
         </>
     )
 }

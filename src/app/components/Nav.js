@@ -35,8 +35,8 @@ export default function Nav() {
                   <p>Products</p>
                 </Link>
                 <ul id="submenu" className="" onMouseOut={closeSubmenuDesk}>
-                  <li><Link href={"/fourme"}>4me</Link></li>
-                  <li><Link href={"/fourme"}>OutSystems</Link></li>
+                  <li><Link href={"/fourme"}><p>4me</p></Link></li>
+                  <li><Link href={"/fourme"}><p>Autom Mate</p></Link></li>
                 </ul>
               </li>
               <li>
@@ -88,37 +88,37 @@ export default function Nav() {
           <ul>
             <li>
               <Link className="" href={"/solution"} onClick={closeMenu}>
-                <p>Solution</p>
+                Solution
               </Link>
             </li>
             <li>
               <Link className="" href={"/products"} onClick={closeMenu}>
-                <p>Products</p>
+                Products
               </Link>
             </li>
             <li>
               <Link className="" href={"/fourme"} onClick={closeMenu}>
-                <p>4me</p>
+                4me
               </Link>
             </li>
             <li>
               <Link className="" href={"/fourme"} onClick={closeMenu}>
-                <p>OutSystems</p>
+                Autom Mate
               </Link>
             </li>
             <li>
               <Link className="" href={"/customers"} onClick={closeMenu}>
-                <p>Customer Stories</p>
+                Customer Stories
               </Link>
             </li>
             <li>
               <Link className="" href={"/about"} onClick={closeMenu}>
-                <p>About Us</p>
+                About Us
               </Link>
             </li>
             <li>
               <Link href={"/blog"} onClick={closeMenu}>
-                <p>Insights</p>
+                Insights
               </Link>
             </li>
             {/* <li>

@@ -19,7 +19,7 @@ import Link from "next/link"
 export default function CustomersStoriesGrid() {
     return (
         <>
-        <div className="wide">
+        <div className="wide-container">
 
             <div className="grid-stories">
 
@@ -56,9 +56,9 @@ export default function CustomersStoriesGrid() {
                             <Image src={logo1} className="customer-logo" alt="image"></Image>
                         </div>
                         <div className="customer-story-description">
-                            <div className="red text-1">Milestone</div>
-                            <h4>Lorem ipsum</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur. A semper mollis facilisis vel scelerisque nec at quis commodo. In a aenean aliquam maecenas condimentum.</p>
+                            <div className="red text-1">Milestone Systems</div>
+                            <h4>Milestone Systems</h4>
+                            <p>Milestone Systems, the leading data-driven video technology company decided to streamline their internal services on the 4me platform. Using a standardized and simplified approach for providing user friendly and intuitive services to their employees has been the key driver for Milestone Systems.</p>
                         </div>
                     </Link>
 

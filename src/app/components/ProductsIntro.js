@@ -11,7 +11,7 @@ export default function ProductsIntro() {
         </div>
         <div className="col-3-7">
             <div className="pb"><h4>4me</h4></div>
-            <div className="text-1 pb">Lorem ipsum dolor sit amet consectetur. Nunc dolor enim purus tempus risus neque sapien amet id. Gravida tempus aliquet tristique lacus pharetra proin nec aliquam gravida.</div>
+            <div className="text-1 pb">Revolutionize your service management with 4me, a next-generation platform. Seamlessly collaborate with internal and external service providers, ensuring real-time insights and control over the quality and cost of your digital business services.</div>
             
                 <Link href={"/fourme"} className="btn-secondary pt">
                     <div className="text-2">Learn more</div>
@@ -23,12 +23,12 @@ export default function ProductsIntro() {
         </div>
 
         <div className="col-7-9">
-            <div className="logo-outsystems-intro"></div>
+            <div className="logo-autommate-intro"></div>
         </div>
         <div className="col-9-13">
-            <div className="pb"><h4>OutSystems</h4></div>
-          <div className="text-1 pb">Lorem ipsum dolor sit amet consectetur. Nunc dolor enim purus tempus risus neque sapien amet id. Gravida tempus aliquet tristique lacus pharetra proin nec aliquam gravida.</div>
-          <Link href={"/products"} className="btn-secondary pt">
+            <div className="pb"><h4>Autom Mate</h4></div>
+          <div className="text-1 pb">Discover the power of automation with Autom Mate. Our platform streamlines workflows, accelerates processes, and enhances overall efficiency. Embrace a new era of digital transformation with Autom Mate's innovative solutions.</div>
+          <Link href={"/autommate"} className="btn-secondary pt">
                     <div className="text-2">Learn more</div>
                     <div className="">
                         <span className="material-symbols-rounded">arrow_forward</span>
