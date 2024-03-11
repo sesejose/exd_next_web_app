@@ -5,6 +5,7 @@ import { Epilogue } from "next/font/google";
 import general from "../app/styles/general.css"
 import desktop from "../app/styles/desktop.css"
 import form from "../app/styles/form.css"
+// import tablet from "../app/styles/tablet.css"
 import Nav from "../app/components/Nav";
 import Footer from "../app/components/Footer";
 //import ChatSupport from "./ChatSupport";

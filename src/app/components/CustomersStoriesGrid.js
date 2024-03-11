@@ -19,7 +19,7 @@ import Link from "next/link"
 export default function CustomersStoriesGrid() {
     return (
         <>
-        <div className="wide-container">
+        <div className="wide">
 
             <div className="grid-stories">
 

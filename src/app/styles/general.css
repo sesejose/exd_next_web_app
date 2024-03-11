@@ -570,7 +570,7 @@ button,
   appearance: none;
 }
 
-.btn, .btn-10, .btn-card-second, .btn-close, .btn-contact, .btn-download, .btn-purple, .btn-secondary, .btn-slet, .contact-icons, .icons-nav-container {
+.btn, .btn-10, .btn-card-second, .btn-close, .btn-contact, .btn-download, .btn-purple, .btn-secondary, .btn-slet, .contact-icons, .icons-nav-container, #fourme-attributes {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1578,7 +1578,7 @@ ul.our-services li {
   min-width: fit-content;
 }
 
-.wide.wide:has(#fourme-attributes){
+.wide:has(#fourme-attributes){
   background: var(--five);
 }
 .fourme-attributes-container, .fourme-optimize-container {
@@ -1918,6 +1918,16 @@ footer ul li a.close {
 }
 
 /* Blog */
+
+.article-main-image{
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .post {
   border: 1px solid var(--border);
   border-radius: var(--border-radius-20);
@@ -1961,7 +1971,7 @@ a.post-link:hover .post button {
 
 .post img {
   border-radius: var(--border-radius-top-20);
-  width: 100%;
+  /* width: 100%; */
   /* object-fit: cover; */
 }
 

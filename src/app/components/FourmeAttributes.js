@@ -7,7 +7,7 @@ export default function FourmeAttributes() {
 
             <div id="fourme-attributes-title">
 
-                <div className="grid-center flex-row-center">
+                <div className="grid-center">
                     
                     <h3 className="col-1-8">Unlock the power of seamless Service Management with 4me</h3>
           

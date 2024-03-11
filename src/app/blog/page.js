@@ -6,7 +6,7 @@ import InsightsHero from "../components/InsightsHero";
 
 export default async function Insights() {
 
-  const response = await fetch(`${reqUrl}/posts?_fields=id,%20title,excerpt,date,content,slug`); // /posts?_fields=id,%20title,excerpt,date,content,slug
+  const response = await fetch(`${reqUrl}`); // /posts?_fields=id,%20title,excerpt,date,content,slug
   const articles = await response.json();
   console.log(articles);
     

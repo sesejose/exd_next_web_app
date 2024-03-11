@@ -1,5 +1,6 @@
 import { reqUrl } from "@/app/config";
-import ArticleOthers from "@/app/components/ArticlesOthers";
+import Image from "next/image";
+// import ArticleOthers from "@/app/components/ArticlesOthers";
 
 // It receive the {params} from the component Article.js dynamic URL
 // If I console.log the params => I'll see that this is the slug defined in the link of the component
@@ -24,23 +25,35 @@ export default async function Post( { params } ) {
     // console.log('AAAAAAAAAAAAAAAAAAAAArticles', data);
 
     // const req = await fetch(`${reqUrl}/posts?slug=go-live-cake-danish-refugee-council`);
-    const req = await fetch(`${reqUrl}/posts?slug=${params.slug}`);
+    const req = await fetch(`${reqUrl}&slug=${params.slug}`);
     const posts = await req.json();
     // const [posts, articles] = await Promise.all([req, articlesData])
     // Variable for the individual article
     const post = posts[0];
 
     console.log('POOOOOOOOOOST', post);
+    console.log("works");
+
+    // const imgageBg = post["_embedded"]["wp:featuredmedia"]["0"].link;
+    const imgageBg = post.image_article;
 
     return (
         <>
-        <h2>{post.title.rendered}</h2>
-        <p>{post.content.rendered}</p>
-            {/* <div className="grid-blog">
-                {articles.map((article) => (
-                    <ArticleOthers key={article.id} article={article}></ArticleOthers>
-                ))}
-            </div> */}
+        <div className="wide">
+                <div className="article-main-image" style={{backgroundImage: `url(${imgageBg})`}}></div>
+            <div id="article">
+                {/* <Image src={post["_embedded"]["wp:featuredmedia"]["0"].link} width={160} height={90} alt="Image" className="article-main-image"></Image> */}
+            </div>
+        </div>
+        <div className="grid">
+            <h2 className="col-12">{post.title_article}</h2>
+            <p>{post.text_article}</p>
+                {/* <div className="grid-blog">
+                    {articles.map((article) => (
+                        <ArticleOthers key={article.id} article={article}></ArticleOthers>
+                    ))}
+                </div> */}
+        </div>
         </>
     )
 }

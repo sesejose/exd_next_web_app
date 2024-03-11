@@ -17,7 +17,7 @@ console.log(logos);
 export default function CustomersLogos() {
     return (
         <>
-        <div className="wide-container">
+        <div className="wide">
 
             <div id="customers-logos" className="grid-center">
 

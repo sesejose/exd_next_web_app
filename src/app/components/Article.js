@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-// This component receives the props {article} from the from blog/page.js
+// This component receives the props {article} from the blog/page.js
 // Uses that props to set up the card for each article in the list
 // Each card links to the article [slug]
 // It will open the article --> page.js inside the [slug]
@@ -19,8 +19,9 @@ export default function Article({ article }) {
       <Link href={`/blog/${article.slug}`} key={article.id} article={article} className="post-link">
         <div className="post">
           <div className="img-cat-container">
-            {/* <Image src={article.img.guid} width={160} height={90} alt="Image"></Image> */}
-            {/* <p className="post-category">{article["_embedded"]["wp:term"]["0"]["0"].name}</p> */}
+            {/* <Image src={article["_embedded"]["wp:featuredmedia"]["0"].link} width={160} height={90} alt="Image"></Image> */}
+            <Image src={article.image_article} width={160} height={90} alt="Image"></Image>
+            <p className="post-category">{article["_embedded"]["wp:term"]["0"]["0"].name}</p>
           </div>
           <h3>{article.title.rendered}</h3>
           <p>{article.excerpt.rendered}</p>
