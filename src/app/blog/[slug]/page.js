@@ -47,9 +47,10 @@ export default async function Post( { params } ) {
                         <p className="zero bold">Created: {post.date}</p>
                         <p className="post-category bold">{post["_embedded"]["wp:term"]["0"]["0"].name}</p>
                     </div>
-                    
+
                 </div>
                 </div>
+                
                 <div id="article_opened">
                     {/* <div className="grid-center">
                         <div className="col-12" > 
