@@ -42,31 +42,31 @@ export default function SolutionUsm() {
                     <li>
                         <Link href={'http://google.com'} target="_blank" className="btn-download zero">
                             <div className="counter">An Introduction to USM – Document </div>
-                            <span class="material-symbols-rounded">download</span>
+                            <span className="material-symbols-rounded">download</span>
                         </Link>
                     </li>
                     <li>
                         <Link href={'http://google.com'} target="_blank" className="btn-download zero">
                             <div className="counter">ESM the tool providers new cash cow – Document</div>
-                            <span class="material-symbols-rounded">download</span>
+                            <span className="material-symbols-rounded">download</span>
                         </Link>
                     </li>
                     <li>
                         <Link href={'http://google.com'} target="_blank" className="btn-download zero">
                             <div className="counter">ESM with USM 20 guidelines – Document</div>
-                            <span class="material-symbols-rounded">download</span>
+                            <span className="material-symbols-rounded">download</span>
                         </Link>
                     </li>
                     <li>
                         <Link href={'http://google.com'} target="_blank" className="btn-download zero">
                             <div className="counter">Government as a service provider – Document</div>
-                            <span class="material-symbols-rounded">download</span>
+                            <span className="material-symbols-rounded">download</span>
                         </Link>
                     </li>
                     <li>
                         <Link href={'http://google.com'} target="_blank" className="btn-download zero">
                             <div className="counter">Demystifying the term process – Document</div>
-                            <span class="material-symbols-rounded">download</span>
+                            <span className="material-symbols-rounded">download</span>
                         </Link>
                     </li>
                 </ul>

@@ -1,3 +1,4 @@
+import Article from "@/app/components/Article";
 import { reqUrl } from "@/app/config";
 import Image from "next/image";
 // import ArticleOthers from "@/app/components/ArticlesOthers";
@@ -39,24 +40,41 @@ export default async function Post( { params } ) {
 
     return (
         <>
-        <div className="wide">
-                <div className="article-main-image" style={{backgroundImage: `url(${imgageBg})`}}></div>
-            <div id="article">
-                {/* <Image src={post["_embedded"]["wp:featuredmedia"]["0"].link} width={160} height={90} alt="Image" className="article-main-image"></Image> */}
+            <div className="wide">
+                <div className="col-12 article-main-image" style={{backgroundImage: `url(${imgageBg})`}}>  
+                <div className="overlay">
+                    <div className="flex-column-center">
+                        <p className="zero bold">Created: {post.date}</p>
+                        <p className="post-category bold">{post["_embedded"]["wp:term"]["0"]["0"].name}</p>
+                    </div>
+
+                </div>
+                </div>
+                <div id="article_opened">
+                    {/* <div className="grid-center">
+                        <div className="col-12" > 
+                        className="article-main-image" style={{backgroundImage: `url(${imgageBg})`}}        
+                        </div>
+                    </div> */}
+                    <div className="grid-center">
+                        <div className="col-3-11 flex-column-center">
+                            <h2 className="title-article-opened">{post.title_article}</h2>
+                            <Image src={post.body_image_article} width={160} height={90} alt="Image" className="post-img-body"></Image>
+                            <h3 className="">{post.body_headline_article}</h3>
+                            <p className="ptb-medium">{post.text_article}</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div className="grid">
-            <h2 className="col-12">{post.title_article}</h2>
-            <p>{post.text_article}</p>
-                {/* <div className="grid-blog">
-                    {articles.map((article) => (
-                        <ArticleOthers key={article.id} article={article}></ArticleOthers>
-                    ))}
-                </div> */}
-        </div>
         </>
     )
 }
 
 
 
+
+{/* <div className="grid-blog">
+    {articles.map((article) => (
+        <ArticleOthers key={article.id} article={article}></ArticleOthers>
+    ))}
+</div> */}
