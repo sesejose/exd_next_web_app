@@ -36,7 +36,7 @@ export default function Nav() {
                 </Link>
                 <ul id="submenu" className="" onMouseOut={closeSubmenuDesk}>
                   <li><Link href={"/fourme"}><p>4me</p></Link></li>
-                  <li><Link href={"/fourme"}><p>Autom Mate</p></Link></li>
+                  <li><Link href={"/autommate"}><p>Autom Mate</p></Link></li>
                 </ul>
               </li>
               <li>
@@ -102,7 +102,7 @@ export default function Nav() {
               </Link>
             </li>
             <li>
-              <Link className="" href={"/fourme"} onClick={closeMenu}>
+              <Link className="" href={"/autommate"} onClick={closeMenu}>
                 Autom Mate
               </Link>
             </li>
