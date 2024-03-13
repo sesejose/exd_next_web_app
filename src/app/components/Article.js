@@ -39,9 +39,7 @@ export default async function Article({ article }) {
             </div>
           </div>
         </div>
-      </Link>
-
-      
+      </Link>     
 
     </>
   );

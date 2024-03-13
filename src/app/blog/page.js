@@ -12,7 +12,6 @@ export default async function Insights() {
 
   return (
     <>
-
     <InsightsHero></InsightsHero>
       <div className="grid-blog">
         {articles.map((article) => (
