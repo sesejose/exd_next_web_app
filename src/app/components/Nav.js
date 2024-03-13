@@ -54,6 +54,11 @@ export default function Nav() {
                   <p>Insights</p>
                 </Link>
               </li>    
+              <li>
+                <Link href={'/contact'}>
+                  <p>Contact Us</p>
+                </Link>
+              </li> 
             </ul>
           </div>
           <div className="icons-nav-container">
@@ -119,6 +124,11 @@ export default function Nav() {
             <li>
               <Link href={"/blog"} onClick={closeMenu}>
                 Insights
+              </Link>
+            </li>
+            <li>
+              <Link href={"/contact"} onClick={closeMenu}>
+                Contact Us
               </Link>
             </li>
             {/* <li>

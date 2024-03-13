@@ -67,6 +67,9 @@ export default function Footer() {
           <li>
             <Link href={"/"}>Carrer</Link>
           </li>
+          <li>
+            <Link href={"/contact"}>Contact Us</Link>
+          </li>
         </ul>
         <ul className="some">
           <li>

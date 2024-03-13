@@ -803,7 +803,7 @@ a.back:hover {
 /* main */
 
 main {
-  padding-top: 110px ;
+  padding-top: 90px ;
 }
 
 /* Nav */
@@ -812,7 +812,7 @@ nav {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 110px;
+  height: 90px;
   justify-content: space-between;
   align-items: center;
   margin: var(--m-auto);
@@ -829,7 +829,7 @@ nav {
   align-items: center;
   /* background-color: var(--zero); */
   width: 100%;
-  min-height: 110px;
+  min-height: 90px;
   padding: var(--plr);
   /* position: absolute; */
 }
@@ -924,7 +924,7 @@ nav ul li a.close {
 .logo {
   width: 6rem;
   max-width: 6rem;
-  /* height: auto; */
+  height: auto;
   /* padding: var(--plr); */
 }
 
@@ -1259,8 +1259,8 @@ ul#submenu {
 }
 
 .home-hero-image, .solution-hero-image, 
-.products-hero-image, .insights-hero-image, 
-.customers-stories-hero-image, .about-hero-image {
+.products-hero-image, 
+.customers-stories-hero-image {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: contain;
@@ -1269,6 +1269,14 @@ ul#submenu {
   background-position: bottom;
 }
 
+.insights-hero-image, .about-hero-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
 /* Home */
 
 /* Advantages Home*/

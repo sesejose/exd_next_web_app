@@ -10,7 +10,7 @@ export default function Contact(){
         
         <div className="wide">
             <div id="contact-form">
-                <div className="heros-container grid-center">
+                <div className="grid-center">
 
                     <div className="col-1-6">
                         <h2 className="pb-medium">Contact Us</h2>

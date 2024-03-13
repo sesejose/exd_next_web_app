@@ -133,7 +133,7 @@ h4 {
     }
   
     main {
-      padding-top: 110px ;
+      padding-top: 90px ;
       position: relative;
       grid-column: 1 / -1;
       grid-row: 2 / 3;
@@ -143,7 +143,7 @@ h4 {
       /* padding: var(--plr-medium); */
     }
     nav ul {
-      height: 110px;
+      height: 90px;
       align-items: center;
     }
 
@@ -661,7 +661,7 @@ h4 {
 }
 
 .customer-story-description p {
-  max-height: 110px;
+  max-height: 90px;
 }
 
 .customer-story-opened-hero-container {
