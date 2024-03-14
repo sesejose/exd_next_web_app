@@ -10,7 +10,7 @@ import Link from "next/link";
 // It will open the article --> page.js inside the [slug]
 // And pass the params through the URL / href / Link tag to the slug/page.js
 
-export default function Article({ key, id, category, title, image, excerpt, content, slug }) {
+export default function Article({ id, category, title, image, excerpt, content, slug }) {
 
 
   // const response = await fetch(`${catUrl}` + article.categories[0]); // /posts?_fields=id,%20title,excerpt,date,content,slug
