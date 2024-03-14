@@ -20,6 +20,7 @@ export default async function Insights() {
           <Article 
 
           key={article.id}
+          id={article.id}
           category={article["_embedded"]["wp:term"]["0"]["0"].name}
           image={article.image_article.rendered}
           title={article.title_article.rendered}

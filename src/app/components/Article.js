@@ -20,7 +20,7 @@ export default function Article({ key, category, title, image, excerpt, content,
   return (
     <>
       
-      <Link href={`/blog/${slug}`} key={key} className="post-link">
+      <Link href={`/blog/${slug}`} id={id} className="post-link">
       {/* <Link href={`/blog/${article.slug}`} key={article.id} article={article} className="post-link"> */}
         <div className="post">
           <div className="post-img-container">
