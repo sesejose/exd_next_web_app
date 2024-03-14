@@ -63,6 +63,7 @@ export default async function Post( { params } ) {
                             <Image src={post.body_image_article} width={160} height={90} alt="Image" className="post-img-body"></Image>
                             <h3 className="">{post.body_headline_article}</h3>
                             <p className="ptb-medium">{post.text_article}</p>
+                            <div className="ptb-medium">{post.content_article}</div>
                         </div>
                     </div>
                 </div>
