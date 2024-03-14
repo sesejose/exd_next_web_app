@@ -1,3 +1,5 @@
+// 'use client'
+
 import Article from "../components/Article";
 import { reqUrl } from "@/app/config";
 import InsightsHero from "../components/InsightsHero";
@@ -14,13 +16,21 @@ export default async function Insights() {
     <>
     <InsightsHero></InsightsHero>
       <div className="grid-blog">
-        {articles.map((article) => (
-          <Article key={article.id} article={article}></Article>
+        {articles.map(article => (
+          <Article 
+
+          key={article.id}
+          category={article["_embedded"]["wp:term"]["0"]["0"].name}
+          image={article.image_article.rendered}
+          title={article.title_article.rendered}
+          excerpt={article.excerpt_article.rendered}
+          content={article.content_article.rendered}
+          slug={article.slug}
+          
+          ></Article>
         ))}
       </div>
     </>
   );
 }
-
-
 

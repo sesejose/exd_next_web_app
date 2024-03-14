@@ -36,7 +36,7 @@ export default async function Post( { params } ) {
     console.log("works");
 
     // const imgageBg = post["_embedded"]["wp:featuredmedia"]["0"].link;
-    const imgageBg = post.image_article;
+    const imgageBg = post.image_article.rendered;
 
     return (
         <>
@@ -59,11 +59,11 @@ export default async function Post( { params } ) {
                     </div> */}
                     <div className="grid-center">
                         <div className="col-3-11 flex-column-center">
-                            <h2 className="title-article-opened">{post.title_article}</h2>
-                            <Image src={post.body_image_article} width={160} height={90} alt="Image" className="post-img-body"></Image>
-                            <h3 className="">{post.body_headline_article}</h3>
-                            <p className="ptb-medium">{post.text_article}</p>
-                            <div className="ptb-medium">{post.content_article}</div>
+                            <h2 className="title-article-opened">{post.title_article.rendered}</h2>
+                            <Image src={post.body_image_article.rendered} width={160} height={90} alt="Image" className="post-img-body"></Image>
+                            <h3 className="">{post.body_headline_article.rendered}</h3>
+                            <p className="ptb-medium">{post.text_article.rendered}</p>
+                            <div className="ptb-medium">{post.content_article.rendered}</div>
                         </div>
                     </div>
                 </div>
