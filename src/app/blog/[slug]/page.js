@@ -74,7 +74,6 @@ export default async function Post( { params } ) {
 
 
 
-
 {/* <div className="grid-blog">
     {articles.map((article) => (
         <ArticleOthers key={article.id} article={article}></ArticleOthers>
