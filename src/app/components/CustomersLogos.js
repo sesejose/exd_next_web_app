@@ -21,7 +21,7 @@ export default function CustomersLogos() {
 
             <div id="customers-logos" className="grid-center">
 
-                <Image src=""></Image>
+                {/* <Image src=""></Image> */}
                 
             </div>
 
