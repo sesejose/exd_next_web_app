@@ -251,7 +251,7 @@
 }
 
 .pt-large {
-  padding: var(--pb-large);
+  padding: var(--pt-large);
 }
 
 .pb-large {
@@ -502,6 +502,17 @@ a.text-link:hover {
   color: var(--cyan) !important;
 }
 
+/* Text Links Blog*/
+a.text-link-purple:link, a.text-link-purple:visited, a.text-link-purple:focus, a.text-link-purple:active {
+  color: var(--purple);
+  text-decoration: underline;
+  font-style: italic;
+}
+
+a.text-link:hover {
+color: var(--blue) !important;
+font-weight: 700;
+}
 
 a.icons-gradient {
   padding: var(--p);
@@ -1934,7 +1945,6 @@ footer ul li a.close {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  /* border-radius: var(--border-radius-40); */
   justify-content: center;
   align-items: center;
 
@@ -1952,9 +1962,6 @@ footer ul li a.close {
   width: 100%;
   display: flex;
   overflow: hidden;
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* position: relative; */
 }
 .post-img-container img {
   width: 100%;
@@ -1975,7 +1982,7 @@ footer ul li a.close {
 
 .post-description .post-excerpt {
   white-space: normal;
-  /* height: 150px; */
+  height: 150px;
   overflow: hidden;
   text-overflow: ellipsis " [..]";
   -o-text-overflow: ellipsis " [..]";
@@ -1985,7 +1992,6 @@ footer ul li a.close {
 }
 
 .post-category {
-  /* padding: var(--pt); */
   color: var(--red);
 }
 a.post-link {
@@ -1996,8 +2002,6 @@ a.post-link .post {
 }
 
 a.post-link:hover .post {
-  /* box-shadow: var(--shadow); */
-  /* background-color: var(--ligh-blue); */
   transform: scale(1.05);
 }
 
@@ -2017,16 +2021,6 @@ a.post-link:hover .post button {
 
 .post-description .post-title {
   line-height: normal;
-  /* margin: var(--mtb); */
-  /* height: 7.5rem; */
-  /* overflow: hidden; */
-}
-
-.post-description .post-title,
-.post-description .post-excerpt,
-.post-description .post-category,
-.post-description .open-post {
-  /* padding: var(--plr); */
 }
 
 .title-article-opened {
@@ -2113,6 +2107,15 @@ a.post-link:hover .post button {
 .date-creator-container {
   color: var(--red);
   margin: var(--m-auto);
+}
+
+.article-quote {
+  color: var(--purple-light);
+  font-family: var(--headlines);
+  font-style: italic;
+  font-weight: 700;
+  font-size: var(--h4);
+
 }
 
 /* Swiper */

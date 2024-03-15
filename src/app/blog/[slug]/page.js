@@ -63,14 +63,13 @@ export default async function Post( { params } ) {
                         <div className="col-3-11 flex-column-center">
                             <h2 className="title-article-opened">{post.title_article.rendered}</h2>
                             <Image src={post.body_image_article.rendered} width={160} height={90} alt="Image" className="post-img-body"></Image>
-                            <div>{post.body_caption_article.rendered}</div>
-                            <h3 className="">{post.body_headline_article.rendered}</h3>
-                            <p className="ptb-medium">{post.body_text_article.rendered}</p>
-                            <div>{post.body_quote_article.rendered}</div>
-                            <div>{post.body_more_text_article.rendered}</div>
-                            <div>{post.body_link_text_article.rendered}</div>
-                            <Link href={`${post.body_link_article.rendered}`}>{post.body_link_article.rendered}</Link>
-
+                            <div className="span bold purple-light">{post.body_caption_article.rendered}</div>
+                            <h3 className="ptb-medium">{post.body_headline_article.rendered}</h3>
+                            <div className="text-1">{post.body_text_article.rendered}</div>
+                            <div className="article-quote p-mobile-medium text-center">{post.body_quote_article.rendered}</div>
+                            <div className="text-1">{post.body_more_text_article.rendered}</div>
+                            <div className="bold ptb">{post.body_link_text_article.rendered}</div>
+                            <Link href={`${post.body_link_article.rendered}`} className="text-link-purple pb-large">{post.body_link_article.rendered}</Link>
                         </div>
                     </div>
                 </div>
