@@ -39,10 +39,7 @@ export default function Insights() {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
-
-  // const articles = await getData()
-  
+  }, []);  
 
   // const [id, setId] = useState();
   // const [category, setCategory] = useState();
@@ -61,12 +58,19 @@ export default function Insights() {
 
           key={article.id}
           id={article.id}
+          slug={article.slug}
           category={article["_embedded"]["wp:term"]["0"]["0"].name}
           image={article.image_article.rendered}
           title={article.title_article.rendered}
           excerpt={article.excerpt_article.rendered}
-          content={article.content_article.rendered}
-          slug={article.slug}
+          bodyHeadline={article.body_headline_article.rendered}
+          bodyImage={article.body_image_article.rendered}
+          bodyCaption={article.body_caption_article.rendered}
+          bodyText={article.body_text_article.rendered}
+          bodyQuote={article.body_quote_article.rendered}
+          bodyMoreText={article.body_more_text_article.rendered}
+          bodyLinkText={article.body_link_text_article.rendered}
+          bodyLink={article.body_link_article.rendered}
           
           ></Article>
         ))}
