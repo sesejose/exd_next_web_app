@@ -19,13 +19,27 @@ import { useEffect } from "react";
 //   return res.json()
 // }
 
+
 // I fetch the articles and pass the them as props to and through the Article component tag 
+// Asyn was removed
+export default function Insights() {
+  
+  // const response = await fetch(`${reqUrl}`); 
+  // const articles = await response.json();
+  // console.log(articles);
 
-export default async function Insights() {
-
-  const response = await fetch(`${reqUrl}`); 
-  const articles = await response.json();
-  console.log(articles);
+  const [articles, setArticles] = useState([]);
+  
+  useEffect(() => {
+    fetch('https://exd-insight.dk/wp-json/wp/v2/article?_embed&per_page=100')
+      .then((res) => res.json())
+      .then((articles) => {
+        setArticles(articles);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }, []);
 
   // const articles = await getData()
   
