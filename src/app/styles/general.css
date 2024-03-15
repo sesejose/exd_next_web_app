@@ -1568,6 +1568,19 @@ ul.our-services li {
   /* position: relative; */
 }
 
+.fourme-intro {
+  width: 100%;
+  object-fit: contain;
+  aspect-ratio: 16/9;
+  background-image: url("../../../public/screens/fourme-screenshot.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 10px solid var(--fifteen);
+  box-shadow: var(--btn-shadow);
+  border-radius: var(--border-radius-20);
+}
+
 .screen {
   border-radius: var(--border-radius-20);
   box-shadow: var(--hover-shadow);

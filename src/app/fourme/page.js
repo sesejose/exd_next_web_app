@@ -7,11 +7,13 @@ import FourmeAdvantages from "../components/FourmeAdvantages";
 import FourmeAttributes from "../components/FourmeAttributes";
 import FourmeOptimize from "../components/FourmeOptimize";
 import FourmeRewards from "../components/FourmeRewards";
+import FourmeIntro from "../components/FourmeIntro";
 
 export default function FourMe() {
     return (
         <>
             <FourmeHero></FourmeHero>
+            <FourmeIntro></FourmeIntro>
             <FourmeMobile></FourmeMobile>
             <FourmeSiam></FourmeSiam>
             <FourmeAdvantages></FourmeAdvantages>
