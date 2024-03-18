@@ -25,6 +25,8 @@ h4 {
     /* Nav  */
   
     .logo {
+      /* width: 4.375rem; */
+  /* max-width: 4.375rem; */
       padding: 0;
     }
   
@@ -97,6 +99,10 @@ h4 {
     .basket-icon {
       display: flex;
     }
+
+    #menu {
+      background-color: var(--zero);
+    }
   
     #menu-desk {
       display: flex;
@@ -107,8 +113,8 @@ h4 {
     }
     #menu-desk ul {
       flex-flow: row;
-      gap: 2rem;
-      background: var(--zero);
+      gap: 1rem;
+      background: transparent;
     }
     
     /* #submenu {
@@ -138,13 +144,24 @@ h4 {
       grid-column: 1 / -1;
       grid-row: 2 / 3;
     }
+    
+    /* Nav */
+
     nav {
-      /* position: relative; */
-      /* padding: var(--plr-medium); */
+      height: 90px;
     }
+    
+    .nav-container {
+      min-height: 90px;
+      padding: var(--plr-medium);
+    }
+    
     nav ul {
       height: 90px;
       align-items: center;
+      /* background-color: rgba(255, 255, 255, 0.55); */
+  backdrop-filter: blur(0px);
+  /* -webkit-text-fill-color: var(--purple) !important; */
     }
 
     nav ul li {
@@ -152,361 +169,358 @@ h4 {
       border: none;
       padding: var(--plr);
       flex-flow: row;
+      /* margin: 0; */
     }
 
     nav ul li a {
       background: none;
       border-radius: none;
-      box-shadow: none;
-      
+      box-shadow: none; 
+      letter-spacing: 0px;
     }
   
+    .icon-bg-gradient {
+      width: 3.75rem;
+      height: 3.75rem;
+      padding: var(--p);
+      background: -webkit-linear-gradient(#2C0CAD, #FF402C) !important;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      box-shadow: var(--shadow);
+      border-radius: var(--border-radius-100);
+      /* color: var(--zero); */
+      /* fill: var(--zero); */
+    }
+    
     /* Buttons */
-  
-    .btn {
-      /* width: fit-content; */
+
+    /* Components  */
+    
+    /* Home  */
+
+    /* Hero Home */
+
+    .heros-container {
+      grid-column: 1 / -1;
+      width: 100%;
+      /* height: 550px; */
+      height: 80vh !important;
+      overflow: hidden;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      background-image: url("../../../public/home_hero_bg.svg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
     }
-  
-    /* Chat Support  */
+    .home-home-image, .solution-hero-image, .products-hero-image {
+      aspect-ratio: 1/1;
+      width: 100%;
+    }
 
-  #chat {
-    /* height: 80vh; */
-    width: 40%;
-    padding: var(--p-medium);
-    /* margin: var(--mtb-medium); */
-  }
-
-  .chat-container {
-    width: 100%;
-  }
-
-  /* Components  */
-  
-  /* Home  */
-
-  /* Hero Home */
-
-  .heros-container {
-    grid-column: 1 / -1;
-    width: 100%;
-    /* height: 550px; */
-    height: 80vh !important;
-    overflow: hidden;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    background-image: url("../../../public/home_hero_bg.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .home-home-image, .solution-hero-image, .products-hero-image {
-    aspect-ratio: 1/1;
-    width: 100%;
-  }
-
-  .home-hero-text, .solution-hero-text, .products-hero-text {
-    flex-direction: column;
-    /* justify-content: space-around; */
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    height: 100%;
-    /* padding: var(--p-medium); */
-    text-align: left;
-    position: relative;
-  }
-
-  .home-hero-text h4 {
-    /* font-size: 1.5rem; */
-    margin: 0;
-  }
-
-  /* Home Advantages */
-
-  .icons_home_advantages {
-    font-size: 36px;
-  }
-
-  /* Home Revolutioning */
-
-  .home-revolution-container {
-    grid-column: 1 / -1;
-    width: 100%;
-    overflow: hidden;
-  }
-  /* .home-revolution-image {
-    width: 100%;
-  } */
-
-  .home-revolution-text {
-    flex-direction: column;
-    /* justify-content: space-around; */
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    height: 100%;
-    /* padding: var(--p-medium); */
-    text-align: left;
-    position: relative;
-  }
-
-  /* .home-revolution-text h4 {
-    margin: 0;
-  } */
-
-  .home-revolution-benefits {
-    width: 100%;
-    margin: var(--mb-large);
-  }
-
-  /* Columns in the grid  */
-
-  .col-1-3 {
-    /* display: inline-grid; */
-    grid-column: 1 / 3;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-1-4 {
-    /* display: inline-grid; */
-    grid-column: 1 / 4;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-1-5 {
-    /* display: inline-grid; */
-    grid-column: 1 / 5;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-1-6 {
-    /* display: inline-grid; */
-    grid-column: 1 / 6;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-1-7 {
-    /* display: inline-grid; */
-    grid-column: 1 / 7;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-  .col-1-8 {
-    /* display: inline-grid; */
-    grid-column: 1 / 8;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-  .col-1-9 {
-    /* display: inline-grid; */
-    grid-column: 1 / 9;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-  .col-1-10 {
-    /* display: inline-grid; */
-    grid-column: 1 / 10;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-2-12 {
-    /* display: inline-grid; */
-    grid-column: 2 / 12;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-3-5 {
-    /* display: inline-grid; */
-    grid-column: 3 / 5;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-3-6 {
-    /* display: inline-grid; */
-    grid-column: 3 / 6;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-3-7 {
-    /* display: inline-grid; */
-    grid-column: 3 / 7;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-3-11 {
-    /*it is wrong, I have just changed for the Tablet version, the right one is below in Desktop @media*/
-    /* display: inline-grid; */
-    grid-column: 3 / 11;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-4-6 {
-    /* display: inline-grid; */
-    grid-column: 4 / 6;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-4-7 {
-    /* display: inline-grid; */
-    grid-column: 4 / 7;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-4-10 {
-    /*it is wrong, I have just changed for the Tablet version, the right one is below in Desktop @media*/
-    /* display: inline-grid; */
-    grid-column: 4 / 10;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-8-11 {
-    /* display: inline-grid; */
-    grid-column: 8 / 11;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-5-7 {
-    /* display: inline-grid; */
-    grid-column: 5 / 7;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-5-8 {
-    /* display: inline-grid; */
-    grid-column: 5 / 8;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-5-9 {
-    /* display: inline-grid; */
-    grid-column: 5 / 9;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-5-13 {
-    /* display: inline-grid; */
-    grid-column: 5 / 13;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-5-11 {
-    /* display: inline-grid; */
-    grid-column: 5 / 11;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-9-13 {
-    /* display: inline-grid; */
-    grid-column: 9 / 13;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-7-9 {
-    /* display: inline-grid; */
-    grid-column: 7 / 9;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-7-10 {
-    /* display: inline-grid; */
-    grid-column: 7 / 10;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-6-13 {
-    /* display: inline-grid; */
-    grid-column: 6 / 13;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-7-11 {
-    /* display: inline-grid; */
-    grid-column: 7 / 11;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-7-13 {
-    /* display: inline-grid; */
-    grid-column: 7 / 13;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-8-13 {
-    /* display: inline-grid; */
-    grid-column: 8 / 13;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-9-11 {
-    /* display: inline-grid; */
-    grid-column: 9 / 11;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-11-13 {
-    /* display: inline-grid; */
-    grid-column: 11 / 13;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-10-13 {
-    /* display: inline-grid; */
-    grid-column: 10 / 13;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-12 {
-    /* display: inline-grid; */
-    grid-column: 1 / 13;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-  .col-12-13 {
-    /* display: inline-grid; */
-    grid-column: 12 / 13;
-    grid-row: 1 / -1;
-    width: 100%;
-  }
-
-    /* Main Container Page  */
-
-    .wide {
-      width: 100vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    .home-hero-text, .solution-hero-text, .products-hero-text {
       flex-direction: column;
+      /* justify-content: space-around; */
+      justify-content: center;
+      align-items: flex-start;
+      width: 100%;
+      height: 100%;
+      /* padding: var(--p-medium); */
+      text-align: left;
+      position: relative;
     }
+
+    .home-hero-text h4 {
+      /* font-size: 1.5rem; */
+      margin: 0;
+    }
+
+    /* Home Advantages */
+
+    .icons_home_advantages {
+      font-size: 36px;
+    }
+
+    /* Home Revolutioning */
+
+    .home-revolution-container {
+      grid-column: 1 / -1;
+      width: 100%;
+      overflow: hidden;
+    }
+    /* .home-revolution-image {
+      width: 100%;
+    } */
+
+    .home-revolution-text {
+      flex-direction: column;
+      /* justify-content: space-around; */
+      justify-content: center;
+      align-items: flex-start;
+      width: 100%;
+      height: 100%;
+      /* padding: var(--p-medium); */
+      text-align: left;
+      position: relative;
+    }
+
+    /* .home-revolution-text h4 {
+      margin: 0;
+    } */
+
+    .home-revolution-benefits {
+      width: 100%;
+      margin: var(--mb-large);
+    }
+
+    /* Columns in the grid  */
+
+    .col-1-3 {
+      /* display: inline-grid; */
+      grid-column: 1 / 3;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-1-4 {
+      /* display: inline-grid; */
+      grid-column: 1 / 4;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-1-5 {
+      /* display: inline-grid; */
+      grid-column: 1 / 5;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-1-6 {
+      /* display: inline-grid; */
+      grid-column: 1 / 6;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-1-7 {
+      /* display: inline-grid; */
+      grid-column: 1 / 7;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+    .col-1-8 {
+      /* display: inline-grid; */
+      grid-column: 1 / 8;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+    .col-1-9 {
+      /* display: inline-grid; */
+      grid-column: 1 / 9;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+    .col-1-10 {
+      /* display: inline-grid; */
+      grid-column: 1 / 10;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-2-12 {
+      /* display: inline-grid; */
+      grid-column: 2 / 12;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-3-5 {
+      /* display: inline-grid; */
+      grid-column: 3 / 5;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-3-6 {
+      /* display: inline-grid; */
+      grid-column: 3 / 6;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-3-7 {
+      /* display: inline-grid; */
+      grid-column: 3 / 7;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-3-11 {
+      /*it is wrong, I have just changed for the Tablet version, the right one is below in Desktop @media*/
+      /* display: inline-grid; */
+      grid-column: 3 / 11;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-4-6 {
+      /* display: inline-grid; */
+      grid-column: 4 / 6;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-4-7 {
+      /* display: inline-grid; */
+      grid-column: 4 / 7;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-4-10 {
+      /*it is wrong, I have just changed for the Tablet version, the right one is below in Desktop @media*/
+      /* display: inline-grid; */
+      grid-column: 4 / 10;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-8-11 {
+      /* display: inline-grid; */
+      grid-column: 8 / 11;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-5-7 {
+      /* display: inline-grid; */
+      grid-column: 5 / 7;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-5-8 {
+      /* display: inline-grid; */
+      grid-column: 5 / 8;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-5-9 {
+      /* display: inline-grid; */
+      grid-column: 5 / 9;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-5-13 {
+      /* display: inline-grid; */
+      grid-column: 5 / 13;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-5-11 {
+      /* display: inline-grid; */
+      grid-column: 5 / 11;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-9-13 {
+      /* display: inline-grid; */
+      grid-column: 9 / 13;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-7-9 {
+      /* display: inline-grid; */
+      grid-column: 7 / 9;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-7-10 {
+      /* display: inline-grid; */
+      grid-column: 7 / 10;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-6-13 {
+      /* display: inline-grid; */
+      grid-column: 6 / 13;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-7-11 {
+      /* display: inline-grid; */
+      grid-column: 7 / 11;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-7-13 {
+      /* display: inline-grid; */
+      grid-column: 7 / 13;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-8-13 {
+      /* display: inline-grid; */
+      grid-column: 8 / 13;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-9-11 {
+      /* display: inline-grid; */
+      grid-column: 9 / 11;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-11-13 {
+      /* display: inline-grid; */
+      grid-column: 11 / 13;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-10-13 {
+      /* display: inline-grid; */
+      grid-column: 10 / 13;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-12 {
+      /* display: inline-grid; */
+      grid-column: 1 / 13;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    .col-12-13 {
+      /* display: inline-grid; */
+      grid-column: 12 / 13;
+      grid-row: 1 / -1;
+      width: 100%;
+    }
+
+    /* Main Container Page  */    
+  .wide {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
     .wide-container {
       width: 100vw;
@@ -515,7 +529,7 @@ h4 {
       align-items: center;
       flex-direction: column;
     }
-  
+
     .grid,
     .grid-center {
       /*Wrapper is actually the main container*/
@@ -569,30 +583,30 @@ h4 {
 
     /* Components  */
 
-  /* Advantages Home*/
-  /* Icons togther with gradient icons */
+    /* Advantages Home*/
+    /* Icons togther with gradient icons */
 
-  #home-advantages, #home-advantages-title, #solution-ex-clarification {
-    /* padding: var(--p-medium); */
-  }
+    #home-advantages, #home-advantages-title, #solution-ex-clarification {
+      /* padding: var(--p-medium); */
+    }
 
-  #home-advantages-title > :last-child {
-    /* justify-content: flex-end; */
-  }
+    #home-advantages-title > :last-child {
+      /* justify-content: flex-end; */
+    }
 
-  .home-advantage-et,
-  .home-advantage-to,
-  .home-advantage-tre {
-    flex-direction: row;
-  }
+    .home-advantage-et,
+    .home-advantage-to,
+    .home-advantage-tre {
+      flex-direction: row;
+    }
 
- /* Solution */
+/* Solution */
 
- .ex-clarification {
-  height: 500px;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  background-size: cover;
+.ex-clarification {
+ height: 500px;
+ aspect-ratio: 1 / 1;
+ object-fit: cover;
+ background-size: cover;
 }
 
 
@@ -674,6 +688,16 @@ h4 {
   flex-direction: row;
 }
 
+/* insights Page*/
+
+/* Contact Us Page */
+
+#contact-form ul li a:hover {
+  color: var(--zero);
+} 
+form {
+  padding: var(--p-medium) !important;
+}
 
 /* Accordion Process */
 

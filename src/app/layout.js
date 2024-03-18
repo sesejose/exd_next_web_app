@@ -3,8 +3,8 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import { Epilogue } from "next/font/google";
 //import "./globals.css";
 import general from "../app/styles/general.css"
+// import form from "../app/styles/form.css"
 import desktop from "../app/styles/desktop.css"
-import form from "../app/styles/form.css"
 // import tablet from "../app/styles/tablet.css"
 import Nav from "../app/components/Nav";
 import Footer from "../app/components/Footer";

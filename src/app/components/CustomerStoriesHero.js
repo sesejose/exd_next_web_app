@@ -9,8 +9,8 @@ export default function CustomersStoriesHero(){
       <div className="heros-container grid-center">
         <div className="customers-stories-hero-image col-8-13"></div>
         <div className="customers-stories-hero-text col-1-7">
-          <h2 className="mb-medium">Customers Stories</h2>
-          <div className="text-1 mtb-medium">Lorem ipsum dolor sit amet consectetur. Tristique maecenas tincidunt nisl commodo tincidunt ut nisl. Malesuada amet convallis nisi amet facilisi nunc quam urna cursus. Nisi odio vitae sed ut. Lacus quis id elit justo aliquam et at posuere.</div>
+          <h2 className="mb-medium">Discover Success Stories!</h2>
+          <div className="text-1 mtb-medium">Step into the world of real success stories and witness the transformative power of our solutions. Delve into inspiring narratives of how we've partnered with businesses across various industries, helping them overcome challenges, drive innovation, and achieve remarkable results. Explore these stories to gain insights, inspiration, and ideas for your own journey to success.</div>
         </div>
       </div>
       </div>

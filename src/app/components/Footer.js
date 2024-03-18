@@ -30,11 +30,11 @@ export default function Footer() {
           </li>
           <li>
           <span className="material-symbols-rounded">email</span>
-            <Link href={""}>info@exd.dk</Link>
+            <Link href={"mailto:lk@exd.dk"}>info@exd.dk</Link>
           </li>
           <li>
           <span className="material-symbols-rounded">globe</span>
-            <Link href={""}>www.exd.dk</Link>
+          <Link href={"http://exd.dk"}>www.exd.dk</Link>
           </li>
           <li>
           <span className="material-symbols-rounded">location_on</span>

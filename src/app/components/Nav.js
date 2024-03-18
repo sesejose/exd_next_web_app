@@ -69,17 +69,18 @@ export default function Nav() {
               </div>
             </Link>
 
-            <Link href={""} className="icons-gradient hiden" >
+            <Link href={""} className="icons-gradient hide" >
                 <p className="">DK</p>
             </Link>
 
-            <Link href={""} className="icons-gradient hiden">
+            <Link href={""} className="icons-gradient hide">
               <span className="material-symbols-rounded">search</span>
             </Link>
 
             <Link href={""} className="open" onClick={openMenu}>
               <div className="flex-column icons-gradient">
-              <span className="material-symbols-rounded">menu</span>
+              <span id="icon-menu-open" className="material-symbols-rounded">menu</span>
+              <span id="icon-menu-close" className="material-symbols-rounded hide">close</span>
                 {/* <div className="counter">Menu</div> */}
               </div>
             </Link>
@@ -155,10 +156,16 @@ function closeAll() {
 
 function openMenu() {
   const menu = document.querySelector("#menu");
+  const iconMenuOpen = document.querySelector("#icon-menu-open");
+  const iconMenuClose = document.querySelector("#icon-menu-close");
   if (menu.style.display === "flex") {
     menu.style.display = "none";
+    iconMenuOpen.classList.remove("hide");
+    iconMenuClose.classList.add("hide");
   } else {
     menu.style.display = "flex";
+    iconMenuOpen.classList.add("hide");
+    iconMenuClose.classList.remove("hide");
   }
 }
 
@@ -178,11 +185,15 @@ function closeSubmenuDesk() {
 
 function closeMenu() {
   const menu = document.querySelector("#menu");
+  const iconMenuOpen = document.getElementById("#icon-menu-open");
+  const iconMenuClose = document.getElementById("#icon-menu-close");
   const submenu = document.querySelector("#submenu");
   if (menu.style.display === "flex") {
     menu.style.display = "none";
   }
   if (submenu.style.display === "flex") {
     submenu.style.display = "none";
+    iconMenuOpen.classList.remove("hide");
+    iconMenuClose.classList.add("hide");
   }
 }

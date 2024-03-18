@@ -52,7 +52,11 @@ export default function Contact() {
                         {/* <div className="btn-secondary">
                         < input type='submit'onClick={(e)=>{handleSubmit(e)}}/>
                         </div> */}
-                        <button className="btn-secondary" type="submit">Send</button>
+                        <div className="flex-row-right">
+                            <button className="btn-secondary" type="submit">
+                                <div className="text-2">Send</div>
+                            </button>
+                        </div>
                     </form >
         </>
     )
