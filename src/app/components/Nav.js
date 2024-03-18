@@ -185,15 +185,15 @@ function closeSubmenuDesk() {
 
 function closeMenu() {
   const menu = document.querySelector("#menu");
-  const iconMenuOpen = document.getElementById("#icon-menu-open");
-  const iconMenuClose = document.getElementById("#icon-menu-close");
+  const iconMenuOpen = document.querySelector("#icon-menu-open");
+  const iconMenuClose = document.querySelector("#icon-menu-close");
   const submenu = document.querySelector("#submenu");
   if (menu.style.display === "flex") {
     menu.style.display = "none";
-  }
-  if (submenu.style.display === "flex") {
-    submenu.style.display = "none";
     iconMenuOpen.classList.remove("hide");
     iconMenuClose.classList.add("hide");
+  }
+  if (submenu.style.display === "flex") {
+      submenu.style.display = "none";
   }
 }

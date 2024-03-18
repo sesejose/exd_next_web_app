@@ -900,7 +900,7 @@ nav ul li a {
   font-family: var(--headlines);
   width: 100%;
   padding: var(--ps);
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   font-weight: 600;
   letter-spacing: -1px;
   text-align: right;
