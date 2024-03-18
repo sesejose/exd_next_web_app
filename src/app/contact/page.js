@@ -14,8 +14,8 @@ export default function Contact(){
                 <div className="grid-center">
 
                     <div className="col-1-6 ptb-large">
-                        <h2 className="pb-medium">Let's Stay Connected!</h2>
-                        <div className="text-1">Reach out via phone, email, or the contact form. Whether you have questions about our services, want to discuss a project, or simply say hello, we're here to listen, support, and collaborate. Let's start a conversation today.
+                        <h2 className="pb-medium">Let&apos;s Stay Connected!</h2>
+                        <div className="text-1">Reach out via phone, email, or the contact form. Whether you have questions about our services, want to discuss a project, or simply say hello, we&apos;re here to listen, support, and collaborate. Let&apos;s start a conversation today.
                         </div>
                         <ul className="ptb-medium">
                             <li className="flex-row-left pb bold">
