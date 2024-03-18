@@ -1069,7 +1069,6 @@ ul#submenu {
   gap: 0.5rem;
   /* flex-wrap: wrap; */
 }
-
 .flex-row-left {
   /* width: 100%; */
   display: flex;
