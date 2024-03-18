@@ -635,7 +635,8 @@ h4 {
 
 #fourme-hero-bg {
   object-fit: contain;
-  background-size: contain;
+  /* background-size: contain; */
+  background-size: 105%;
 }
 
 .logo-4me-intro, .logo-outsystems-intro {
