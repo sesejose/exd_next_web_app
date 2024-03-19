@@ -72,6 +72,8 @@ export default function Insights() {
           bodyMoreText={article.body_more_text_article.rendered}
           bodyLinkText={article.body_link_text_article.rendered}
           bodyLink={article.body_link_article.rendered}
+          bodyEmailText={article.body_email_text_article.rendered}
+          bodyEmail={article.body_email_article.rendered}
           
           ></Article>
         ))}

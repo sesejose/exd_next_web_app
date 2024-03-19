@@ -540,7 +540,7 @@ h4 {
       width: 100%;
       max-width: 1520px;
       height: 100%;
-      padding: var(--p-medium) !important;
+      padding: var(--p-large) !important;
     }
   
     .grid {
