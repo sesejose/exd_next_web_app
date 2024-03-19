@@ -37,17 +37,17 @@ export default function FourmeAttributes() {
 
                         <div className="fourme-attribute p">
                             <div className="text-1 bold">Automatic Maintenance</div>
-                            <p>Enjoy maintenance-free operations on 4me`&apos;`s multi-tenant platform. Centralized updates and features roll out effortlessly.</p>
+                            <p>Enjoy maintenance-free operations on 4me&apos;s multi-tenant platform. Centralized updates and features roll out effortlessly.</p>
                         </div>
 
                         <div className="fourme-attribute p">
                             <div className="text-1 bold">Complete ITSM Suite</div>
-                            <p>Access core ITSM features by default with 4me. From self-service to virtual agents and robust incident management, it`&apos;`s all inclusive.</p>
+                            <p>Access core ITSM features by default with 4me. From self-service to virtual agents and robust incident management, it&apos;s all inclusive.</p>
                         </div>
 
                         <div className="fourme-attribute p">
                             <div className="text-1 bold">Speedy, Reliable Cloud Deployment</div>
-                            <p>Experience consistent, high-speed performance through 4me`&apos;`s cloud deployment. Enjoy zero downtime for reliable service access.</p>
+                            <p>Experience consistent, high-speed performance through 4me&apos;s cloud deployment. Enjoy zero downtime for reliable service access.</p>
                         </div>
 
                         <div className="fourme-attribute p">

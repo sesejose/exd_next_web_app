@@ -52,6 +52,7 @@ export default function Insights() {
   return (
     <>
     <InsightsHero></InsightsHero>
+    <div className="wide">
       <div className="grid-blog">
         {articles.map(article => (
           <Article 
@@ -75,6 +76,7 @@ export default function Insights() {
           ></Article>
         ))}
       </div>
+    </div>
     </>
   );
 }

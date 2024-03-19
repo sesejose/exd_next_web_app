@@ -25,7 +25,7 @@ export default function FourmeOptimize() {
 
                         <div className="fourme-optimize p">
                             <div className="text-1 bold">Insightful Command Center</div>
-                            <p>Navigate through 4me`&apos;`s intuitive dashboard, a centralized hub providing comprehensive insights into every facet of your services.</p>
+                            <p>Navigate through 4me&apos;s intuitive dashboard, a centralized hub providing comprehensive insights into every facet of your services.</p>
                         </div>
 
                         <div className="fourme-optimize p">
@@ -35,7 +35,7 @@ export default function FourmeOptimize() {
 
                         <div className="fourme-optimize p">
                             <div className="text-1 bold">Streamlined Collaboration Beyond Boundaries</div>
-                            <p>With 4me`&apos;`s innovative architecture, collaboration extends effortlessly beyond organizational borders, fostering seamless data exchange and partnership.</p>
+                            <p>With 4me&apos;s innovative architecture, collaboration extends effortlessly beyond organizational borders, fostering seamless data exchange and partnership.</p>
                         </div>
 
                 </div>

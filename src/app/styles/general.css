@@ -828,7 +828,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: var(--m-auto);
-  background-color: rgba(255, 255, 255, 0.55);
+  /* background-color: rgba(255, 255, 255, 0.55); */
   backdrop-filter: blur(80px);
   /* -webkit-text-fill-color: var(--purple) !important; */
   box-shadow: var(--shadow);
@@ -878,7 +878,7 @@ nav ul {
   border-top: 1px solid var(--five);
   padding: var(--p);
   /* background: var(--purple-light); */
-  background-color: rgba(255, 255, 255, 0.55);
+  /* background-color: rgba(255, 255, 255, 0.55); */
   backdrop-filter: blur(80px);
   -webkit-text-fill-color: var(--purple) !important;
 }
@@ -899,7 +899,7 @@ nav ul li {
 nav ul li a {
   font-family: var(--headlines);
   width: 100%;
-  padding: var(--ps);
+  padding: var(--pt);
   font-size: 1.25rem;
   font-weight: 600;
   letter-spacing: -1px;
@@ -1254,7 +1254,7 @@ ul#submenu {
   -webkit-text-fill-color: transparent;
 }
 
-.solution-hero-text, .products-hero-text, .home-hero-text {
+.home-hero-text, .solution-hero-text, .products-hero-text, .customers-stories-hero-text, .about-hero-text, .insights-hero-text {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
@@ -1624,7 +1624,7 @@ ul.our-services li {
   gap: 1.875rem;
   width: 100%;
   max-width: 1512px;
-  padding: var(--p-medium);
+  padding: var(--p);
 }
 .fourme-attribute, .fourme-optimize {
   width: 100%;
@@ -1632,7 +1632,7 @@ ul.our-services li {
   /* border: 1px solid var(--purple-light); */
   background-color: var(--zero);
   backdrop-filter: blur(80px);
-  padding: var(--p-medium);
+  padding: var(--p);
   border-radius: var(--border-radius-20);
 }
 
@@ -2245,7 +2245,7 @@ a.post-link:hover .post button {
   gap: var(--p);
   width: 100%;
   position: absolute;
-  bottom: -3rem;
+  bottom: -7rem;
   justify-content: flex-end;
   }
 .embla__button {

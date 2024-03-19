@@ -1,11 +1,11 @@
 import { Inter } from "next/font/google";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import { Epilogue } from "next/font/google";
-//import "./globals.css";
 import general from "../app/styles/general.css"
-// import form from "../app/styles/form.css"
 import desktop from "../app/styles/desktop.css"
-// import tablet from "../app/styles/tablet.css"
+import tablet from "../app/styles/tablet.css"
+// import form from "../app/styles/form.css"
+//import "./globals.css";
 import Nav from "../app/components/Nav";
 import Footer from "../app/components/Footer";
 //import ChatSupport from "./ChatSupport";

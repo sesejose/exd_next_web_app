@@ -32,7 +32,7 @@ const EmblaCarousel = (props) => {
     <div className='grid-center'>
     <div className="embla col-12">
       
-      <div className='col-1-6 pb-medium'>
+      <div id="client-stories" className='col-1-6'>
         <h2>Client stories: the impact of our solutions</h2>
       </div> 
 
