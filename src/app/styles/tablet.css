@@ -11,10 +11,11 @@
   
   .home-hero-image, .solution-hero-image, .products-hero-image, .customers-stories-hero-image , .home-revolution-image {
     width: 60%;
+    margin: var(--mt-medium);
   }
-  /* #home-advantages, .home-revolution-text, .home-revolution-benefits > div:first-child, .solution-hero-text, .products-hero-text, #fourme-hero-bg, #fourme-advantages, .fourme-siam, #client-stories, #fourme-attributes-title, #fourme-attributes {
-    padding: var(--p-large) !important;
-  } */
+  .insights-hero-image, .about-hero-image {
+    margin: var(--mt-medium);
+  }
 
   .wide {
     padding: var(--p-large);

@@ -8,11 +8,11 @@ export default function FourmeIntro() {
         <>
         <div className="wide ptb-large">
             <div id="fourme-intro" className="grid-center">
-                <div className="col-3-11 fourme-intro"></div>
+                <div className="col-12 fourme-intro"></div>
             </div>
             <div className="grid-center">
                 <Link href={'https://www.4me.com/videos/'} target="_blank" className="btn-secondary col-5-9">
-                    Link to videos in 4me
+                    <div>Link to videos in 4me</div>
                 </Link>
             </div>
         </div>
