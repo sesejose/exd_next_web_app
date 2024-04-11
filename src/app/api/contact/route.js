@@ -6,8 +6,13 @@ const nodemailer = require('nodemailer');
 
 export async function POST(request) {
 
-    const username = process.env.NEXT_PUBLIC_BURNER_USERNAME;
-    const password = process.env.NEXT_PUBLIC_BURNER_PASSWORD;
+    // Logging environment variables
+    console.log("NEXT_PUBLIC_USERNAME:", process.env.NEXT_PUBLIC_BURNER_USERNAME);
+    console.log("NEXT_PUBLIC_PASSWORD:", process.env.NEXT_PUBLIC_EMAIL_PASSWORD);
+    console.log("NEXT_PUBLIC_PERSONAL_EMAIL:", process.env.NEXT_PUBLIC_PERSONAL_EMAIL);
+
+    const username = process.env.NEXT_PUBLIC_EMAIL_USERNAME;
+    const password = process.env.NEXT_PUBLIC_EMAIL_PASSWORD;
     const myEmail = process.env.NEXT_PUBLIC_PERSONAL_EMAIL;
 
     // const username = process.env.NODEMAILER_EMAIL;
