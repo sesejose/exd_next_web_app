@@ -1,14 +1,20 @@
 import { NextResponse, NextRequest } from 'next/server'
+
 const nodemailer = require('nodemailer');
+
+console.log(process.env);
 
 // Handles POST requests to /api
 
+// Import dotenv and configure it
+import dotenv from 'dotenv';
+dotenv.config();
 
 export async function POST(request) {
 
     // Logging environment variables
-    console.log("NEXT_PUBLIC_USERNAME:", process.env.NEXT_PUBLIC_BURNER_USERNAME);
-    console.log("NEXT_PUBLIC_PASSWORD:", process.env.NEXT_PUBLIC_EMAIL_PASSWORD);
+    console.log("NEXT_PUBLIC_EMAIL_USERNAME:", process.env.NEXT_PUBLIC_EMAIL_USERNAME);
+    console.log("NEXT_PUBLIC_EMAIL_PASSWORD:", process.env.NEXT_PUBLIC_EMAIL_PASSWORD);
     console.log("NEXT_PUBLIC_PERSONAL_EMAIL:", process.env.NEXT_PUBLIC_PERSONAL_EMAIL);
 
     const username = process.env.NEXT_PUBLIC_EMAIL_USERNAME;
@@ -32,8 +38,8 @@ export async function POST(request) {
         host: "smtp.gmail.com",
         port: 465,
         auth: {
-          user: 'username',
-          pass: 'password',
+          user: username,
+          pass: password,
         },
         secure: true,
       })
