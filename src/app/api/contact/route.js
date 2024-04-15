@@ -18,11 +18,8 @@ export async function POST(request) {
     console.log("NEXT_PUBLIC_PERSONAL_EMAIL:", process.env.NEXT_PUBLIC_PERSONAL_EMAIL);
 
     const username = process.env.NEXT_PUBLIC_EMAIL_USERNAME;
-    const password = process.env.NEXT_PUBLIC_EMAIL_PASSWORD;
+    // const password = process.env.NEXT_PUBLIC_EMAIL_PASSWORD;
     const myEmail = process.env.NEXT_PUBLIC_PERSONAL_EMAIL;
-
-    // const username = process.env.NODEMAILER_EMAIL;
-    // const password = process.env.NODEMAILER_PW;
     
 
     console.log("dealing with request")
@@ -35,14 +32,14 @@ export async function POST(request) {
 
     // create transporter object
     const transporter = nodemailer.createTransport({
-        host: "smtp.gmail.com",
-        port: 465,
+        host: "smtp.office365.com", // Outlook SMTP server
+        port: 587, // Outlook SMTP port
+        secure: false, // true for 465, false for other ports
         auth: {
-          user: username,
-          pass: password,
+            user: 'js@exd.dk', // Your Outlook email address
+            pass: 'mgmthcmmyjnjmmyv', // Your Outlook email password or app password
         },
-        secure: true,
-      })
+    });
 
     // Next we need to write the code to actually send the email. I wrap this in a try except block to catch any errors.
     try {
