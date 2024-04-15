@@ -1,8 +1,10 @@
 import Link from "next/link";
+import AutomMateHero from "../components/AutomMateHero";
 
 export default function ProductsIntro() {
     return (
     <>
+    <AutomMateHero></AutomMateHero>
     <div className="wide ptb-medium">
 
         <div id="" className="grid-center">

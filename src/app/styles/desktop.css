@@ -189,8 +189,9 @@ h4 {
       -webkit-text-fill-color: transparent;
       box-shadow: var(--shadow);
       border-radius: var(--border-radius-100);
-      /* color: var(--zero); */
-      /* fill: var(--zero); */
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     
     /* Buttons */
@@ -215,7 +216,7 @@ h4 {
       background-position: center;
     }
 
-    .home-hero-image, .solution-hero-image, .products-hero-image, .customers-stories-hero-image , .home-revolution-image
+    .home-hero-image, .solution-hero-image, .products-hero-image, .customers-stories-hero-image , .home-revolution-image,.autom-mate-hero-image
      {
       aspect-ratio: 1/1;
       width: 100% !important;
