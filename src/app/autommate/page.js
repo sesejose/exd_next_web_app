@@ -1,20 +1,21 @@
 import Link from "next/link";
 import AutomMateHero from "../components/AutomMateHero";
+import AutomMateBoxes from "../components/AutomMateBoxes";
 
 export default function ProductsIntro() {
     return (
     <>
     <AutomMateHero></AutomMateHero>
-    <div className="wide ptb-medium">
+    <AutomMateBoxes></AutomMateBoxes>
+
+    {/* <div className="wide ptb-medium">
 
         <div id="" className="grid-center">
           <h2 className="col-4-10">How Autom Mate boost your Services</h2>
+          <h4>Autom Mate is providing a state-of-the-art hyper-automation platform in the convergence between integration platform as a service (iPaaS), Robot Process Automation (RPA) and Artificial Intelligence (AI).</h4>
         </div>
         <div className="grid-center">
           <div className="col-4-10">
-            
-            <h4>How Autom Mate boost your Services</h4>
-            <p>Autom Mate is providing a state-of-the-art hyper-automation platform in the convergence between integration platform as a service (iPaaS), Robot Process Automation (RPA) and Artificial Intelligence (AI).</p>
             
             <h4>Start It</h4>
             <div className="text-2">Gear 1:</div>
@@ -38,7 +39,7 @@ export default function ProductsIntro() {
           </div>
         </div>
 
-    </div>
+    </div> */}
     </>
   );
 }

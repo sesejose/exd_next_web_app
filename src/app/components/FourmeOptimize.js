@@ -6,13 +6,9 @@ export default function FourmeOptimize() {
         <div className="wide zero ptb-medium">
 
             <div id="fourme-optimize-title">
-
                 <div className="grid-center flex-row-center">
-                    
-                    <h3 className="col-3-11">Optimize Service Performance and Value</h3>
-                
+                    <h3 className="col-3-11">Optimize Service Performance and Value</h3>                
                 </div>
-            
             </div>
 
             <div id="fourme-optimize-boxes">

@@ -19,6 +19,11 @@ export default function FourmeHero() {
 
               <br></br>The innovative activity and data structure implemented by 4me simplifies the process of requesting products and services for employees. This results in a high-quality flow of information across business support functions and their suppliers. 4me not only streamlines requests but also elevates the overall flow of information, ensuring optimal service delivery.
             </p>
+            <div className="flex-column-center">
+            <Link href={'https://www.4me.com/videos/'} target="_blank" className="btn-secondary text-center">
+            Learn more about the 4me unique approach here
+                </Link>
+            </div>
           </div>
 
         </div>

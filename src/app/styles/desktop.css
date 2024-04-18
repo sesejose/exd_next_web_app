@@ -534,8 +534,8 @@ h4 {
       /*Wrapper is actually the main container*/
       /* grid-template-columns: repeat(auto-fill, minmax(5.188rem, 1fr)); */
       display: grid;
-      /* grid-template-columns: repeat(12, 1fr); */
-      grid-template-columns: repeat(auto-fill, minmax(6%, 1fr));
+      grid-template-columns: repeat(12, 1fr);
+      /* grid-template-columns: repeat(auto-fill, minmax(6%, 1fr)); */
       /* grid-template-rows: 1fr; */
       gap: 1.875rem;
       width: 100%;
@@ -655,6 +655,12 @@ h4 {
 }
 
 /* Fourme Page */
+
+#fourme-intro {
+  width: 100%;
+  max-width: 1512px;
+  padding: var(--p-large);
+}
 
 #fourme-attributes-title {
   /* padding: var(--p) !important; */

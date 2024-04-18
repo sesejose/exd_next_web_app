@@ -7,13 +7,10 @@ export default function FourmeIntro() {
     return (
         <>
         <div className="wide ptb-large">
-            <div id="fourme-intro" className="grid-center">
-                <div className="col-12 fourme-intro"></div>
-            </div>
-            <div className="grid-center">
-                <Link href={'https://www.4me.com/videos/'} target="_blank" className="btn-secondary col-5-9">
-                    <div>Link to videos in 4me</div>
-                </Link>
+            <div id="fourme-intro" className="flex-column-center">
+                <div className="fourme-intro"></div>
+                <p className="counter bold">4me Specialist view</p>
+                {/* <p className="counter bold">4me Specialist view</p> */}
             </div>
         </div>
         </>

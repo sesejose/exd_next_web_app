@@ -1060,6 +1060,11 @@ ul#submenu {
   row-gap: 1.875rem !important;
 }
 
+/* Positions */
+.relative {
+  position: relative;
+}
+
 /* Flex */
 
 .flex-row-space-around {
@@ -1587,6 +1592,12 @@ ul.our-services li {
   /* position: relative; */
 }
 
+#fourme-intro {
+  width: 100%;
+  /* max-width: 1512px; */
+  padding: var(--p);
+}
+
 .fourme-intro {
   width: 100%;
   object-fit: contain;
@@ -1601,8 +1612,24 @@ ul.our-services li {
 }
 
 .screen {
-  border-radius: var(--border-radius-20);
-  box-shadow: var(--hover-shadow);
+  width: 100%;
+  height: auto;
+  /* border-radius: var(--border-radius-20); */
+  /* box-shadow: var(--hover-shadow); */
+}
+
+.left-50{
+  position: absolute;
+  left: 0;
+}
+.right-50{
+  position: absolute;
+  right: 0;
+}
+.center-50 {
+  position: absolute;
+  /* left: 0; */
+  /* right: 0; */
 }
 
 .wide:has(#fourme-advantages-title) {
@@ -1641,11 +1668,10 @@ ul.our-services li {
   max-width: 1512px;
   padding: var(--p);
 }
-.fourme-attribute, .fourme-optimize {
+.fourme-attribute, .fourme-optimize, .autom-mate-box {
   width: 100%;
   max-width: 100%;
-  /* border: 1px solid var(--purple-light); */
-  background-color: var(--zero);
+  
   backdrop-filter: blur(80px);
   padding: var(--p);
   border-radius: var(--border-radius-20);
@@ -1660,6 +1686,29 @@ ul.our-services li {
   background: var(--gradient-orange-purple);
 }
 
+.autom-mate-box {
+border: 1px solid var(--purple-light);
+background-color: var(--zero);
+padding: var(--p);
+width: 100%;
+height: auto;
+position: relative;
+margin: var(--mt-large);
+}
+.autom-mate-box img {
+  color: transparent;
+  background-color: var(--zero);
+  border: 1px solid var(--purple-light);
+  width: 90px;
+  aspect-ratio: 1/1;
+  height: 90px;
+  padding: var(--p);
+  border-radius: var(--border-radius-20);
+  /* box-shadow: var(--btn-shadow); */
+  position: absolute;
+  top: -45px;
+  left: 157px;
+}
 /* Customers Stories Page */
 a.customer-story-container {
   display: flex;

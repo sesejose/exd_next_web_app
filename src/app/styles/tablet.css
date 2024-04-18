@@ -47,6 +47,24 @@
     text-align: center;
   }
 
+  .autom-mate-box {
+    padding: var(--p-medium);
+    height: 600px;
+    max-height: 700px;
+    margin: 0;
+  }
+  .autom-mate-box img {
+    width: 120px;
+    height: 120px;
+    padding: var(--p);
+    /* border-radius: var(--border-radius-40); */
+    /* box-shadow: var(--btn-shadow); */
+    position: absolute;
+    top: -60px;
+    left: 155px;
+    /* left: 272px; */
+  }
+
 
   
 }
