@@ -91,7 +91,7 @@ export default function Nav() {
                 {/* <div className="counter">Menu</div> */}
 
             <div className="open">
-              <Hamburger size={20} onToggle={toggled => {
+              <Hamburger size={24} onToggle={toggled => {
                 if (toggled) {
                   openMenu();
                 } else {
