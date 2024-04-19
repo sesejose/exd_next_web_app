@@ -29,6 +29,7 @@ const EmblaCarousel = (props) => {
   } = usePrevNextButtons(emblaApi)  
 
   return (
+    <div className="wide">
     <div className='grid-center'>
     <div className="embla col-12">
       
@@ -67,6 +68,7 @@ const EmblaCarousel = (props) => {
         <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
         <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
       </div>
+    </div>
     </div>
     </div>
   )

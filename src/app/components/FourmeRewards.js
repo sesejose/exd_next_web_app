@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function FourmeRewards() {
     return (
         <>
-        <div className="wide ptb-medium">
+        <div className="wide">
 
             <div id="fourme-rewards-title">
                 

@@ -20,7 +20,7 @@ import screens_exd_mobile from "../../../public/screens/screens_exd_mobile.png"
 export default function FourmeMobile(){
   return (
     <>
-    <div className="wide ptb-large">
+    <div className="wide">
             <div id="fourme-mobile" className="grid-center">
               <div className="col-7-13 flex-row-center">
 

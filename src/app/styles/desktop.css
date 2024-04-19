@@ -676,6 +676,14 @@ h4 {
   padding: var(--p-medium);
 }
 
+/* Autom Mate Page */
+
+.autom-mate-box{
+  margin: 0;
+  height: 600px;
+    max-height: 700px;
+}
+
 /* Customers Stories Pages */
 
 .customer-story-image {
@@ -709,11 +717,7 @@ form {
 
 /* Accordion Process */
 
-  /* Embla */
-
-  .embla {
-    /* max-width: 1520px; */
-  }
+/* Embla */
 
 .embla, .embla__slide {
   display: grid;
@@ -806,7 +810,7 @@ footer {
 @media only screen and (min-width: 1920px) {
 
   .heros-container {
-    /* height: 60vh !important; */
+    height: 60vh;
   }
 
 }

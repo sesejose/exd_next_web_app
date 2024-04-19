@@ -4,7 +4,7 @@
 export default function SolutionExClarification() {
     return (
     <>
-    <div className="wide ptb-medium">
+    <div className="wide">
 
       <div id="solution-ex-clarification">
 

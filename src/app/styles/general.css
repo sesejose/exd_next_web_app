@@ -90,6 +90,7 @@
 --pt-large: 5rem 0 0 0;
 --pb-large: 0 0 5rem 0;
 --ptb-large: 5rem 0;
+--plr-large: 0 5rem;
 --p-mobile-medium: 2.5rem 1.25rem;
 --pt-mobile-medium: 2.5rem 1.25rem 0 1.25rem;
 
@@ -998,8 +999,24 @@ ul#submenu {
   height: auto;
 }
 
+.open {
+  padding: var(--ps);
+  background-color: var(--zero);
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius-20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+}
+
+.hamburger-react div:first-child, .hamburger-react div:nth-child(2), .hamburger-react div:last-child {
+  left: 0;
+}
+
 .open svg {
-  width: 24px;
+  /* width: 24px; */
   height: auto;
 }
 
@@ -1259,7 +1276,7 @@ ul#submenu {
   width: 100%;
   object-fit: cover;
   background-image: url("../../../public/home_hero_bg.svg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
   position: relative;
@@ -1559,7 +1576,7 @@ ul.our-services li {
   color: var(--zero);
   /* height: 400px; */
   min-height: 400px;
-  padding: var(--ptb-large);
+  /* padding: var(--ptb-large); */
 }
 .wide:has(#fourme-mobile) {
   background-color: var(--fifteen);
@@ -1635,6 +1652,7 @@ ul.our-services li {
 .wide:has(#fourme-advantages-title) {
   background: red;
 }
+
 .fourme-siam-image {
   width: 100%;
   object-fit: contain;
@@ -1767,7 +1785,7 @@ a.customer-story-container:hover {
   display: flex;
   flex-direction: column;
   gap: 1.875rem;
-  padding: var(--p-medium);
+  padding: var(--p);
   background: var(--fifteen);
   border-radius: var(--border-radius-bottom-20);
 }
@@ -1921,6 +1939,12 @@ footer ul.ul-logo li {
   align-items: center;
   text-align: center;
 }
+
+footer .ul-logo li:first-child {
+  padding: var(--plr-large);
+}
+
+
 
 footer ul .trustpilot {
   margin: var(--mb);

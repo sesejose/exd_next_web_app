@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function ProductsIntro() {
     return (
     <>
-    <div className="wide ptb-medium">
+    <div className="wide">
 
     <div id="" className="grid">
         <div className="col-1-3">

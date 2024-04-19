@@ -5,7 +5,7 @@ import icon_artificial_intelligence from "../../../public/icon_artificial_intell
 
 export default function AutomMateBoxes(){
     return <>
-            <div id="fourme-optimize-title">
+            <div id="fourme-optimize-title" className="wide">
                 <div className="grid-center flex-row-center">
                     <div className="col-4-10 text-center">
                         <h2 className="mtb">How Autom Mate boost your Services</h2>
@@ -14,8 +14,8 @@ export default function AutomMateBoxes(){
                 </div>
             </div>
 
-            <div id="fourme-optimize-boxes">
-                <div className="grid-center">
+            <div id="fourme-optimize-boxes" className="wide">
+                <div className="grid-center gap-5">
 
                         <div className="col-1-5 autom-mate-box">
                             <Image src={icon_flow_chart} width={160} height={90} alt="Service Engagement Experience Icon"></Image>

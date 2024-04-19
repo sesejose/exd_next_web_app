@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function HomeAdvantagesTitle() {
     return (
       <>
-        <div id="home-advantages" className="wide">
+        <div id="" className="">
           <div id="home-advantages-title" className="grid-center">
 
           <div className="col-1-8">

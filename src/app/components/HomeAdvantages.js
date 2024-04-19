@@ -3,7 +3,7 @@ import HomeAdvantagesTitle from "./HomeAdvantagesTitle";
 export default function HomeAdvantages() {
     return (
     <>
-    <div className="wide pb-large">
+    <div className="wide">
 
       <HomeAdvantagesTitle></HomeAdvantagesTitle>
 

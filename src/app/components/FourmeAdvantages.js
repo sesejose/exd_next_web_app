@@ -5,7 +5,7 @@ import fourme_logo_white from "../../../public/fourme_logo_white.svg";
 export default function FourmeAdvantages() {
     return (
         <>
-        <div className="wide zero ptb-medium">
+        <div className="wide zero">
 
             <div id="fourme-advantages-title">
 

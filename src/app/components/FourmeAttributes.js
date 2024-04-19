@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function FourmeAttributes() {
     return (
         <>
-        <div className="wide ptb-medium">
+        <div className="wide">
 
             <div id="fourme-attributes-title">
 

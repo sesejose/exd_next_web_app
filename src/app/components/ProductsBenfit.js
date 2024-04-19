@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function ProductsBenefit() {
     return (
     <>
-    <div className="wide ptb-medium">        
+    <div className="wide">        
         <div id="products-benefit">
             <div className="grid flex-column-center">
 

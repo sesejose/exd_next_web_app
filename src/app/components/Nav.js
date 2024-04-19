@@ -7,6 +7,7 @@ import Image from "next/image";
 //import { useContext } from "react";
 import Link from "next/link";
 import exd_logo_color from "../../../public/exd_logo_color.svg";
+import { Squash as Hamburger } from 'hamburger-react'
 
 //import Basket from "./Basket";
 // import general from "../../app/styles/general.css"
@@ -16,6 +17,7 @@ export default function Nav() {
   return (
     <>
       <nav className="nav">
+
         <div className="nav-container">
           <div className="logo">
             {/* Logo  */}
@@ -23,6 +25,7 @@ export default function Nav() {
               <Image className="logo" src={exd_logo_color} alt={""} width={"188.71"} height={"90"} priority sizes="(max-width: 700px) 100vw, 700px" />
             </Link>
           </div>
+
           <div id="menu-desk">
             <ul onMouseOut={closeSubmenuDesk}>
               <li>
@@ -61,6 +64,7 @@ export default function Nav() {
               </li> 
             </ul>
           </div>
+
           <div className="icons-nav-container">
             <Link href={""} className="icons-gradient phone-nav">
               <div className="flex-row-space-around">
@@ -77,19 +81,28 @@ export default function Nav() {
               <span className="material-symbols-rounded">search</span>
             </Link>
 
-            <Link href={""} className="open" onClick={openMenu}>
+            {/* <Link href={""} className="open" onClick={openMenu}>
               <div className="flex-column icons-gradient">
               <span id="icon-menu-open" className="material-symbols-rounded">menu</span>
               <span id="icon-menu-close" className="material-symbols-rounded hide">close</span>
-                {/* <div className="counter">Menu</div> */}
               </div>
-            </Link>
+            </Link> */}
 
-            
+                {/* <div className="counter">Menu</div> */}
 
+            <div className="open">
+              <Hamburger size={20} onToggle={toggled => {
+                if (toggled) {
+                  openMenu();
+                } else {
+                  closeMenu();
+                }
+              }} />
+            </div>
 
           </div>
         </div>
+
         <div id="menu">
           <ul>
             <li>
@@ -156,16 +169,16 @@ function closeAll() {
 
 function openMenu() {
   const menu = document.querySelector("#menu");
-  const iconMenuOpen = document.querySelector("#icon-menu-open");
-  const iconMenuClose = document.querySelector("#icon-menu-close");
+  // const iconMenuOpen = document.querySelector("#icon-menu-open");
+  // const iconMenuClose = document.querySelector("#icon-menu-close");
   if (menu.style.display === "flex") {
     menu.style.display = "none";
-    iconMenuOpen.classList.remove("hide");
-    iconMenuClose.classList.add("hide");
+    // iconMenuOpen.classList.remove("hide");
+    // iconMenuClose.classList.add("hide");
   } else {
     menu.style.display = "flex";
-    iconMenuOpen.classList.add("hide");
-    iconMenuClose.classList.remove("hide");
+    // iconMenuOpen.classList.add("hide");
+    // iconMenuClose.classList.remove("hide");
   }
 }
 
@@ -185,13 +198,13 @@ function closeSubmenuDesk() {
 
 function closeMenu() {
   const menu = document.querySelector("#menu");
-  const iconMenuOpen = document.querySelector("#icon-menu-open");
-  const iconMenuClose = document.querySelector("#icon-menu-close");
+  // const iconMenuOpen = document.querySelector("#icon-menu-open");
+  // const iconMenuClose = document.querySelector("#icon-menu-close");
   const submenu = document.querySelector("#submenu");
   if (menu.style.display === "flex") {
     menu.style.display = "none";
-    iconMenuOpen.classList.remove("hide");
-    iconMenuClose.classList.add("hide");
+    // iconMenuOpen.classList.remove("hide");
+    // iconMenuClose.classList.add("hide");
   }
   if (submenu.style.display === "flex") {
       submenu.style.display = "none";

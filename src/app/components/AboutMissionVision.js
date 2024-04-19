@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function AboutMissionVision() {
   return (
     <>
-    <div className="wide zero ptb-large">
+    <div className="wide zero">
 
         <div id="about-mission-vision">
 

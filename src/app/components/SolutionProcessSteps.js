@@ -7,7 +7,7 @@ import "react-accessible-accordion/dist/fancy-example.css";
 export default function SolutionProcessSteps() {
   return (
     <>
-    <div className="wide ptb-medium">
+    <div className="wide">
       
       <div id="process" className="grid">
         {/* Om os  */}

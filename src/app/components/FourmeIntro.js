@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function FourmeIntro() {
     return (
         <>
-        <div className="wide ptb-large">
+        <div className="wide">
             <div id="fourme-intro" className="flex-column-center">
                 <div className="fourme-intro"></div>
                 <p className="counter bold">4me Specialist view</p>

@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function FourmeOptimize() {
     return (
         <>
-        <div className="wide zero ptb-medium">
+        <div className="wide zero">
 
             <div id="fourme-optimize-title">
                 <div className="grid-center flex-row-center">

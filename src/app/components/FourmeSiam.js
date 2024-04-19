@@ -9,7 +9,7 @@ import fourme_siam from "../../../public/fourme_siam.svg"
 export default function FourmeSiam(){
   return (
     <>
-    <div className="wide ptb-large">
+    <div className="wide">
         <div className="fourme-siam">
 
             <div className="grid-center">

@@ -6,7 +6,7 @@ import linkedin_purple from "../../../public/linkedin_purple.svg"
 export default function AboutMeetOurTeam() {
     return (
       <>
-      <div className="wide ptb-large">
+      <div className="wide">
   
           <div id="meet-our-team">
   

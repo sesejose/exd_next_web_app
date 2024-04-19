@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function SolutionUsm() {
     return (
     <>
-    <div className="wide ptb-medium">
+    <div className="wide">
 
         <div className="grid">
         <h3 className="col-12">Unified Service Management (USM)</h3>
