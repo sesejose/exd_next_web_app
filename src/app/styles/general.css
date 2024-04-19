@@ -1012,7 +1012,7 @@ ul#submenu {
 }
 
 .hamburger-react div:first-child, .hamburger-react div:nth-child(2), .hamburger-react div:last-child {
-  left: 0;
+  left: 0 !important;
 }
 
 .open svg {
