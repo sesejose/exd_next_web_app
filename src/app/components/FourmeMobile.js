@@ -12,7 +12,7 @@ import six from "../../../public/screens/six.png"
 import exd_portal_homepage from "../../../public/screens/exd_portal_homepage.jpeg"
 import exd_portal_my_services from "../../../public/screens/exd_portal_my_services.jpeg"
 import exd_portal_new_request from "../../../public/screens/exd_portal_new_request.jpeg"
-import screens_exd_mobile from "../../../public/screens/screens_exd_mobile.png"
+import screens_mobile from "../../../public/screens/screens_mobile.png"
 
 
 
@@ -24,7 +24,7 @@ export default function FourmeMobile(){
             <div id="fourme-mobile" className="grid-center">
               <div className="col-7-13 flex-row-center">
 
-                <Image src={screens_exd_mobile} alt={"4me"} width={"1561"} height={"1217"} className="screen"/>
+                <Image src={screens_mobile} alt={"4me"} width={"1561"} height={"1217"} className="screen"/>
 
                 {/* <Image src={exd_portal_homepage} alt={"4me"} width={"320"} height={"568"} className="screen center-50"/>
                 <Image src={exd_portal_my_services} alt={"4me"} width={"240"} height={"426"} className="screen left-50"/>

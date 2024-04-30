@@ -10,7 +10,7 @@
   /* Hero Image */
   
   .home-hero-image, .solution-hero-image, .products-hero-image, .customers-stories-hero-image , .home-revolution-image, .autom-mate-hero-image {
-    width: 60%;
+    width: 80%;
     margin: var(--mt-medium);
   }
   .insights-hero-image, .about-hero-image {
@@ -18,21 +18,12 @@
   }
 
   .home-hero-text, .solution-hero-text, .products-hero-text, .customers-stories-hero-text, .about-hero-text, .insights-hero-text {
-    /* display: flex;
-    flex-direction: column;
-    gap: 1.25rem;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    color: var(--purple); */
-    text-align: center;
-    /* background: -webkit-linear-gradient(rgba(44,12,173,1), rgba(239, 57, 34, 1)); */
-    /* -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
+    text-align: left;
   }
 
   .wide {
     padding: var(--p-large);
+    /* background: var(--zero); */
   }
 
   .grid, .grid-center, .grid-blog, .grid, .grid-center, .grid-stories, .grid-blog, .grid-stories{
@@ -50,15 +41,31 @@
   /* Products */
 
   #products-parallax {
-    font-size: 5rem !important;
-    /* letter-spacing: -4px; */
-    /* font-weight: 700; */
-    /* text-align: center; */
+    font-size: 8rem !important;
+    letter-spacing: -8px;
     line-height: 1.2;
-    /* mix-blend-mode: soft-light; */
+  }
+  .wide:has(#products-parallax) {
+    position: fixed;
+    min-height: 100vh;
+    top: 90px;
+    z-index: -1;
+  }
+  .wide:has(#products-parallax-window) {
+    min-height: 600px;
+  }
+  .guiding {
+    top: 0px;
   }
 
   /* Fourme Page */
+
+  #fourme-intro {
+    width: 100%;
+    height: auto;
+    /* margin: var(--mt-large); */
+    aspect-ratio: 16/9;
+  }
 
   #fourme-attributes-title {
     text-align: center;

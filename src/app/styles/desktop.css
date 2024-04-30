@@ -651,15 +651,20 @@ h4 {
 }
 #products-parallax {
   font-size: 7.75rem !important;
-  letter-spacing: -12px;
+  letter-spacing: -4px;
 }
-
+.guiding {
+  top: -200px !important;
+}
 /* Fourme Page */
 
 #fourme-intro {
   width: 100%;
+  height: auto;
   max-width: 1512px;
-  padding: var(--p-large);
+  /* padding: var(--p-large); */
+  margin: var(--mt-large);
+  aspect-ratio: 16/9;
 }
 
 #fourme-attributes-title {
