@@ -14,7 +14,7 @@ export default function FourmeIntro() {
 
             <div className="flex-column-center">
                 <video id="fourme-intro" width="320" height="240" controls preload="none" loop className="fourme-intro">
-                    <source src="../../../public/videos/fourme-self-service-desktop.mp4" type="video/mp4" />
+                    <source src="../../../public/videos/fourme_self_service_desktop.mp4" type="video/mp4" />
                     {/* <track
                         src="/path/to/captions.vtt"
                         kind="subtitles"
