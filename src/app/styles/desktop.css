@@ -664,7 +664,7 @@ h4 {
   max-width: 1512px;
   /* padding: var(--p-large); */
   margin: var(--mt-large);
-  aspect-ratio: 16/9;
+  /* aspect-ratio: 16/9; */
 }
 
 #fourme-attributes-title {

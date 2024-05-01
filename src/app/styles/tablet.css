@@ -64,7 +64,7 @@
     width: 100%;
     height: auto;
     /* margin: var(--mt-large); */
-    aspect-ratio: 16/9;
+    /* aspect-ratio: 16/9; */
   }
 
   #fourme-attributes-title {

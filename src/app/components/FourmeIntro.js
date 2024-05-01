@@ -13,20 +13,20 @@ export default function FourmeIntro() {
             </div> */}
 
             <div className="flex-column-center">
-                <video id="fourme-intro" width="320" height="240" controls preload="none" loop className="fourme-intro">
-                    <source src="../../../public/videos/fourme_self_service_desktop.mp4" type="video/mp4" />
+                <video id="fourme-intro" width="320" height="240" controls preload="none" loop muted autoPlay className="fourme-intro">
+                    <source src="/fourme_self_service_desktop.mp4" type="video/mp4" />
                     {/* <track
                         src="/path/to/captions.vtt"
                         kind="subtitles"
                         srcLang="en"
                         label="English"
                     /> */}
-                    {/* <p>Your browser does not support the video tag.</p> */}
+                    <p>Your browser does not support the video tag.</p>
                 </video>
                 <p className="counter bold">4me Specialist & End-user view</p>
             </div>
 
         </div>
         </>
-    );
+    );S
 }

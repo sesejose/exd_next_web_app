@@ -1616,7 +1616,7 @@ ul.our-services li {
 #fourme-intro {
   width: 100%;
   /* max-width: 1512px; */
-  padding: var(--p);
+  /* padding: var(--p); */
 }
 
 .fourme-intro {
