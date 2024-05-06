@@ -10,6 +10,8 @@ import Nav from "../app/components/Nav";
 import Footer from "../app/components/Footer";
 //import ChatSupport from "./ChatSupport";
 
+import { ViewTransitions } from 'next-view-transitions'
+
 // fetch('https://exd.dk/wp-json/wp/v2/posts', { cache: 'no-store' })
 
 // All the pages' contents would render in {children}
@@ -36,6 +38,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    <ViewTransitions>
     <html lang="en">
       <body className={`${epilogue.variable} ${plus.variable}`}>
         <Nav />
@@ -43,5 +46,6 @@ export default function RootLayout({ children }) {
         <Footer />
       </body>
     </html>
+    </ViewTransitions>
   );
 }

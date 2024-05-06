@@ -5,7 +5,7 @@
 import Image from "next/image";
 //import Context from "./Context";
 //import { useContext } from "react";
-import Link from "next/link";
+import { Link } from 'next-view-transitions'
 import exd_logo_color from "../../../public/exd_logo_color.svg";
 import { Squash as Hamburger } from 'hamburger-react'
 
@@ -186,6 +186,8 @@ function openSubmenuDesk() {
   const submenu = document.querySelector("#submenu");
   if (submenu.style.display = "none") {
     submenu.style.display = "flex";
+    // submenu.style.opacity = "1";
+    // submenu.style.height = "auto";
   }
 }
 
@@ -193,6 +195,8 @@ function closeSubmenuDesk() {
   const submenu = document.querySelector("#submenu");
   if (submenu.style.display = "flex") {
     submenu.style.display = "none";
+    // submenu.style.opacity = "0";
+    // submenu.style.height = "0";
   }
 }
 
