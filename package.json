@@ -15,7 +15,7 @@
     "@emotion/styled": "^11.11.0",
     "embla-carousel-autoplay": "^8.0.0",
     "embla-carousel-react": "^8.0.0-rc23",
-    "framer-motion": "^11.0.8",
+    "framer-motion": "^11.1.8",
     "hamburger-react": "^2.5.0",
     "material-symbols": "^0.14.7",
     "next": "14.1.0",

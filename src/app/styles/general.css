@@ -944,8 +944,7 @@ nav {
 
 #menu {
   display: none;
-  width: 100%
-  /* background-color: var(--zero); */
+  width: 100%;
 }
 
 #menu-desk {
@@ -959,19 +958,57 @@ nav ul {
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
-  align-items: flex-end;
+  align-items: flex-start;
   padding: var(--p);
   backdrop-filter: blur(80px);
   /* -webkit-text-fill-color: var(--purple) !important; */
 }
 
+/* Menu Animation */
+
+.menu-in {
+  animation: 0.35s ease-in-out 0s alternate open;
+}
+
+@keyframes open {
+  from {
+    /* pushes the sun down past the viewport */
+    transform: translateX(110vw);
+  }
+  to {
+    /* returns the sun to its default position */
+    transform: translateX(0);
+  }
+}
+
+/* Menu Animation */
+
+.menu-out {
+  animation: 0.35s ease-in-out 0s alternate close;
+}
+
+@keyframes close {
+  from {
+    /* pushes the sun down past the viewport */
+    transform: translateX(0);
+  }
+  to {
+    /* returns the sun to its default position */
+    transform: translateX(110vw);
+  }
+}
+
+
+
 nav ul li {
-  width: fit-content;
+  /* width: fit-content; */
+  min-width: 100%;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
   position: relative;
+  border-bottom: 1px solid var(--purple);
 }
 
 nav ul li a {
@@ -981,8 +1018,9 @@ nav ul li a {
   font-size: 1.25rem;
   font-weight: 600;
   letter-spacing: -1px;
-  text-align: right;
+  text-align: left;
   color: var(--purple);
+  line-height: 1.75;
   /* animation  */
   -webkit-transition: color 0.35s ease-in-out;
   -moz-transition: color 0.35s ease-in-out;
