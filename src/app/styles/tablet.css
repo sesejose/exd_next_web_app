@@ -26,9 +26,9 @@
     /* background: var(--zero); */
   }
 
-  .grid, .grid-center, .grid-blog, .grid, .grid-center, .grid-stories, .grid-blog, .grid-stories{
+  /* .grid, .grid-center, .grid-blog, .grid, .grid-center, .grid-stories, .grid-blog, .grid-stories{ */
     /* padding: 0; */
-  }
+  /* } */
 
   .grid-blog {
     grid-template-columns: 1fr 1fr;

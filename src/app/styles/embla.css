@@ -80,6 +80,7 @@
     bottom: 0;
   }
   .embla__button {
+    appearance: none;
     -webkit-appearance: none;
     background-color: transparent;
     touch-action: manipulation;
