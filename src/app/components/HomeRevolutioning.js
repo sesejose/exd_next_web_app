@@ -1,4 +1,5 @@
-import Link from "next/link";
+import { Link } from 'next-view-transitions'
+// import Link from "next/link";
 // import Image from "next/image";
 // import home_arrow_btn_hero from "../../../public/home_arrow_btn_hero.svg"
 

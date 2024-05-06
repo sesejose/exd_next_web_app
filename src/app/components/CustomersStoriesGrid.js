@@ -10,8 +10,8 @@ import logo6 from "../../../public/logos_clients/logo_multilot_white.svg"
 import logo7 from "../../../public/logos_clients/logo_nne_white.svg"
 import logo8 from "../../../public/logos_clients/logo_nets_white.svg"
 import logo9 from "../../../public/logos_clients/logo_region_hovedstaden_white.svg"
-
-import Link from "next/link"
+import { Link } from 'next-view-transitions'
+// import Link from "next/link"
 
 // export const logos = [logo0, logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9]
 

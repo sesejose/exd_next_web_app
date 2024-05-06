@@ -1,7 +1,8 @@
 'use client';
 
 import exd_logo_white from "../../../public/exd_logo_white.svg";
-import Link from "next/link";
+// import Link from "next/link";
+import { Link } from 'next-view-transitions'
 import Image from "next/image";
 
 export default function Footer() {

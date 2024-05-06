@@ -1,4 +1,5 @@
-import Link from "next/link";
+// import Link from "next/link";
+import { Link } from 'next-view-transitions'
 import Image from "next/image";
 import whatsaap_purple from "../../../public/whatsaap_purple.svg"
 import linkedin_purple from "../../../public/linkedin_purple.svg"

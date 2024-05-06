@@ -1,7 +1,8 @@
 import Article from "@/app/components/Article";
 import { reqUrl } from "@/app/config";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from 'next-view-transitions'
+// import Link from "next/link";
 // import ArticleOthers from "@/app/components/ArticlesOthers";
 
 // It receive the {params} from the component Article.js dynamic URL

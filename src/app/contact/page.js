@@ -2,8 +2,8 @@
 
 import form from "../../app/styles/form.css"
 import Form from "../components/ContactForm"
-import Link from "next/link"
-
+import { Link } from 'next-view-transitions'
+// import Link from "next/link"
 
 export default function Contact(){
     return(
