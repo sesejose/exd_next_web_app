@@ -25,7 +25,7 @@ export default function Nav() {
     if (menu.style.display === "flex") {
       menu.classList.remove('menu-in');
       menu.classList.add('menu-out');
-      menu.style.display = "none";
+      // menu.style.display = "none";
       // iconMenuOpen.classList.remove("hide");
       // iconMenuClose.classList.add("hide");
     } else {
@@ -47,8 +47,6 @@ export default function Nav() {
       menu.classList.add('menu-out');
       menu.style.display = "none";
       setOpen(false)
-      // menu.classList.add('menu-out');
-      // menu.classList.remove('menu-in');
       // iconMenuOpen.classList.remove("hide");
       // iconMenuClose.classList.add("hide");
     }
