@@ -165,7 +165,7 @@ h4 {
     }
 
     nav ul li {
-      width: fit-content;
+      min-width: fit-content;
       border: none;
       padding: var(--plr);
       flex-flow: row;

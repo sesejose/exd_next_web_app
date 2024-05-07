@@ -967,10 +967,10 @@ nav ul {
 /* Menu Animation */
 
 .menu-in {
-  animation: 0.35s ease-in-out 0s alternate open;
+  animation: 0.35s ease-in-out 0s alternate opened;
 }
 
-@keyframes open {
+@keyframes opened {
   from {
     /* pushes the sun down past the viewport */
     transform: translateX(110vw);
@@ -984,10 +984,10 @@ nav ul {
 /* Menu Animation */
 
 .menu-out {
-  animation: 0.35s ease-in-out 0s alternate close;
+  animation: 0.35s ease-in-out 0s alternate closed;
 }
 
-@keyframes close {
+@keyframes closed {
   from {
     /* pushes the sun down past the viewport */
     transform: translateX(0);
@@ -1001,7 +1001,6 @@ nav ul {
 
 
 nav ul li {
-  /* width: fit-content; */
   min-width: 100%;
   display: flex;
   flex-flow: column;

@@ -5,6 +5,8 @@
 import Image from "next/image";
 //import Context from "./Context";
 //import { useContext } from "react";
+import { useState } from "react";
+import { useEffect } from "react";
 import { Link } from 'next-view-transitions'
 import exd_logo_color from "../../../public/exd_logo_color.svg";
 import { Squash as Hamburger } from 'hamburger-react'
@@ -14,6 +16,65 @@ import { Squash as Hamburger } from 'hamburger-react'
 
 export default function Nav() {
   //const context = useContext(Context);
+  const [isOpen, setOpen] = useState(false)
+
+  function openMenu() {
+    const menu = document.querySelector("#menu");
+    // const iconMenuOpen = document.querySelector("#icon-menu-open");
+    // const iconMenuClose = document.querySelector("#icon-menu-close");
+    if (menu.style.display === "flex") {
+      menu.classList.remove('menu-in');
+      menu.classList.add('menu-out');
+      menu.style.display = "none";
+      // iconMenuOpen.classList.remove("hide");
+      // iconMenuClose.classList.add("hide");
+    } else {
+      menu.classList.remove('menu-out');
+      menu.classList.add('menu-in');
+      menu.style.display = "flex";
+      // iconMenuOpen.classList.add("hide");
+      // iconMenuClose.classList.remove("hide");
+    }
+  }
+
+  function closeMenu() {
+    const menu = document.querySelector("#menu");
+    const submenu = document.querySelector("#submenu");
+    // const iconMenuOpen = document.querySelector("#icon-menu-open");
+    // const iconMenuClose = document.querySelector("#icon-menu-close");
+    if (menu.style.display === "flex") {
+      menu.classList.remove('menu-in');
+      menu.classList.add('menu-out');
+      menu.style.display = "none";
+      setOpen(false)
+      // menu.classList.add('menu-out');
+      // menu.classList.remove('menu-in');
+      // iconMenuOpen.classList.remove("hide");
+      // iconMenuClose.classList.add("hide");
+    }
+    if (submenu.style.display === "flex") {
+        submenu.style.display = "none";
+    }
+  }
+
+  function openSubmenuDesk() {
+    const submenu = document.querySelector("#submenu");
+    if (submenu.style.display = "none") {
+      submenu.style.display = "flex";
+      // submenu.style.opacity = "1";
+      // submenu.style.height = "auto";
+    }
+  }
+  
+  function closeSubmenuDesk() {
+    const submenu = document.querySelector("#submenu");
+    if (submenu.style.display = "flex") {
+      submenu.style.display = "none";
+      // submenu.style.opacity = "0";
+      // submenu.style.height = "0";
+    }
+  }
+  
   return (
     <>
       <nav className="nav">
@@ -91,13 +152,18 @@ export default function Nav() {
                 {/* <div className="counter">Menu</div> */}
 
             <div className="open">
-              <Hamburger size={24} onToggle={toggled => {
+            <Hamburger size={24} 
+            toggled={isOpen} 
+            toggle={setOpen} 
+            onToggle={toggled => {
                 if (toggled) {
                   openMenu();
                 } else {
                   closeMenu();
                 }
-              }} />
+              }}/>
+              
+
             </div>
 
           </div>
@@ -162,63 +228,3 @@ export default function Nav() {
     </>
   );
 }
-
-function closeAll() {
-  closeMenu();
-}
-
-function openMenu() {
-  const menu = document.querySelector("#menu");
-  // const iconMenuOpen = document.querySelector("#icon-menu-open");
-  // const iconMenuClose = document.querySelector("#icon-menu-close");
-  if (menu.style.display === "flex") {
-    menu.style.display = "none";
-    menu.classList.add('menu-out');
-    menu.classList.remove('menu-in');
-    // iconMenuOpen.classList.remove("hide");
-    // iconMenuClose.classList.add("hide");
-  } else {
-    menu.classList.remove('menu-out');
-    menu.classList.add('menu-in');
-    menu.style.display = "flex";
-    // iconMenuOpen.classList.add("hide");
-    // iconMenuClose.classList.remove("hide");
-  }
-}
-
-function closeMenu() {
-  const menu = document.querySelector("#menu");
-  const submenu = document.querySelector("#submenu");
-  // const iconMenuOpen = document.querySelector("#icon-menu-open");
-  // const iconMenuClose = document.querySelector("#icon-menu-close");
-  if (menu.style.display === "flex") {
-    menu.style.display = "none";
-    // menu.classList.add('menu-out');
-    // menu.classList.remove('menu-in');
-    // iconMenuOpen.classList.remove("hide");
-    // iconMenuClose.classList.add("hide");
-  }
-  if (submenu.style.display === "flex") {
-      submenu.style.display = "none";
-  }
-}
-
-function openSubmenuDesk() {
-  const submenu = document.querySelector("#submenu");
-  if (submenu.style.display = "none") {
-    submenu.style.display = "flex";
-    // submenu.style.opacity = "1";
-    // submenu.style.height = "auto";
-  }
-}
-
-function closeSubmenuDesk() {
-  const submenu = document.querySelector("#submenu");
-  if (submenu.style.display = "flex") {
-    submenu.style.display = "none";
-    // submenu.style.opacity = "0";
-    // submenu.style.height = "0";
-  }
-}
-
-
