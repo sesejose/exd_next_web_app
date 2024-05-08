@@ -13,7 +13,7 @@ export default function FourmeAttributes() {
                     <h3 className="col-1-8">Unlock the power of seamless Service Management with 4me</h3>
           
                     <div className="col-10-13">
-                      <Link href={"/solution"} className="btn-purple">
+                      <Link href={"/contact"} className="btn-purple">
                           <div className="text-2">Schedule a Demo</div>
                           <span className="material-symbols-rounded">arrow_forward</span>
                       </Link>
