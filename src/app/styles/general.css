@@ -920,6 +920,7 @@ nav {
   position: fixed;
   top: 0;
   z-index: 1;
+  /* mix-blend-mode: exclusion !important; */
 }
 .nav-container {
   display: flex;

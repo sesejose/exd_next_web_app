@@ -12,8 +12,8 @@ export default function HomeRevolutioning() {
 
             <div className="grid-center">
                
-                <div className="home-revolution-image col-8-13"></div>
-                <div className="home-revolution-text col-1-8">
+                <div className="home-revolution-image col-7-13"></div>
+                <div className="home-revolution-text col-1-7">
                 <h2 className="zero">Revolutionizing your workplace experience</h2>
                 <div className="text-1 zero">At EXD, we believe in transforming the way your organization operates. Our solutions are crafted with a commitment to reduce complexity, foster innovation, and optimize the digital employee experience.</div>
                 <Link href={"/solution"} className="btn-10">
@@ -39,7 +39,7 @@ export default function HomeRevolutioning() {
                         </div>
                         <div className="col-7-10">
                             <div className="text-2 bold">User-Centric Approach</div>
-                            <div className="zero"><p>Putting your employees at the center, our user-centric approach ensures that every solution enhances their daily experience. </p></div>
+                            <div className="zero"><p>Putting your customers and employees at the center, our user-centric approach ensures that every solution enhances their daily experience.</p></div>
                         </div>
                         <div className="col-10-13">
                             <div className="text-2 bold">Innovative Design</div>

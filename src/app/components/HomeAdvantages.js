@@ -7,7 +7,7 @@ export default function HomeAdvantages() {
 
       <HomeAdvantagesTitle></HomeAdvantagesTitle>
 
-        <div id="home-advantages" className="grid-center">
+        <div id="home-advantages" className="grid">
           {/* Advantage one */}
   
           <div className="col-1-5 home-advantage-et">
@@ -41,9 +41,12 @@ export default function HomeAdvantages() {
               <span className="material-symbols-rounded">chart_data</span>
             </div>
             <div className="">
-                <p className="red bold">Nurture Talent, Fuel Growth</p>
-                <div className="text-2 bold">Craft a workplace that support and satisfies your employees</div>
-              <div className="text-1">Enhance talent retention by addressing their needs and fostering professional growth</div>
+                <p className="red bold">Nurture Talent, Fuel Opportunities</p>
+                {/* <div className="text-2 bold">Craft a workplace that support and satisfies your employees</div> */}
+                <div className="text-2 bold">Craft an experience that supports and satisfies customers & employees</div>
+                <div className="text-1">Enhance talent retention and customer opportunities by addressing needs from data insight and controlled services.</div>
+              {/* <div className="text-1">Enhance talent retention by addressing their needs and fostering professional growth</div> */}
+
             </div>
         </div>
 

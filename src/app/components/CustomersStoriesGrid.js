@@ -44,8 +44,8 @@ export default function CustomersStoriesGrid() {
                         </div>
                         <div className="customer-story-description">
                             <div className="red text-1">Danish Refugee Council</div>
-                            <h4>Lorem ipsum</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur. A semper mollis facilisis vel scelerisque nec at quis commodo. In a aenean aliquam maecenas condimentum.</p>
+                            <h4>Global support for 7500 employees</h4>
+                            <p>Danish Refugee Council (DRC) operates under most extreme conditions around the globe supporting the refugees of this world. They frequently must establish new points of operation based on human crisis's around the world. Their operations are highly disparate, yet they still need centralized and streamlined processes for supporting their staff in their versatile environments. </p>
                         </div>
                     </Link>
 
@@ -57,7 +57,7 @@ export default function CustomersStoriesGrid() {
                         </div>
                         <div className="customer-story-description">
                             <div className="red text-1">Milestone Systems</div>
-                            <h4>Milestone Systems</h4>
+                            <h4>Global IT (Information Technology) services</h4>
                             <p>Milestone Systems, the leading data-driven video technology company decided to streamline their internal services on the 4me platform. Using a standardized and simplified approach for providing user friendly and intuitive services to their employees has been the key driver for Milestone Systems.</p>
                         </div>
                     </Link>
