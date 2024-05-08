@@ -57,8 +57,8 @@ export default function FourmeAttributes() {
                         </div>
                         
                         <div className="fourme-attribute p">
-                            <div className="text-1 bold">WebShop</div>
-                            <p>Lorem ipsum...........</p>
+                            <div className="text-1 bold">Streamlined Service Procurement</div>
+                            <p>Discover the simplicity of our WebShop on 4me. Easily procure services and access resources with a user-friendly interface. Simplify service procurement for enhanced productivity.</p>
                         </div>
 
                         <div className="fourme-attribute p">

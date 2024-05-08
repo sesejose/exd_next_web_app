@@ -12,6 +12,9 @@ export default function HeroHome() {
         <div className="home-hero-text col-1-7">
           <h1>Liberate your team&apos;s potential</h1>
           <h4>By removing the unproductive friction of internal assistance, we release the full potential of your employees. </h4>
+          <p>
+           Internal or external service processes supporting your business regardless of if it is IT, finance, legal, HR or customer support are often partly manual and error prone in a nest of purely integrated solutions. We simplify, streamline, and automate your business-critical service processes. 
+          </p>
           <Link href={"/solution"} className="btn">
             <div className="text-1 bold">Explore Our Solution</div>
             <div className="icon-bg-gradient">

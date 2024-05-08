@@ -1472,7 +1472,7 @@ ul#submenu {
   justify-content: center;
   align-items: center;
   color: var(--purple);
-  text-align: center;
+  text-align: left;
 }
 
 .home-revolution-text h4 {
@@ -1543,6 +1543,7 @@ ul#submenu {
 }
 
 #solution-ready {
+  text-align:left;
   padding: var(--ptb-large);
 }
 
@@ -1675,7 +1676,7 @@ ul.our-services li {
 }
 .guiding {
   position: relative;
-  top: 200px;
+  top: 100px;
 }
 .wide:has(#products-parallax), 
 .wide:has(#products-ready) {
@@ -1698,7 +1699,7 @@ ul.our-services li {
 }
 
 #products-benefit {
-  text-align: center;
+  text-align: left;
   display: flex;
   justify-content: center;
 }
@@ -1709,6 +1710,10 @@ ul.our-services li {
   justify-content: space-around;
   align-items: flex-start;
   text-align: center;
+}
+
+#products-ready {
+  text-align: left;
 }
 
 
@@ -2057,12 +2062,12 @@ footer ul.ul-logo li {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-  text-align: center;
+  align-items: start;
+  text-align: left;
 }
 
 footer .ul-logo li:first-child {
-  padding: var(--plr-large);
+  /* padding: var(--plr-large); */
 }
 
 
@@ -2111,8 +2116,8 @@ footer .ul-logo {
 footer ul li {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: start;
   gap: 0.667rem;
 }
 

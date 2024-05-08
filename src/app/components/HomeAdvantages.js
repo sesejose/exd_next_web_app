@@ -17,7 +17,7 @@ export default function HomeAdvantages() {
             <div className="">
                 <p className="red bold">Cost Efficiency Unleashed</p>
                 <div className="text-2 bold">Say goodbye to unnecessary operational costs</div>
-              <div className="text-1"> Our solution streamlines your processes, ensuring each investment delivers a positive return</div>
+                <div className="text-1"> Our solution streamlines your processes, ensuring each investment delivers a positive return</div>
             </div>
           </div>
   

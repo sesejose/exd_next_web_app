@@ -15,7 +15,7 @@ export default function HomeRevolutioning() {
                 <div className="home-revolution-image col-8-13"></div>
                 <div className="home-revolution-text col-1-8">
                 <h2 className="zero">Revolutionizing your workplace experience</h2>
-                <div className="text-1 zero">At EXD, we believe in transforming the way your organization operates. Our solutions are crafted with a commitment to simplifying complexities, fostering innovation, and optimizing the digital employee experience. </div>
+                <div className="text-1 zero">At EXD, we believe in transforming the way your organization operates. Our solutions are crafted with a commitment to reduce complexity, foster innovation, and optimize the digital employee experience.</div>
                 <Link href={"/solution"} className="btn-10">
                     <div className="text-1 bold">Discover how!</div>
                     <div className="">
@@ -35,15 +35,15 @@ export default function HomeRevolutioning() {
                         </div>
                         <div className="col-4-7">
                             <div className="text-2 bold">Scalability</div>
-                            <div className="zero"><p>Designed to grow with your business, our solutions are scalable, adapting to the evolving needs of your organization.</p></div>
+                            <div className="zero"><p>Designed to grow with your business, our solutions are scalable, adapting to the evolving needs of your organization. </p></div>
                         </div>
                         <div className="col-7-10">
                             <div className="text-2 bold">User-Centric Approach</div>
-                            <div className="zero"><p>Putting your employees at the center, our user-centric approach ensures that every solution enhances their daily experience.</p></div>
+                            <div className="zero"><p>Putting your employees at the center, our user-centric approach ensures that every solution enhances their daily experience. </p></div>
                         </div>
                         <div className="col-10-13">
                             <div className="text-2 bold">Innovative Design</div>
-                            <div className="zero"><p>Innovation is at the heart of what we do. Our solutions leverage cutting-edge design to streamline processes and enhance productivity.</p></div>
+                            <div className="zero"><p>Innovation is at the heart of what we do. Our solutions leverage innovative design to streamline processes and enhance productivity.</p></div>
                         </div>
                 </div>
             </div>

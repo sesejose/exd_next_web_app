@@ -620,9 +620,25 @@ h4 {
   text-align: center;
 }
 
+#solution-ready {
+  text-align:center;
+  /* padding: var(--ptb-large); */
+}
+.btn-purple {
+  margin: var(--m-auto);
+}
+
 /* Accordion  */
 
 /* Products Page */
+
+#products-benefit {
+  text-align: center;
+}
+
+#products-ready {
+  text-align: center;
+}
 
 #fourme-hero-bg {
   object-fit: contain;
