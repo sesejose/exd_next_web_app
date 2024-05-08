@@ -13,7 +13,7 @@ export default function AutomMateAdvantages() {
             </div>
 
             <div id="autom-mate-advantages-boxes">
-                <div className="autom-mate-advantages-container">
+                <div className="autom-mate-advantages-container pb-large">
 
                         <div className="autom-mate-advantage p">
                             {/* <div className="text-1 bold">Elevated Service Valuation</div> */}

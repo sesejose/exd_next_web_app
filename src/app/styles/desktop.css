@@ -692,6 +692,9 @@ h4 {
 .fourme-attributes-container, .fourme-optimize-container, .autom-mate-advantages-container {
   padding: var(--p-medium);
 }
+/* .autom-mate-advantages-container {
+  padding: var(--p-large);
+} */
 
 .fourme-attribute, .fourme-optimize, .autom-mate-advantage {
   max-width: 23.4%;
