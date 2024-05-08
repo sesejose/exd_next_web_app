@@ -70,8 +70,8 @@ export default function CustomersStoriesGrid() {
                         </div>
                         <div className="customer-story-description">
                             <div className="red text-1">Dansk El og Teknik</div>
-                            <h4>Lorem ipsum</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur. A semper mollis facilisis vel scelerisque nec at quis commodo. In a aenean aliquam maecenas condimentum.</p>
+                            <h4>Customer Service Improvement</h4>
+                            <p>DET was looking for a solution to ensure an efficient and controlled way  to deliver support and maintenance services to one of their large customers. In a short period of time Experience Design delivered a solution that gave DET the overview and control required to deliver and improve the customer’s need for improved support and maintenance. This included important control of alarms and automated notifications from IoT devices.</p>
                         </div>
                     </Link>
 

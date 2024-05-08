@@ -17,7 +17,7 @@ export default function Footer() {
                 <Image className="logo-footer" src={exd_logo_white} alt={""} width={"109.01"} height={"90"} priority sizes="(max-width: 700px) 100vw, 700px" />
               </Link>
             </div>
-              <p className="zero ptb counter">Experience Design enables a great Employee Experience based on the best modern technology. We empathize with employees and customers to simplify and remove friction around the flow of work with great design and simple solutions.</p>
+              <p className="zero ptb counter">Experience Design enables a great Customer & Employee Experience based on the best modern technology. We empathize with employees and customers to simplify and remove friction around the flow of work with great design and simple solutions.</p>
           </li>
         </ul>
 

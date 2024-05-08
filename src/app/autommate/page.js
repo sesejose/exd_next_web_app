@@ -1,12 +1,14 @@
 import Link from "next/link";
 import AutomMateHero from "../components/AutomMateHero";
 import AutomMateBoxes from "../components/AutomMateBoxes";
+import AutomMateAdvantages from "../components/AutomMateAdvantages";
 
 export default function ProductsIntro() {
     return (
     <>
     <AutomMateHero></AutomMateHero>
     <AutomMateBoxes></AutomMateBoxes>
+    <AutomMateAdvantages></AutomMateAdvantages>
 
     {/* <div className="wide ptb-medium">
 
