@@ -27,11 +27,11 @@ export default function Footer() {
           </li>
           <li>
           <span className="material-symbols-rounded">phone</span>
-            <Link href={""}>+45 20 25 03 33</Link>
+            <Link href={""}>+45 40 31 34 98</Link>
           </li>
           <li>
           <span className="material-symbols-rounded">email</span>
-            <Link href={"mailto:lk@exd.dk"}>info@exd.dk</Link>
+            <Link href={"mailto:partners@exd.dk"}>partners@exd.dk</Link>
           </li>
           <li>
           <span className="material-symbols-rounded">globe</span>

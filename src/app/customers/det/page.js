@@ -9,8 +9,8 @@ export default function DrcStory() {
                 <div className="grid ptb-large">
                     <div className="col-4-10 ptb-large">    
                     <p className="red">Dansk El og Teknik</p>
-                    <h2 className="ptb-medium">Headline</h2>
-                    <p className="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`&apos;`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <h2 className="ptb-medium">Customer Service Improvement</h2>
+                    <p className="">DET was looking for a solution to ensure an efficient and controlled way  to deliver support and maintenance services to one of their large customers. In a short period of time Experience Design delivered a solution that gave DET the overview and control required to deliver and improve the customer&apos;s need for improved support and maintenance. This included important control of alarms and automated notifications from IoT devices.</p>
                     </div>
                 </div>
         

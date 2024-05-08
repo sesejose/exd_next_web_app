@@ -25,7 +25,8 @@ export default function AboutMeetOurTeam() {
                             <div className="profile-picture jan-pic"></div>
                             <div className="flex-column-center text-center pt">
                                 <h4>Jan Brøndum</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur. Amet nisi curabitur fusce porta augue vestibulum neque ullamcorper.</p>
+                                <p className='bold'>Advisor & Partner</p>
+                                <p>Responsible for customer enaggement & sales.</p>
                                 <div className="flex-row-center contact-icons">
                                     <Link href={"http://www.linkedin.com"} target="_blank" className="social">
                                         {/* <Image src={linkedin_purple} alt="linkedin"/> */}
@@ -48,7 +49,8 @@ export default function AboutMeetOurTeam() {
                             <div className="profile-picture jose-pic"></div>
                             <div className="flex-column-center text-center pt">
                                 <h4>José Francisco Sesé</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur. Amet nisi curabitur fusce porta augue vestibulum neque ullamcorper.</p>
+                                <p className='bold'></p>
+                                <p>Responsible for service portals, UI, solution development and support.</p>
                                 <div className="flex-row-center contact-icons">
                                     <Link href={"http://www.linkedin.com"} target="_blank" className="social">
                                         {/* <Image src={linkedin_purple} alt="linkedin"/> */}
@@ -71,7 +73,8 @@ export default function AboutMeetOurTeam() {
                             <div className="profile-picture max-pic"></div>
                             <div className="flex-column-center text-center pt">
                                 <h4>Max Peter Lundstrøm</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur. Amet nisi curabitur fusce porta augue vestibulum neque ullamcorper.</p>
+                                <p className='bold'>Digital Specialist</p>
+                                <p>Responsible for solution development and support.</p>
                                 <div className="flex-row-center contact-icons">
                                     <Link href={"http://www.linkedin.com"} target="_blank" className="social">
                                         {/* <Image src={linkedin_purple} alt="linkedin"/> */}
@@ -94,7 +97,8 @@ export default function AboutMeetOurTeam() {
                             <div className="profile-picture markus-pic"></div>
                             <div className="flex-column-center text-center pt">
                                 <h4>Markus Hoffman Lund</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur. Amet nisi curabitur fusce porta augue vestibulum neque ullamcorper.</p>
+                                <p className='bold'>Digital Specialist</p>
+                                <p>Responsible for solution development and support.</p>
                                 <div className="flex-row-center contact-icons">
                                     <Link href={"http://www.linkedin.com"} target="_blank" className="social">
                                         {/* <Image src={linkedin_purple} alt="linkedin"/> */}
@@ -117,7 +121,8 @@ export default function AboutMeetOurTeam() {
                             <div className="profile-picture lasse-pic"></div>
                             <div className="flex-column-center text-center pt">
                                 <h4>Lasse Koch</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur. Amet nisi curabitur fusce porta augue vestibulum neque ullamcorper.</p>
+                                <p className='bold'>Digital Advisor & Partner</p>
+                                <p>Responsible for solution advisory & customer engagement.</p>
                                 <div className="flex-row-center contact-icons">
                                     <Link href={"http://www.linkedin.com"} target="_blank" className="social">
                                         {/* <Image src={linkedin_purple} alt="linkedin"/> */}
@@ -141,7 +146,8 @@ export default function AboutMeetOurTeam() {
                             <div className="profile-picture peter-pic"></div>
                             <div className="flex-column-center text-center pt">
                                 <h4>Peter Ravnholt</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur. Amet nisi curabitur fusce porta augue vestibulum neque ullamcorper.</p>
+                                <p className='bold'>Service Management Advisor & Partner</p>
+                                <p>Responsible for service management advisory/training & customer engagement.</p>
                                 <div className="flex-row-center contact-icons">
                                     <Link href={"http://www.linkedin.com"} target="_blank" className="social">
                                         {/* <Image src={linkedin_purple} alt="linkedin"/> */}

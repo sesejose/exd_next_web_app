@@ -45,7 +45,7 @@ export default function CustomersStoriesGrid() {
                         <div className="customer-story-description">
                             <div className="red text-1">Danish Refugee Council</div>
                             <h4>Global support for 7500 employees</h4>
-                            <p>Danish Refugee Council (DRC) operates under most extreme conditions around the globe supporting the refugees of this world. They frequently must establish new points of operation based on human crisis's around the world. Their operations are highly disparate, yet they still need centralized and streamlined processes for supporting their staff in their versatile environments. </p>
+                            <p>Danish Refugee Council (DRC) operates under most extreme conditions around the globe supporting the refugees of this world. They frequently must establish new points of operation based on human crisis&apos;s around the world. Their operations are highly disparate, yet they still need centralized and streamlined processes for supporting their staff in their versatile environments. </p>
                         </div>
                     </Link>
 

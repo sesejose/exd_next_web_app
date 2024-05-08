@@ -128,7 +128,7 @@ export default function Nav() {
             <Link href={""} className="icons-gradient phone-nav">
               <div className="flex-row-space-around">
                 <span className="material-symbols-rounded">phone</span>
-                <p className="">12 34 56 78</p>
+                <p className="">+45 40 31 34 98</p>
               </div>
             </Link>
 
