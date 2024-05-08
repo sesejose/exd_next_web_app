@@ -17,7 +17,7 @@ export default function SolutionOfferings() {
               </div>
               <div>
                 <div className="text-1 bold">Capabilities</div>
-                <div><p>To drive digital products for EX successfully, experience and capabilities are crucial. Our solutions encompass Process Manager/Owner for a Digital Practice, Digital Platform Specialists, Delivery Model for Digital Products, Prototyping (MVP), and Operating Model Concepts (Digital Value Sprint).</p></div>
+                <div><p>To drive digital products for EX successfully, experience and capabilities are crucial. Our solutions encompass Process Manager/Owner for a Digital Practice, Digital Platform Specialists, Delivery Model for Digital Products, Prototyping, MVP (Minimal Viable Product), and Operating Model Concepts (Digital Value Sprint). </p></div>
               </div>
           </div>
           <div className="offerings col-4-10">
