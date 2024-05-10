@@ -49,7 +49,7 @@ export default function AboutMeetOurTeam() {
                             <div className="profile-picture jose-pic"></div>
                             <div className="flex-column-center text-center pt">
                                 <h4>José Francisco Sesé</h4>
-                                <p className='bold'></p>
+                                <p className='bold'>UX/UI & Digital Specialist</p>
                                 <p>Responsible for service portals, UI, solution development and support.</p>
                                 <div className="flex-row-center contact-icons">
                                     <Link href={"http://www.linkedin.com"} target="_blank" className="social">
@@ -128,7 +128,7 @@ export default function AboutMeetOurTeam() {
                                         {/* <Image src={linkedin_purple} alt="linkedin"/> */}
                                         
                                     </Link>
-                                    <Link href={"mailto:pr@exd.dk"} className="btn-secondary">
+                                    <Link href={"mailto:lk@exd.dk"} className="btn-secondary">
                                         <div>pr@exd.dk</div>
                                         <span className="material-symbols-rounded">mail</span>
                                     </Link>
