@@ -20,11 +20,12 @@ export default function Contact(){
                         <ul className="ptb-medium">
                             <li className="flex-row-left pb bold">
                                 <span className="material-symbols-rounded">phone</span>
-                                <div>+45 20 25 03 33</div>
+                                <a href={"tel:+473337890"}>+45 40 31 34 98</a>
+                                    
                             </li>
                             <li className="flex-row-left pb bold">
                                 <span className="material-symbols-rounded">mail</span>
-                                <Link href={"mailto:lk@exd.dk"}>info@exd.dk</Link>
+                                <Link href={"mailto:partners@exd.dk"}>partners@exd.dk</Link>
                             </li>
                             <li className="flex-row-left pb bold">
                                 <span className="material-symbols-rounded">globe</span>

@@ -18,6 +18,28 @@ export default function AboutMeetOurTeam() {
             <div className="grid-blog">
                 {/* <div className="col-12 peter-lasse-container ptb-medium"> */}
 
+                {/* Gustav */}
+                {/* <div className="team-member">
+                    <div className="fit-content m-auto">
+                        <div className="flex-column-center">
+                            <div className="profile-picture max-pic"></div>
+                            <div className="flex-column-center text-center pt">
+                                <h4>Gustav Emil Lundstrøm</h4>
+                                <p className='bold'>Digital Specialist</p>
+                                <p>Responsible for solution development and support.</p>
+                                <div className="flex-row-center contact-icons">
+                                    <Link href={"http://www.linkedin.com"} target="_blank" className="social">                                        
+                                    </Link>
+                                    <Link href={"mailto:gl@exd.dk"} className="btn-secondary">
+                                        <div>gl@exd.dk</div>
+                                        <span className="material-symbols-rounded">mail</span>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> */}
+
                 {/* Jan  */}
                 <div className="team-member">
                     <div className="fit-content m-auto">
@@ -89,6 +111,7 @@ export default function AboutMeetOurTeam() {
                         </div>
                     </div>
                 </div>
+
 
                 {/* Markus  */}
                 <div className="team-member">

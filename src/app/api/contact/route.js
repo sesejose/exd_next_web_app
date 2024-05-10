@@ -18,7 +18,7 @@ export async function POST(request) {
     console.log("NEXT_PUBLIC_PERSONAL_EMAIL:", process.env.NEXT_PUBLIC_PERSONAL_EMAIL);
 
     const username = process.env.NEXT_PUBLIC_EMAIL_USERNAME;
-    // const password = process.env.NEXT_PUBLIC_EMAIL_PASSWORD;
+    const password = process.env.NEXT_PUBLIC_EMAIL_PASSWORD;
     const myEmail = process.env.NEXT_PUBLIC_PERSONAL_EMAIL;
     
 
@@ -38,6 +38,7 @@ export async function POST(request) {
         auth: {
             user: 'js@exd.dk', // Your Outlook email address
             pass: 'mgmthcmmyjnjmmyv', // Your Outlook email password or app password
+            // pass: 'Sesejose123', // Your Outlook email password or app password
         },
     });
 

@@ -27,7 +27,7 @@ export default function Footer() {
           </li>
           <li>
           <span className="material-symbols-rounded">phone</span>
-            <Link href={""}>+45 40 31 34 98</Link>
+          <a href={"tel:+473337890"}>+45 40 31 34 98</a>
           </li>
           <li>
           <span className="material-symbols-rounded">email</span>
@@ -65,9 +65,9 @@ export default function Footer() {
           <li>
             <Link href={"/blog"}>Insights</Link>
           </li>
-          <li>
+          {/* <li>
             <Link href={"/"}>Carrer</Link>
-          </li>
+          </li> */}
           <li>
             <Link href={"/contact"}>Contact Us</Link>
           </li>

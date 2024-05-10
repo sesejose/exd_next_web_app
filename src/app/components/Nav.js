@@ -125,10 +125,10 @@ export default function Nav() {
           </div>
 
           <div className="icons-nav-container">
-            <Link href={""} className="icons-gradient phone-nav">
+            <Link href={"tel:+473337890"} className="icons-gradient phone-nav">
               <div className="flex-row-space-around">
                 <span className="material-symbols-rounded">phone</span>
-                <p className="">+45 40 31 34 98</p>
+                <p>+45 40 31 34 98</p>
               </div>
             </Link>
 
