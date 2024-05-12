@@ -111,11 +111,11 @@ export default function Nav() {
                   <p>About Us</p>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href={'/blog'}>
                   <p>Insights</p>
                 </Link>
-              </li>    
+              </li>     */}
               <li>
                 <Link href={'/contact'}>
                   <p>Contact Us</p>
@@ -199,11 +199,11 @@ export default function Nav() {
                 About Us
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href={"/blog"} onClick={closeMenu}>
                 Insights
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href={"/contact"} onClick={closeMenu}>
                 Contact Us
