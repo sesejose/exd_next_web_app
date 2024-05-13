@@ -670,7 +670,9 @@ button,
   -webkit-text-fill-color: var(--purple) !important;
   /* border: 2px solid var(--five) !important; */
   border-radius: var(--border-radius-60);
-  background-color: rgba(187, 180, 214, 0.25);
+  background-color: #e0deef;
+  /* background-color: var(--five); */
+  /* box-shadow: var(--shadow); */
   gap: 1.25rem;
   margin: var(--mtb-medium);
   /* animation */
