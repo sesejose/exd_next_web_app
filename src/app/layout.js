@@ -2,8 +2,8 @@ import { Inter } from "next/font/google";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import { Epilogue } from "next/font/google";
 import general from "../app/styles/general.css"
-import desktop from "../app/styles/desktop.css"
 import tablet from "../app/styles/tablet.css"
+import desktop from "../app/styles/desktop.css"
 // import form from "../app/styles/form.css"
 //import "./globals.css";
 import Nav from "../app/components/Nav";

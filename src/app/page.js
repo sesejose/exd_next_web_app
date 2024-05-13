@@ -1,7 +1,7 @@
 //This is the Homepage
 
-// import general from "../app/styles/general.css"
-// import desktop from "../app/styles/general.css"
+import general from "../app/styles/general.css"
+import desktop from "../app/styles/general.css"
 import HomeHero from "./components/HomeHero";
 import HomeAdvantages from "./components/HomeAdvantages";
 import HomeRevolutioning from "./components/HomeRevolutioning";
