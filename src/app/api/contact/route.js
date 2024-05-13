@@ -36,8 +36,8 @@ export async function POST(request) {
         port: 587, // Outlook SMTP port
         secure: false, // true for 465, false for other ports
         auth: {
-            user: 'js@exd.dk', // Your Outlook email address
-            pass: 'mgmthcmmyjnjmmyv', // Your Outlook email password or app password
+            user: username, // Your Outlook email address
+            pass: password, // Your Outlook email password or app password
             // pass: 'Sesejose123', // Your Outlook email password or app password
         },
     });
