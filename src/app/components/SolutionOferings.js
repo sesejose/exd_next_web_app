@@ -13,7 +13,7 @@ export default function SolutionOfferings() {
         <div className="col-1-4 offerings-col-container">
               <div>
                 <div className="text-1 bold">Digital Platforms</div>
-                <div><p>For a remarkable Employee Experience (EX), a robust Digital Platform is indispensable. Our solutions span Digital Platform Selection & Justification, Utilization & Value, Roadmaps, Governance, and Reports & Dashboards, creating a foundation to define, build, and operate digital products supporting EX.</p></div>
+                <div><p>For a remarkable Service Experience, a robust Digital Platform is indispensable. Our solutions span Digital Platform Selection & Justification, Utilization & Value, Roadmaps, Governance, and Reports & Dashboards, creating a foundation to define, build, and operate digital products supporting EX.</p></div>
               </div>
               <div>
                 <div className="text-1 bold">Capabilities</div>
@@ -26,7 +26,7 @@ export default function SolutionOfferings() {
           <div className="col-10-13 offerings-col-container">
           <div>
                 <div className="text-1 bold">Simplification</div>
-                <div><p>Establishing a good Employee Experience involves simplifying data, activities, and approvals. Our practical solutions include Asset Data Collection & Maintenance, Data Management, Process Simplification, Process Mapping, Vendor Engagement & Automation, ensuring a streamlined flow of information.</p></div>
+                <div><p>Establishing a good Service Experience involves simplifying data, activities, and approvals. Our practical solutions include Asset Data Collection & Maintenance, Data Management, Process Simplification, Process Mapping, Vendor Engagement & Automation, ensuring a streamlined flow of information.</p></div>
               </div>
               <div>
                 <div className="text-1 bold">Innovation</div>
