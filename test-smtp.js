@@ -6,14 +6,14 @@ const transporter = nodemailer.createTransport({
     port: 587, // Outlook SMTP port
     secure: false, // true for 465, false for other ports
     auth: {
-        user: 'js@exd.dk', // Your Outlook email address
-        pass: 'mgmthcmmyjnjmmyv', // Your Outlook email password or app password
+        user: 'company@exd.dk', // Your Outlook email address
+        pass: 'lrmwrtrzqhhcbtlb', // Your Outlook email password or app password
     },
 });
 
 // Email options
 const mailOptions = {
-    from: 'js@exd.dk', // Sender email address
+    from: 'company@exd.dk', // Sender email address
     to: 'sesejose@gmail.com', // Recipient email address
     subject: 'Test Email from Nodemailer', // Email subject
     text: 'This is a test email sent from Nodemailer.', // Email body
