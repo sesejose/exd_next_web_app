@@ -152,7 +152,7 @@ export default function AboutMeetOurTeam() {
                                         
                                     </Link>
                                     <Link href={"mailto:lk@exd.dk"} className="btn-secondary">
-                                        <div>pr@exd.dk</div>
+                                        <div>lk@exd.dk</div>
                                         <span className="material-symbols-rounded">mail</span>
                                     </Link>
                                 </div>

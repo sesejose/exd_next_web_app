@@ -14,8 +14,8 @@ export default function HomeRevolutioning() {
                
                 <div className="home-revolution-image col-7-13"></div>
                 <div className="home-revolution-text col-1-7">
-                <h2 className="zero">Revolutionizing your workplace experience</h2>
-                <div className="text-1 zero">At EXD, we believe in transforming the way your organization operates. Our solutions are crafted with a commitment to reduce complexity, foster innovation, and optimize the digital employee experience.</div>
+                <h2 className="zero">Revolutionizing your service experience</h2>
+                <div className="text-1 zero">At Experience Design, we believe in transforming the way your organization operates. Our solutions are crafted with a commitment to reduce complexity, foster innovation, and optimize the digital service experience.</div>
                 <Link href={"/solution"} className="btn-10">
                     <div className="text-1 bold">Discover how!</div>
                     <div className="">
