@@ -7,7 +7,7 @@ export default function AboutMissionVision() {
     <>
     <div className="wide zero">
 
-        <div id="about-mission-vision">
+        <div id="about-mission-vision" className="ptb-mobile-medium">
 
             <div className="grid-center">
                

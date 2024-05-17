@@ -8,8 +8,8 @@ export default function FourmeRewards() {
 
             <div id="fourme-rewards-title">
                 
-                    <div className="grid flex-column-center text-center gap-2">
-                        <div className="col-3-11">
+                    <div className="grid flex-column-center">
+                        <div className="col-3-11 ptb-mobile-medium">
                             <h3 className="">Recognition and Rewards</h3>
                             <div className="text-1 ptb">Click image to read more</div>
                             <Link href={"/products"} className="btn-secondary m-auto">

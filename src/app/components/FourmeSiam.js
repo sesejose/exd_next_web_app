@@ -10,13 +10,13 @@ export default function FourmeSiam(){
   return (
     <>
     <div className="wide">
-        <div className="fourme-siam">
+        <div id="fourme-siam" className="ptb-mobile-medium">
 
             <div className="grid-center">
-                <h2 className="col-3-11 text-center">Embracing SIAM for Seamless Service Collaboration</h2>
+                <h2 className="col-3-11">Embracing SIAM for Seamless Service Collaboration</h2>
             </div>
 
-            <div className="grid text-center">
+            <div className="grid">
                 <p className="col-3-7">
                 SIAM, or Service Integration and Management, represents a paradigm shift in managing end-to-end collaboration between internal and external service providers within an organization. As businesses adopt increasingly complex and specialized outsourcing models, the demand for comprehensive insight and control across the entire value chain becomes paramount.<br></br>
                 4me stands out as one of the pioneers, embedding the SIAM concept into its architecture and operating model. 

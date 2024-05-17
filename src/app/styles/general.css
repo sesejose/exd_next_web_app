@@ -92,7 +92,8 @@
 --ptb-large: 5rem 0;
 --plr-large: 0 5rem;
 --p-mobile-medium: 2.5rem 1.25rem;
---pt-mobile-medium: 2.5rem 1.25rem 0 1.25rem;
+--pt-mobile-medium: 2.5rem 0 0 0;
+--ptb-mobile-medium: 2.5rem 0rem;
 
 /*Border radius*/
 --border-radius-4: 4px;
@@ -297,6 +298,10 @@
   padding: var(--pt-mobile-medium) !important;
 }
 
+.ptb-mobile-medium {
+  padding: var(--ptb-mobile-medium) !important;
+}
+
   
 html, body {
   font-size: 16px;
@@ -488,6 +493,12 @@ span {
   .text-center {
     text-align: center !important;
   }
+  .text-left {
+    text-align: left !important;
+  }
+  .text-right {
+    text-align: right !important;
+  }
 
 .hide {
   /*Mobile*/
@@ -504,6 +515,11 @@ a:hover {
 }
 
 /* Customer Stories  */
+
+#to-team {
+  text-align: left;
+}
+
 a.customer-story-container:link, a.customer-story-container:focus, a.customer-story-container:active {
   color: var(--purple);
   -webkit-transition: all 0.35s ease-in-out;
@@ -1195,6 +1211,11 @@ ul#submenu {
 
 /* Flex */
 
+.w-100 {
+  width: 100%;
+  min-width: 100%;
+}
+
 .flex-row-space-around {
   width: 100%;
   display: flex;
@@ -1372,6 +1393,7 @@ ul#submenu {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  text-align: left;
 }
 .autom-mate-hero-image {
   background-image: url("../../../public/autom_mate_hero_illustration.svg");
@@ -1465,7 +1487,7 @@ ul#submenu {
   align-items: top;
   text-align: left;
   gap: 1.875rem;
-  /* flex-wrap: wrap; */
+  padding-bottom: var(--pb-medium);
 }
 
 /* Home Revolutioning */
@@ -1492,7 +1514,7 @@ ul#submenu {
 
 .home-revolution-image {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 16 / 9;
   /* object-fit: cover; */
   background-image: url("../../../public/home_revolutioning_illustration.svg");
   background-size: contain;
@@ -1512,6 +1534,11 @@ ul#submenu {
 }
 
  /* Solution */
+
+ #solution-offerings:first-child  {
+  text-align: left;
+  /* padding: inherit; */
+}
 
  .ex-clarification {
   grid-column: 1 / -1;
@@ -1555,7 +1582,7 @@ ul#submenu {
 
 #solution-ready {
   text-align:left;
-  padding: var(--ptb-large);
+  padding: 0;
 }
 
 /* Accordion */
@@ -1645,6 +1672,7 @@ ul#submenu {
 .wide:has(#solution-usm) {
   background: var(--gradient-purple-light-blue);
   color: var(--zero);
+  padding: var(--ptb);
 }
 
 ul.our-services {
@@ -1687,7 +1715,7 @@ ul.our-services li {
 }
 .guiding {
   position: relative;
-  top: 100px;
+  top: 60px;
 }
 .wide:has(#products-parallax), 
 .wide:has(#products-ready) {
@@ -1788,6 +1816,10 @@ ul.our-services li {
   background: red;
 }
 
+#fourme-siam{
+  text-align: left;
+}
+
 .fourme-siam-image {
   width: 100%;
   object-fit: contain;
@@ -1816,7 +1848,7 @@ ul.our-services li {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 1.875rem;
+  gap: 30px;
   width: 100%;
   max-width: 1512px;
   padding: var(--p);
@@ -1840,6 +1872,10 @@ ul.our-services li {
 }
 .wide:has(#autom-mate-advantages-boxes){
   background: var(--gradient-light-blue-purple);
+}
+
+#fourme-rewards-title {
+  text-align: left;
 }
 
 .autom-mate-box {

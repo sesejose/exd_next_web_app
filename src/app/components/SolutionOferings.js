@@ -6,7 +6,7 @@ export default function SolutionOfferings() {
       <div id="solution-offerings">
 
         <div className="grid">
-              <h3 className="col-12 text-center">Our Solution Offerings</h3>
+              <h3 className="col-12">Our Solution Offerings</h3>
         </div>
 
         <div className="grid">

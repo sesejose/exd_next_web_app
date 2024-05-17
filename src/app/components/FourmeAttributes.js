@@ -4,13 +4,17 @@ import { Link } from 'next-view-transitions'
 export default function FourmeAttributes() {
     return (
         <>
-        <div className="wide">
+        <div className="wide ptb-mobile-medium">
 
             <div id="fourme-attributes-title">
 
                 <div className="grid-center">
-                    
-                    <h3 className="col-1-8">Unlock the power of seamless Service Management with 4me</h3>
+
+                    <div className='col-1-8'>
+                        <h3>Elevate Your Service Management Experience with 4me</h3> 
+                        <div className='text-2 bold'>Easy Implementation, Advanced Automation, and Complete Enterprise Readiness</div>
+                        {/* <h3 className="col-1-8">Unlock the power of seamless Service Management with 4me</h3> */}
+                    </div> 
           
                     <div className="col-10-13">
                       <Link href={"/contact"} className="btn-purple">
@@ -25,6 +29,7 @@ export default function FourmeAttributes() {
 
             <div id="fourme-attributes">
                 <div className="fourme-attributes-container">
+                {/* <div className="grid"> */}
 
                         <div className="fourme-attribute p">
                             <div className="text-1 bold">Swift Implementation</div>
@@ -74,6 +79,58 @@ export default function FourmeAttributes() {
                         <div className="fourme-attribute p">
                             <div className="text-1 bold">Cost-Free Updates</div>
                             <p>Unlock a seamless and rapid implementation with 4me. Our projects are known for their brevity and hassle-free execution.</p>
+                        </div>
+
+                        {/* More attributes  */}
+
+                        <div className="fourme-attribute p">
+                            <div className="text-1 bold">Low Code and Out-of-the-Box Capabilities</div>
+                            <p>Leverage the power of low-code development and out-of-the-box features to customize and extend your service management solutions effortlessly.</p>
+                        </div>
+
+                        <div className="fourme-attribute p">
+                            <div className="text-1 bold">Cloud-Based Delivery</div>
+                            <p>Enjoy the benefits of cloud-based delivery, ensuring flexibility, scalability, and reliability for your service management needs.</p>
+                        </div>
+
+                        <div className="fourme-attribute p">
+                            <div className="text-1 bold">AI-Led Automation</div>
+                            <p>Harness the power of artificial intelligence throughout the platform, automating repetitive tasks and enhancing operational efficiency.</p>
+                        </div>
+
+                        <div className="fourme-attribute p">
+                            <div className="text-1 bold">Service-Centric Approach</div>
+                            <p>Embrace a service-centric approach to ITSM and ESM, focusing on delivering value to end-users and aligning services with business objectives.</p>
+                        </div>
+
+                        <div className="fourme-attribute p">
+                            <div className="text-1 bold">Integrated Knowledge Base</div>
+                            <p>Access a comprehensive knowledge base seamlessly integrated into the platform, empowering users with relevant information and insights.</p>
+                        </div>
+
+                        <div className="fourme-attribute p">
+                            <div className="text-1 bold">SaaS, Multi-Tenant Architecture</div>
+                            <p>Benefit from a SaaS, multi-tenant architecture, providing a secure and scalable environment for your service management operations.</p>
+                        </div>
+
+                        <div className="fourme-attribute p">
+                            <div className="text-1 bold">Enterprise-Ready Certification</div>
+                            <p>Ensure compliance with industry standards and regulations, with enterprise-ready certifications including ITIL competencies, SOC2, and ISO certifications.</p>
+                        </div>
+
+                        <div className="fourme-attribute p">
+                            <div className="text-1 bold">Expanded Functionality</div>
+                            <p>Extend the functionality of 4me beyond ITSM, with comprehensive ESM capabilities for HR, Finance, Marketing, and IT services.</p>
+                        </div>
+
+                        <div className="fourme-attribute p">
+                            <div className="text-1 bold">Post-Sales Support</div>
+                            <p>Receive dedicated post-sales support, including certifications, ongoing support, and services to optimize your service management journey.</p>
+                        </div>
+
+                        <div className="fourme-attribute p">
+                            <div className="text-1 bold">Global Partner Network</div>
+                            <p>Access a global partner network spanning various verticals, providing expertise and support for your service management initiatives.</p>
                         </div>
 
 

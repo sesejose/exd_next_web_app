@@ -37,9 +37,9 @@ export default function CustomersLogos() {
 
             <div className="grid-center">
 
-                <div className="flex-column-center col-4-10">
+                <div id="to-team" className="flex-column-center col-4-10">
                     
-                        <div className="text-center text-1">
+                        <div className="text-1 pb-medium">
                         We understand that each business is unique, and our team is dedicated to empathizing with our clients, unraveling their challenges, and delivering tailored solutions. Our commitment to excellence extends beyond our services; it&apos;s ingrained in our culture.
                         </div>
                         <div>

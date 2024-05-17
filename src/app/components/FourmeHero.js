@@ -8,10 +8,10 @@ export default function FourmeHero() {
     <>
     <div className="wide">
       <div id="fourme-hero-bg">
-        <div className="grid">
+        <div className="grid-center">
           <div className="col-4-10">
-            <h2 className="text-center mtb-medium">Revolutionize Service Management with 4me</h2>
-            <p className="text-center mtb-medium">
+            <h2 className="mtb-medium">Revolutionize Service Management with 4me</h2>
+            <p className="mtb-medium">
               <br></br>Step into the future of Employee Service Management with 4me, a next-generation platform that transcends traditional boundaries. In a world where collaboration is key, 4me seamlessly connects an organization&apos;s business support functions and external service providers, fostering a holistic approach to Service Integration and Management (SIAM).
 
               <br></br>At the core of 4me&apos;s innovation is the dismantling of &apos;silos of excellence.&apos; Here, each business support function typically operates within its defined practices, data storage, and systems for individual employee products and services. 4me breaks down these barriers, creating a unified structure that not only encourages collaboration but also enhances efficiency and data security simultaneously.

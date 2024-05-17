@@ -70,6 +70,10 @@
   #fourme-attributes-title {
     text-align: center;
   }
+
+  /* .fourme-attribute, .fourme-optimize, .autom-mate-advantage {
+    max-width: 277px;
+  } */
   
   #customers-logos, #meet-our-team {
     flex-direction: row;

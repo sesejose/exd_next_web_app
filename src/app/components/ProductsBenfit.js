@@ -57,7 +57,7 @@ export default function ProductsBenefit() {
             <div className="grid-center">
                 <div className="flex-column-center col-4-10">
                     {/* <div>Guiding your digital EX journey</div> */}
-                    <h4 className="zero ptb">Ready to transform?</h4>
+                    <h4 className="zero pt-mobile-medium w-100">Ready to transform?</h4>
                     <div className="text-1 ptb">Explore the transformative potential of our Digital Platforms and embark on a journey to revolutionize your workplace.</div>
                     <Link href={"/fourme"} className="btn-10">
                         <div className="text-1">Learn more about 4me</div>

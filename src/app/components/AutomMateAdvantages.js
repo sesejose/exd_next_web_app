@@ -4,10 +4,10 @@ import { Link } from 'next-view-transitions'
 export default function AutomMateAdvantages() {
     return (
         <>
-        <div className="wide zero">
+        <div className="wide zero ptb-mobile-medium">
 
             <div id="autom-mate-advantages-title">
-                <div className="grid-center flex-row-center">
+                <div className="grid">
                     <h3 className="col-3-11">Market Place</h3>                
                 </div>
             </div>

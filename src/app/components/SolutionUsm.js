@@ -7,7 +7,7 @@ export default function SolutionUsm() {
     <div className="wide">
 
         <div className="grid">
-        <h3 className="col-12">Unified Service Management (USM)</h3>
+        <h3 className="col-12 pt-mobile-medium">Unified Service Management (USM)</h3>
         </div>
     <div id="solution-usm" className="grid">
         <div className="col-1-9">

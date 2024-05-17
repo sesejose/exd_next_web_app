@@ -4,10 +4,10 @@ import { Link } from 'next-view-transitions'
 export default function FourmeOptimize() {
     return (
         <>
-        <div className="wide zero">
+        <div className="wide zero ptb-mobile-medium">
 
             <div id="fourme-optimize-title">
-                <div className="grid-center flex-row-center">
+                <div className="grid-center">
                     <h3 className="col-3-11">Optimize Service Performance and Value</h3>                
                 </div>
             </div>
@@ -39,7 +39,7 @@ export default function FourmeOptimize() {
             </div>
 
             <div id="fourme-try">
-            <div className="grid flex-column-center text-center gap-2">
+            <div className="grid flex-column-center">
                 <div className="col-3-11">
                     <h3 className="ptb">Experience 4me in Action</h3>
                     <div className="text-1 ptb">Unlock the potential of 4me by scheduling a personalized demonstration or initiating a one-on-one consultation. Let us guide you through the features and advantages that could transform your service management.</div>

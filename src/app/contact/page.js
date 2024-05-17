@@ -9,11 +9,11 @@ export default function Contact(){
     return(
         <>
         
-        <div className="wide">
+        <div className="wide ptb-mobile-medium">
             <div id="contact-form">
                 <div className="grid-center">
 
-                    <div className="col-1-6 ptb-large">
+                    <div className="col-1-6">
                         <h2 className="pb-medium">Let&apos;s Stay Connected!</h2>
                         <div className="text-1">Reach out via phone, email, or the contact form. Whether you have questions about our services, want to discuss a project, or simply say hello, we&apos;re here to listen, support, and collaborate. Let&apos;s start a conversation today.
                         </div>

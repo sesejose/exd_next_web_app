@@ -594,6 +594,11 @@ h4 {
 
 /* Solution */
 
+#solution-offerings:first-child  {
+  /* text-align: center; */
+  padding-bottom: 0px !important;
+}
+
 .ex-clarification {
  height: 500px;
  aspect-ratio: 1 / 1;
@@ -617,13 +622,17 @@ h4 {
   background-color: var(--five);
 }
 
+.wide:has(#solution-usm) {
+  padding: 0;
+}
+
 #faq-questions {
   text-align: center;
 }
 
 #solution-ready {
   text-align:center;
-  /* padding: var(--ptb-large); */
+  padding: var(--ptb-large);
 }
 .btn-purple {
   margin: var(--m-auto);
@@ -647,7 +656,7 @@ h4 {
 
 #fourme-hero-bg {
   object-fit: contain;
-  /* background-size: contain; */
+  text-align: center;
   background-size: 105%;
 }
 
@@ -694,15 +703,20 @@ h4 {
 }
 
 .fourme-attributes-container, .fourme-optimize-container, .autom-mate-advantages-container {
-  padding: var(--p-medium);
+  padding: var(--p-large) !important;
 }
 /* .autom-mate-advantages-container {
   padding: var(--p-large);
 } */
 
 .fourme-attribute, .fourme-optimize, .autom-mate-advantage {
-  max-width: 23.4%;
+  /* max-width: 23.4%; */
+  max-width: calc(25% - 22.5px);
   padding: var(--p-medium);
+}
+
+#fourme-rewards-title, #fourme-try, #fourme-optimize-title, #fourme-siam {
+  text-align: center;
 }
 
 /* Autom Mate Page */
@@ -714,6 +728,10 @@ h4 {
 }
 
 /* Customers Stories Pages */
+
+#to-team {
+  text-align: center;
+}
 
 .customer-story-image {
   background-position: bottom;
