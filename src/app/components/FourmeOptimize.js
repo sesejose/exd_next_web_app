@@ -43,7 +43,7 @@ export default function FourmeOptimize() {
                 <div className="col-3-11">
                     <h3 className="ptb">Experience 4me in Action</h3>
                     <div className="text-1 ptb">Unlock the potential of 4me by scheduling a personalized demonstration or initiating a one-on-one consultation. Let us guide you through the features and advantages that could transform your service management.</div>
-                    <Link href={"/products"} className="btn-purple m-auto">
+                    <Link href={"/contact"} className="btn-purple m-auto">
                         <div className="text-2">Book Your 4me Experience</div>
                         <div className="">
                             <span className="material-symbols-rounded">arrow_forward</span>
