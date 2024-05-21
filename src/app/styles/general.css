@@ -330,12 +330,10 @@ body {
     padding: 0;
 }
 
-*h1, *h2, *h3, *h4 {
-width: 100%;
-}
-
 h1, h2, h3, h4 {
+  width: 100%;
   font-family: var(--headlines) !important;
+  margin: var(--mb) !important;
 }
 
 p, span, .counter, .body-text, .body-text-bold, .primary-text-button, .text-links-features, .text_secondary_buttons {
