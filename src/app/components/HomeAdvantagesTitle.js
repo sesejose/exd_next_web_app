@@ -4,7 +4,7 @@ import { Link } from 'next-view-transitions'
 export default function HomeAdvantagesTitle() {
     return (
       <>
-        <div id="" className="">
+        
           <div id="home-advantages-title" className="grid-center">
 
           <div className="col-1-8">
@@ -19,7 +19,7 @@ export default function HomeAdvantagesTitle() {
           </div>
 
           </div>
-        </div>
+        
       </>
     );
   }

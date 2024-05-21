@@ -8,9 +8,9 @@ export default function HomeAdvantages() {
 
       <section>
 
-        {/* <HomeAdvantagesTitle></HomeAdvantagesTitle> */}
+        <HomeAdvantagesTitle></HomeAdvantagesTitle>
 
-        <div id="home-advantages-title" className="grid-center">
+        {/* <div id="home-advantages-title" className="grid-center">
 
           <div className="col-1-8">
             <h2>Unlock your path to success</h2>
@@ -23,7 +23,7 @@ export default function HomeAdvantages() {
             </Link>
           </div>
 
-        </div>
+        </div> */}
 
         <div id="home-advantages">
           {/* Advantage one */}
