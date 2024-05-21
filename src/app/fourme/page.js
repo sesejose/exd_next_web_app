@@ -8,6 +8,7 @@ import FourmeAttributes from "../components/FourmeAttributes";
 import FourmeOptimize from "../components/FourmeOptimize";
 import FourmeRewards from "../components/FourmeRewards";
 import FourmeIntro from "../components/FourmeIntro";
+import FourmeDifferentiators from "../components/FourmeDifferentiators";
 
 export default function FourMe() {
     return (
@@ -16,10 +17,11 @@ export default function FourMe() {
             <FourmeIntro></FourmeIntro>
             <FourmeMobile></FourmeMobile>
             <FourmeSiam></FourmeSiam>
+            <FourmeDifferentiators></FourmeDifferentiators>
             <FourmeAdvantages></FourmeAdvantages>
             <FourmeAttributes></FourmeAttributes>
             <FourmeOptimize></FourmeOptimize>
-            <FourmeRewards></FourmeRewards>
+            {/* <FourmeRewards></FourmeRewards> */}
         </>
     )
 }

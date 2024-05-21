@@ -2598,3 +2598,108 @@ a.post-link:hover .post-title {
 }
 
 
+/* Pyramid */
+
+#fourme-differentiators {
+  width: 100%;
+}
+
+/* Solution */
+
+#fourme-differentiators:first-child  {
+  text-align: left;
+}
+
+#pyramid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  aspect-ratio: 1 / 1;
+  background-image: url("../../../public/pyramid.svg");
+  width: 100%;
+  object-fit: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  position: relative;
+}
+
+.divisions {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: var(--ptb-medium);
+}
+
+.divisions > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#pyramid > div span {
+  color: var(--purple);
+  /* cursor: pointer; */
+  width: 36px;
+  height: 36px;
+  /* padding: var(--p); */
+  background-color: var(--zero);
+  line-height: 2;
+  font-weight: 900;
+  border-radius: var(--border-radius-100);
+}
+
+.one {
+  /* background-color: var(--purple); */
+  /* color: var(--zero); */
+}
+.two {
+  /* background-color: var(--purple); */
+  /* color: var(--zero); */
+}
+.three {
+  /* background-color: var(--purple); */
+  /* color: var(--zero); */
+}
+.four {
+  /* background-color: var(--purple); */
+  /* color: var(--zero); */
+}
+.five {
+  /* background-color: var(--purple); */
+  /* color: var(--zero); */
+}
+.six {
+  /* background-color: var(--purple); */
+  /* color: var(--zero); */
+}
+
+.divisions-explained {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.divisions-explained > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  /* text-align: left; */
+  padding: var(--pt);
+}
+
+.divisions-explained > div span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--zero);
+  width: 36px;
+  height: 36px;
+  background-color: var(--purple);
+  line-height: 2;
+  font-weight: 900;
+  border-radius: var(--border-radius-100);
+}
