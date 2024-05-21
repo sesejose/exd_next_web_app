@@ -1486,6 +1486,10 @@ ul#submenu {
   padding: var(--pb-mobile-medium);
 }
 
+#home-advantages-title {
+  padding: var(--ptb);
+}
+
 .home-advantage-et,
 .home-advantage-to,
 .home-advantage-tre {

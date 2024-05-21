@@ -1,16 +1,34 @@
 import HomeAdvantagesTitle from "./HomeAdvantagesTitle";
+import Link from "next/link";
 
 export default function HomeAdvantages() {
     return (
     <>
     <div className="wide">
 
-      <HomeAdvantagesTitle></HomeAdvantagesTitle>
+      <section>
+
+        {/* <HomeAdvantagesTitle></HomeAdvantagesTitle> */}
+
+        <div id="home-advantages-title" className="grid-center">
+
+          <div className="col-1-8">
+            <h2>Unlock your path to success</h2>
+          </div>
+          
+          <div className="col-10-13">
+            <Link href={"/solution"} className="btn-purple">
+                <div className="text-1 bold">Invest in Growth Today!</div>
+                <span className="material-symbols-rounded">arrow_forward</span>
+            </Link>
+          </div>
+
+        </div>
 
         <div id="home-advantages">
           {/* Advantage one */}
 
-          <section className="grid">
+          <div className="grid">
           
             <div className="col-1-5 home-advantage-et">
               <div className="icons-gradient icons-advantages">
@@ -52,10 +70,14 @@ export default function HomeAdvantages() {
               </div>
           </div>
 
-          </section>
+          </div>
   
 
         </div>
+
+      </section>
+
+        
 
     </div>
     </>
