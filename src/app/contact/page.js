@@ -10,7 +10,8 @@ export default function Contact(){
         <>
         
         <div className="wide ptb-mobile-medium">
-            <div id="contact-form">
+            <section>
+                <div id="contact-form">
                 <div className="grid-center">
 
                     <div className="col-1-6">
@@ -48,6 +49,8 @@ export default function Contact(){
 
                 </div>
             </div>
+            </section>
+            
         </div>
         
         </>

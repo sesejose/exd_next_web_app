@@ -4,16 +4,17 @@ import { Link } from 'next-view-transitions'
 export default function AutomMateAdvantages() {
     return (
         <>
-        <div className="wide zero ptb-mobile-medium">
+        <div className="wide zero">
 
-            <div id="autom-mate-advantages-title">
-                <div className="grid">
-                    <h3 className="col-3-11">Market Place</h3>                
+            <section>
+                <div id="autom-mate-advantages-title">
+                <div className="grid ptb-mobile-medium">
+                    <h3 className="col-12">Market Place</h3>                
                 </div>
             </div>
 
             <div id="autom-mate-advantages-boxes">
-                <div className="autom-mate-advantages-container pb-large">
+                <div className="autom-mate-advantages-container">
 
                         <div className="autom-mate-advantage p">
                             {/* <div className="text-1 bold">Elevated Service Valuation</div> */}
@@ -61,6 +62,9 @@ export default function AutomMateAdvantages() {
 
                 </div>
             </div>
+            </section>
+
+            
 
             
             

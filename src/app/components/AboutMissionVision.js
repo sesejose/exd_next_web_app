@@ -9,7 +9,8 @@ export default function AboutMissionVision() {
 
         <div id="about-mission-vision" className="ptb-mobile-medium">
 
-            <div className="grid-center">
+            <section>
+                <div className="grid-center">
                
                 {/* <div className="vision-container col-12"> */}
                     <div className="vision col-1-6">
@@ -37,6 +38,9 @@ export default function AboutMissionVision() {
                 {/* </div> */}
 
             </div>
+            </section>
+
+            
 
         </div>
 

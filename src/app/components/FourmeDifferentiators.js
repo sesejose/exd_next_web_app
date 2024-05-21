@@ -4,17 +4,17 @@ import { Link } from 'next-view-transitions'
 export default function FourmeDifferentiators() {
     return (
         <>
-        <div className="wide ptb-mobile-medium">
-
-            <div id="fourme-differentiators-title">
+        <div className="wide">
+            
+            <section>
+                <div id="fourme-differentiators-title">
                 <div className="grid flex-column-center">
-                    <div className="col-3-11 ptb-mobile-medium">
+                    <div className="col-3-11">
                         <h3>What Sets 4me Apart</h3>
                         <div className='text-1 ptb'>Discover the unique advantages that set 4me apart in the realm of service management. Our platform is designed to optimize and enhance the way your organization handles IT and Enterprise Service Management, delivering unparalleled efficiency and value. Here are the key differentiators that make 4me the ultimate choice for your business:</div>
                     </div>
                 </div>
             </div>
-
 
             <div id="fourme-differentiators">
                     <div className="grid flex-column-center">
@@ -76,6 +76,10 @@ export default function FourmeDifferentiators() {
                         </div>
                     </div>
             </div>
+            </section>
+
+            
+
         </div>
         </>
     )

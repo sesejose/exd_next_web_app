@@ -9,9 +9,9 @@ export default function AboutMeetOurTeam() {
       <>
       <div className="wide">
   
-          <div id="meet-our-team">
+          <section id="meet-our-team">
   
-            <div className="grid-center">
+            <div className="grid-center ptb-mobile-medium">
                 <div className="col-3-11 text-center"><h2>Meet our team</h2></div>
             </div>
 
@@ -191,7 +191,7 @@ export default function AboutMeetOurTeam() {
 
                 {/* </div> */}
             </div>
-        </div>
+        </section>
     </div>
 </>
 );

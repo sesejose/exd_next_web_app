@@ -6,9 +6,9 @@ export default function SolutionExClarification() {
     <>
     <div className="wide">
 
-      <div id="solution-ex-clarification">
+      <section id="solution-ex-clarification">
 
-        <div className="grid">
+        <div className="grid pb-large">
           <div className="col-1-4">
               <h4>Service Experience clarification</h4>
           </div>
@@ -23,7 +23,7 @@ export default function SolutionExClarification() {
           </div>
         </div>
       
-      </div>
+      </section>
 
 
     </div>

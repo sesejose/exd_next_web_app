@@ -20,7 +20,7 @@ export default function CustomersLogos() {
         <>
         <div className="wide">
 
-            <div id="customers-logos" className="grid-blog">
+            <section id="customers-logos" className="grid-blog">
 
                 <div className="flex-row-center"><Image src={logos[0]} width={160} height={90} alt="customer"></Image></div>
                 <div className="flex-row-center"><Image src={logos[1]} width={160} height={90} alt="customer"></Image></div>
@@ -33,9 +33,9 @@ export default function CustomersLogos() {
                 <div className="flex-row-center"><Image src={logos[8]} width={160} height={90} alt="customer"></Image></div>
                 <div className="flex-row-center"><Image src={logos[9]} width={160} height={90} alt="customer"></Image></div>
                 
-            </div>
+            </section>
 
-            <div className="grid-center">
+            <section className="grid-center">
 
                 <div id="to-team" className="flex-column-center col-4-10">
                     
@@ -53,7 +53,7 @@ export default function CustomersLogos() {
                         
                     </div>
 
-            </div>
+            </section>
 
         </div>
         </>

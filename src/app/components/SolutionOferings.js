@@ -3,7 +3,7 @@ export default function SolutionOfferings() {
     <>
     <div className="wide">
 
-      <div id="solution-offerings">
+      <section id="solution-offerings">
 
         <div className="grid">
               <h3 className="col-12">Our Solution Offerings</h3>
@@ -35,7 +35,7 @@ export default function SolutionOfferings() {
           </div>
         </div>
 
-      </div>
+      </section>
       
     </div>
     </>

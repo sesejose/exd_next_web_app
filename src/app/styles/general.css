@@ -330,6 +330,10 @@ body {
     padding: 0;
 }
 
+*h1, *h2, *h3, *h4 {
+width: 100%;
+}
+
 h1, h2, h3, h4 {
   font-family: var(--headlines) !important;
 }
@@ -388,6 +392,10 @@ span {
 }
 .bold {
   font-weight: 600;
+}
+
+section {
+  padding: var(--p);
 }
 
 /* Spacing */
@@ -1173,11 +1181,10 @@ ul#submenu {
   width: 100%;
   margin: var(--m-auto);
   position: relative;
-  padding: var(--p);
+  /* padding: var(--p); */
 }
 
 .grid {
-  /* padding-top: 4.5rem; */
   justify-items: start;
   align-items: start;
 }
@@ -1188,7 +1195,6 @@ ul#submenu {
 }
 
 .grid-stories {
-  /* grid-column: 1 / -1; */
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -1196,12 +1202,11 @@ ul#submenu {
   column-gap: 1.875rem;
   width: 100%;
   height: 100%;
-  /* padding-top: 0; */
 }
 
 .grid-blog, .grid-stories {
-  padding: var(--p-mobile-medium) !important;
   row-gap: 1.875rem !important;
+  /* padding: var(--p-mobile-medium) !important; */
 }
 
 /* Positions */
@@ -1369,6 +1374,7 @@ ul#submenu {
 
 .wide {
   background: var(--zero);
+  /* padding: var(--p-large); */
 }
 
 /* Components  */
@@ -1476,6 +1482,10 @@ ul#submenu {
   grid-column: 1 / -1;
 }
 
+#home-advantages {
+  padding: var(--pb-mobile-medium);
+}
+
 .home-advantage-et,
 .home-advantage-to,
 .home-advantage-tre {
@@ -1531,6 +1541,7 @@ ul#submenu {
   -webkit-text-fill-color: var(--zero) !important;
   gap: 1.825rem;
   width: 100%;
+  padding: var(--ptb-mobile-medium);
 }
 
  /* Solution */
@@ -1582,7 +1593,8 @@ ul#submenu {
 
 #solution-ready {
   text-align:left;
-  padding: 0;
+  /* padding: 0; */
+
 }
 
 /* Accordion */
@@ -1851,7 +1863,7 @@ ul.our-services li {
   gap: 30px;
   width: 100%;
   max-width: 1512px;
-  padding: var(--p);
+  /* padding: var(--p); */
 }
 .fourme-attribute, .fourme-optimize, .autom-mate-box, .autom-mate-advantage {
   width: 100%;
@@ -2135,7 +2147,8 @@ footer {
   grid-gap: 1.25rem;
   width: 100%;
   color: var(--zero);
-  padding: var(--plr-medium);
+  /* padding: var(--plr-medium); */
+  padding: var(--plr);
   font-size: 0.75rem;
 }
 

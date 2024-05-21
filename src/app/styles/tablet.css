@@ -22,8 +22,7 @@
   }
 
   .wide {
-    padding: var(--p-large);
-    /* background: var(--zero); */
+    /* padding: var(--p-large); */
   }
 
   /* .grid, .grid-center, .grid-blog, .grid, .grid-center, .grid-stories, .grid-blog, .grid-stories{ */
@@ -101,6 +100,7 @@
   /* Customers Stories Page */
 
   .customer-story-description {
+    height: 50%;
     padding: var(--p-medium);
   }
 

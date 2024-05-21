@@ -21,7 +21,7 @@ export default function CustomersStoriesGrid() {
         <>
         <div className="wide">
 
-            <div className="grid-stories">
+            <section className="grid-stories">
 
                     {/* 7-Eleven  */}
                     <Link href={"/customers/seven-eleven"} className="customer-story-container">
@@ -77,7 +77,7 @@ export default function CustomersStoriesGrid() {
 
                     
 
-            </div>
+            </section>
 
         </div>
         </>

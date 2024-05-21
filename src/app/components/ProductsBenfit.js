@@ -5,7 +5,7 @@ export default function ProductsBenefit() {
     return (
     <>
     <div className="wide">        
-        <div id="products-benefit">
+        <section id="products-benefit">
             <div className="grid flex-column-center">
 
             <div className="col-3-11">
@@ -49,11 +49,11 @@ export default function ProductsBenefit() {
             </div>
 
             </div>
-        </div>    
+        </section>    
     </div>
 
     <div className="wide">
-        <div id="products-ready">
+        <section id="products-ready">
             <div className="grid-center">
                 <div className="flex-column-center col-4-10">
                     {/* <div>Guiding your digital EX journey</div> */}
@@ -67,7 +67,7 @@ export default function ProductsBenefit() {
                     </Link>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
     
     </>

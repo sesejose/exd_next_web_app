@@ -10,7 +10,7 @@ export default function HomeRevolutioning() {
 
         <div id="home-revolution">
 
-            <div className="grid-center">
+            <section className="grid-center">
                
                 <div className="home-revolution-image col-7-13"></div>
                 <div className="home-revolution-text col-1-7">
@@ -25,10 +25,10 @@ export default function HomeRevolutioning() {
                 </Link>
                 </div>                
 
-            </div>
+            </section>
 
             <div className="home-revolution-benefits wide">
-                <div className="grid p-mobile-medium">
+                <section className="grid">
                         <div className="col-1-4">
                             <div className="text-2 bold">Seamless Integration</div>
                             <div className="zero"><p>Our solutions seamlessly integrate into your workflow, ensuring a cohesive and unified experience for your employees.</p></div>
@@ -45,7 +45,7 @@ export default function HomeRevolutioning() {
                             <div className="text-2 bold">Innovative Design</div>
                             <div className="zero"><p>Innovation is at the heart of what we do. Our solutions leverage innovative design to streamline processes and enhance productivity.</p></div>
                         </div>
-                </div>
+                </section>
             </div>
         </div>
 

@@ -9,7 +9,7 @@ export default function SolutionProcessSteps() {
     <>
     <div className="wide">
       
-      <div id="process" className="grid">
+      <section id="process" className="grid">
         {/* Om os  */}
         <div className="col-3-11">
             <p className="red">Our Collaborative Journey</p>
@@ -62,7 +62,7 @@ export default function SolutionProcessSteps() {
 
          
         </div>
-      </div>
+      </section>
         
     </div>
     </>

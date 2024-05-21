@@ -7,7 +7,7 @@ export default function HeroHome() {
   return (
     <>
     <div className="wide">
-      <div className="heros-container grid-center">
+      <section className="heros-container grid-center">
         <div className="home-hero-image col-7-13"></div>
         <div className="home-hero-text col-1-7">
         <h2>Liberate your potential with Service Management</h2>
@@ -23,7 +23,7 @@ export default function HeroHome() {
             {/* <Image src={home_arrow_btn_hero} width={68} height={68} alt="Image"></Image> */}
           </Link>
         </div>
-      </div>
+      </section>
       </div>
     </>
   );

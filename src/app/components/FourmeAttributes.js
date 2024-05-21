@@ -4,11 +4,12 @@ import { Link } from 'next-view-transitions'
 export default function FourmeAttributes() {
     return (
         <>
-        <div className="wide ptb-mobile-medium">
+        <div className="wide">
 
-            <div id="fourme-attributes-title">
+            <section>
+                <div id="fourme-attributes-title">
 
-                <div className="grid-center">
+                <div className="grid-center ptb-mobile-medium">
 
                     <div className='col-1-8'>
                         <h3>Elevate Your Service Management Experience with 4me</h3> 
@@ -28,7 +29,7 @@ export default function FourmeAttributes() {
             </div>
 
             <div id="fourme-attributes">
-                <div className="fourme-attributes-container">
+                <div className="fourme-attributes-container ">
                 {/* <div className="grid"> */}
 
                         <div className="fourme-attribute p">
@@ -136,6 +137,9 @@ export default function FourmeAttributes() {
 
                 </div>
             </div>
+            </section>
+
+            
 
         </div>
         </>

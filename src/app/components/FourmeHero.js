@@ -7,7 +7,7 @@ export default function FourmeHero() {
   return (
     <>
     <div className="wide">
-      <div id="fourme-hero-bg">
+      <section id="fourme-hero-bg">
         <div className="grid-center">
           <div className="col-4-10">
             <h2 className="mtb-medium">Revolutionize Service Management with 4me</h2>
@@ -28,7 +28,7 @@ export default function FourmeHero() {
           </div>
 
         </div>
-      </div>
+      </section>
     </div>
     </>
   );

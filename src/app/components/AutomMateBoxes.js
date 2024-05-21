@@ -6,7 +6,7 @@ import icon_artificial_intelligence from "../../../public/icon_artificial_intell
 export default function AutomMateBoxes(){
     return <>
             <div id="fourme-optimize-title" className="wide">
-                <div className="grid">
+                <section className="grid">
                     <div className="col-1-5">
                         <h3 className="mtb">How Autom Mate boost your Services</h3>
                     </div>
@@ -19,11 +19,11 @@ export default function AutomMateBoxes(){
                         Autom Mate has ready to use library actions that meet all your business needs and are expanding every day. You can design your automation process to automate your manual process with these actions easily by using the drag-drop menu. This capability makes automation of all business processes easier, faster, and more cost-efficient. After developing your process, you can enable them with attended and unattended robots. Thus, you can get rid of the process that you do manually and routinely that do not add value to you. 
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
 
             <div id="fourme-optimize-boxes" className="wide">
-                <div className="grid-center gap-5">
+                <section className="grid-center gap-5">
 
                         <div className="col-1-5 autom-mate-box">
                             <Image src={icon_flow_chart} width={160} height={90} alt="Service Engagement Experience Icon"></Image>
@@ -50,7 +50,7 @@ export default function AutomMateBoxes(){
                             <p className="bold">Frequent Integrations by domain:</p>   
                         </div>
 
-                </div>
+                </section>
             </div>
     
     </>

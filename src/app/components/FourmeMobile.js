@@ -20,8 +20,8 @@ import screens_mobile from "../../../public/screens/screens_mobile.png"
 export default function FourmeMobile(){
   return (
     <>
-    <div className="wide ptb-mobile-medium">
-            <div id="fourme-mobile" className="grid">
+    <div className="wide">
+            <section id="fourme-mobile" className="grid">
               <div className="col-7-13 flex-row-center">
 
                 <Image src={screens_mobile} alt={"4me"} width={"1561"} height={"1217"} className="screen"/>
@@ -60,7 +60,7 @@ export default function FourmeMobile(){
                 
                 <Image src={six} alt={"4me"} width={"195"} height={"422"} className="col-11-13 screen"/> */}
                 
-            </div>
+            </section>
 
             {/* <div className="grid-center">
                 <div className="col-4-10 flex-column-center text-center">

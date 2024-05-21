@@ -6,7 +6,7 @@ export default function ProductsIntro() {
     <>
     <div className="wide">
 
-    <div id="" className="grid">
+        <section id="" className="grid">
         <div className="col-1-3">
         <div className="logo-4me-intro"></div>
         </div>
@@ -38,7 +38,7 @@ export default function ProductsIntro() {
         </div>
 
 
-    </div>
+        </section>
 
     </div>
     </>
