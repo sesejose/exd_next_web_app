@@ -2132,9 +2132,9 @@ footer ul.ul-logo li {
   text-align: left;
 }
 
-footer .ul-logo li:first-child {
-  /* padding: var(--plr-large); */
-}
+/* footer .ul-logo li:first-child {
+  padding: var(--plr-large);
+} */
 
 
 
@@ -2667,31 +2667,31 @@ a.post-link:hover .post-title {
   font-weight: 900;
   border-radius: var(--border-radius-100);
 }
-
+/* 
 .one {
-  /* background-color: var(--purple); */
-  /* color: var(--zero); */
+  background-color: var(--purple);
+  color: var(--zero);
 }
 .two {
-  /* background-color: var(--purple); */
-  /* color: var(--zero); */
+  background-color: var(--purple);
+  color: var(--zero);
 }
 .three {
-  /* background-color: var(--purple); */
-  /* color: var(--zero); */
+  background-color: var(--purple);
+  color: var(--zero);
 }
 .four {
-  /* background-color: var(--purple); */
-  /* color: var(--zero); */
+  background-color: var(--purple);
+  color: var(--zero);
 }
 .five {
-  /* background-color: var(--purple); */
-  /* color: var(--zero); */
+  background-color: var(--purple);
+  color: var(--zero);
 }
 .six {
-  /* background-color: var(--purple); */
-  /* color: var(--zero); */
-}
+  background-color: var(--purple);
+  color: var(--zero);
+} */
 
 .divisions-explained {
   display: grid;
