@@ -24,7 +24,7 @@ const SLIDE_COUNT = 5
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 
 const OPTIONS_LOGOS = { loop: true }
-const SLIDE_COUNT_LOGOS = 9
+const SLIDE_COUNT_LOGOS = 10
 const SLIDES_LOGOS = Array.from(Array(SLIDE_COUNT_LOGOS).keys())
 
 export default function Home() {
