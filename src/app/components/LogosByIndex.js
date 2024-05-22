@@ -1,5 +1,5 @@
 import logo0 from "../../../public/logos_clients/logo_novo_nordisk.svg"
-import logo1 from "../../../public/logos_clients/logo_milestone.svg"
+// import logo1 from "../../../public/logos_clients/logo_milestone.svg"
 import logo2 from "../../../public/logos_clients/logo_det.svg"
 import logo3 from "../../../public/logos_clients/logo_drc.svg"
 import logo4 from "../../../public/logos_clients/logo_7_eleven.svg"
@@ -10,7 +10,9 @@ import logo8 from "../../../public/logos_clients/logo_nets.svg"
 import logo9 from "../../../public/logos_clients/logo_region_hovedstaden.svg"
 
 
-export const logos = [logo0, logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9]
+// logo1
+export const logos = [logo0, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9]
+
 
 console.log(logos);
 

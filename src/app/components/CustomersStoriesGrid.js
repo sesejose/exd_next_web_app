@@ -50,7 +50,7 @@ export default function CustomersStoriesGrid() {
                     </Link>
 
                     {/* Milestone  */}
-                    <Link href={"/customers/milestone"} className="customer-story-container">
+                    {/* <Link href={"/customers/milestone"} className="customer-story-container">
                         <div className="customer-story-image-container">
                             <div className="customer-story-image milestone"></div>
                             <Image src={logo1} className="customer-logo" alt="image"></Image>
@@ -60,7 +60,7 @@ export default function CustomersStoriesGrid() {
                             <h4>Global IT (Information Technology) services</h4>
                             <p>Milestone Systems, the leading data-driven video technology company decided to streamline their internal services on the 4me platform. Using a standardized and simplified approach for providing user friendly and intuitive services to their employees has been the key driver for Milestone Systems.</p>
                         </div>
-                    </Link>
+                    </Link> */}
 
                     {/* DET */}
                     <Link href={"/customers/det"} className="customer-story-container">
