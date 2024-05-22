@@ -33,7 +33,7 @@ export default function CustomersLogos() {
                 <div className="flex-row-center"><Image src={logos[6]} width={160} height={90} alt="customer"></Image></div>
                 <div className="flex-row-center"><Image src={logos[7]} width={160} height={90} alt="customer"></Image></div>
                 <div className="flex-row-center"><Image src={logos[8]} width={160} height={90} alt="customer"></Image></div>
-                <div className="flex-row-center"><Image src={logos[9]} width={160} height={90} alt="customer"></Image></div>
+                {/* <div className="flex-row-center"><Image src={logos[9]} width={160} height={90} alt="customer"></Image></div> */}
                 
             </section>
 
