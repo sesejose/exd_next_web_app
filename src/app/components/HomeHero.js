@@ -10,8 +10,8 @@ export default function HeroHome() {
       <section className="heros-container grid-center">
         <div className="home-hero-image col-7-13"></div>
         <div className="home-hero-text col-1-7">
-        <h2>Liberate your potential with Service Management</h2>
-          <div className='text-1 bold'>By removing the unproductive friction, we release the full potential of your customers & employees.</div>
+          <h2>Liberate your potential with Service Management</h2>
+          <h4>By removing the unproductive friction, we release the full potential of your customers & employees.</h4>
           <p>
           Internal or external services can make or break your business regardless of if it is IT, finance, legal, HR or customer facing services. Many services in organizations are often partly manual and error prone in a nest of poorly integrated solutions. We simplify, streamline, and automate your business-critical services and processes.
           </p>
