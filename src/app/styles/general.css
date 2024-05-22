@@ -315,12 +315,12 @@ html, body {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
+  background-color: var(--zero);
 }
 
 body {
   font-family: var(--body-font);
-    color: var(--purple);
-    background-color: var(--zero);
+  color: var(--purple); 
 }
 
 * {
