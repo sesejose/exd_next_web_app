@@ -9,10 +9,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { Link } from 'next-view-transitions'
 import exd_logo_color from "../../../public/exd_logo_color.svg";
-import { Squash as Hamburger } from 'hamburger-react'
-
-//import Basket from "./Basket";
-// import general from "../../app/styles/general.css"
+import { Squash as Hamburger } from 'hamburger-react';
 
 export default function Nav() {
   //const context = useContext(Context);

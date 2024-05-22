@@ -124,9 +124,9 @@
 --hover-shadow: 0 20px 20px 0px rgba(0, 0, 0, 0.1);
   
 /* Images */
+/* --milestone: url('../../../public/milestone.jpg'); */
 --seven-eleven: url('../../../public/seven_eleven_butik.jpg');
 --drc: url('../../../public/drc.jpg');
-/* --milestone: url('../../../public/milestone.jpg'); */
 --det: url('../../../public/det.jpg');
 --novo: url('../../../public/novo.jpg');
   
@@ -536,9 +536,9 @@ a.customer-story-container:link, a.customer-story-container:focus, a.customer-st
 a.customer-story-container:hover {
 color: var(--purple-light) !important;
 }
+/* .customer-story-container .milestone,  */
 .customer-story-container .seven, 
 .customer-story-container .drc, 
-/* .customer-story-container .milestone,  */
 .customer-story-container .novo, 
 .customer-story-container .det {
   -webkit-transition: all 0.35s ease-in-out;
@@ -547,9 +547,9 @@ color: var(--purple-light) !important;
   transition: all 0.35s ease-in-out;
   scale: 100%;
 }
+/* a.customer-story-container:hover .milestone,  */
 a.customer-story-container:hover .seven, 
 a.customer-story-container:hover .drc, 
-/* a.customer-story-container:hover .milestone,  */
 a.customer-story-container:hover .novo, 
 a.customer-story-container:hover .det {
   -webkit-transition: all 0.35s ease-in-out;

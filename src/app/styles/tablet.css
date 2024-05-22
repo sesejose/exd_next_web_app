@@ -55,8 +55,6 @@
   #fourme-intro {
     width: 100%;
     height: auto;
-    /* margin: var(--mt-large); */
-    /* aspect-ratio: 16/9; */
   }
 
   #fourme-attributes-title {
@@ -78,12 +76,9 @@
     width: 120px;
     height: 120px;
     padding: var(--p);
-    /* border-radius: var(--border-radius-40); */
-    /* box-shadow: var(--btn-shadow); */
     position: absolute;
     top: -60px;
     left: 155px;
-    /* left: 272px; */
   }
 
   /* Customers Stories Page */

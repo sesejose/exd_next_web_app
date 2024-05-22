@@ -34,7 +34,7 @@ h4 {
   
     .logo {
       /* width: 4.375rem; */
-  /* max-width: 4.375rem; */
+      /* max-width: 4.375rem; */
       padding: 0;
     }
   
@@ -233,7 +233,6 @@ h4 {
 
     .home-hero-text, .solution-hero-text, .products-hero-text {
       flex-direction: column;
-      /* justify-content: space-around; */
       justify-content: center;
       align-items: flex-start;
       width: 100%;
