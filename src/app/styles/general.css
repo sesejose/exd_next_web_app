@@ -361,7 +361,7 @@ h3 {
 }
 h4 {
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.75rem;
 }
 .body-text {
@@ -1448,9 +1448,9 @@ ul#submenu {
   /* -webkit-text-fill-color: transparent; */
 }
 
-.home-hero-text h4 {
+/* .home-hero-text h4 {
   margin: 0;
-}
+} */
 
 .home-hero-image, .solution-hero-image, 
 .products-hero-image, 
