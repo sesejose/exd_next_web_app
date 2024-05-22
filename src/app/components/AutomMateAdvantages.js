@@ -8,12 +8,12 @@ export default function AutomMateAdvantages() {
 
             <section>
                 <div id="autom-mate-advantages-title">
-                <div className="grid ptb-mobile-medium">
-                    <h3 className="col-12">Market Place</h3>                
+                    <div className="grid ptb-medium">
+                        <h3 className="col-12">Market Place</h3>                
+                    </div>
                 </div>
-            </div>
 
-            <div id="autom-mate-advantages-boxes">
+                <div id="autom-mate-advantages-boxes" className="pb-medium">
                 <div className="autom-mate-advantages-container">
 
                         <div className="autom-mate-advantage p">
@@ -61,7 +61,7 @@ export default function AutomMateAdvantages() {
 
 
                 </div>
-            </div>
+                </div>
             </section>
 
             

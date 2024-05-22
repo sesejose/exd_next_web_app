@@ -17,7 +17,7 @@ const CarouselLogos = (props) => {
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay()])
 
   return (
-    <section className="embla_logos">
+    <div className="embla_logos">
       <div className="embla_logos_viewport" ref={emblaRef}>
         <div className="embla_logos_container">
           {slides.map((index) => (
@@ -33,7 +33,7 @@ const CarouselLogos = (props) => {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 

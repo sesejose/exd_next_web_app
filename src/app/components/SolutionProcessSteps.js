@@ -15,7 +15,7 @@ export default function SolutionProcessSteps() {
             <p className="red">Our Collaborative Journey</p>
             <h4>Transforming Visions into Reality</h4>
 
-            <p className="ptb-medium">
+            <p className="pb-medium">
             Embark on a collaborative journey with EXD (Experience Design), where we transform your vision into a digital reality. From framing value propositions to embracing digital adoption, our seamless process ensures innovation and collaboration. Let us shape the future together. 
             </p>
 

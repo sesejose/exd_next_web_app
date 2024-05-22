@@ -8,10 +8,11 @@ export default function FourmeHero() {
     <>
     <div className="wide">
       <section id="fourme-hero-bg">
-        <div className="grid-center">
+        <div className="grid-center ptb-mobile-medium">
           <div className="col-4-10">
-            <h2 className="mtb-medium">Revolutionize Service Management with 4me</h2>
-            <p className="mtb-medium">
+            <h2>Revolutionize Service Management with 4me</h2>
+
+            <p>
               <br></br>Step into the future of Employee Service Management with 4me, a next-generation platform that transcends traditional boundaries. In a world where collaboration is key, 4me seamlessly connects an organization&apos;s business support functions and external service providers, fostering a holistic approach to Service Integration and Management (SIAM).
 
               <br></br>At the core of 4me&apos;s innovation is the dismantling of &apos;silos of excellence.&apos; Here, each business support function typically operates within its defined practices, data storage, and systems for individual employee products and services. 4me breaks down these barriers, creating a unified structure that not only encourages collaboration but also enhances efficiency and data security simultaneously.
@@ -20,11 +21,13 @@ export default function FourmeHero() {
 
               <br></br>The innovative activity and data structure implemented by 4me simplifies the process of requesting products and services for employees. This results in a high-quality flow of information across business support functions and their suppliers. 4me not only streamlines requests but also elevates the overall flow of information, ensuring optimal service delivery.
             </p>
-            <div className="flex-column-center">
-            <Link href={'https://www.4me.com/videos/'} target="_blank" className="btn-secondary text-center">
-            Learn more about the 4me unique approach here
-                </Link>
+
+            <div className="flex-column-center ptb">
+              <Link href={'https://www.4me.com/videos/'} target="_blank" className="btn-secondary text-center">
+              Learn more about the 4me unique approach here
+              </Link>
             </div>
+
           </div>
 
         </div>

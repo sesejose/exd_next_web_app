@@ -5,10 +5,10 @@ import fourme_logo_white from "../../../public/fourme_logo_white.svg";
 export default function FourmeAdvantages() {
     return (
         <>
-        <div className="wide zero ptb-mobile-medium">
+        <div className="wide zero">
 
             <section>
-                <div id="fourme-advantages-title">
+                <div id="fourme-advantages-title" className="ptb-mobile-medium">
 
                 <div className="grid-center flex-row-center">
                     <h3 className="col-1-7">The 4me Advantages</h3>
@@ -45,6 +45,7 @@ export default function FourmeAdvantages() {
 
                     </div>
                 </div>
+                
             </section>
 
             

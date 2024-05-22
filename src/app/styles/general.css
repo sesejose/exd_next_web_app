@@ -246,7 +246,11 @@
 }
 
 .pb-medium {
-  margin: var(--pb-medium);
+  padding: var(--pb-medium);
+}
+
+.pt-medium {
+  padding: var(--pt-medium);
 }
 
 .ptb-medium {
@@ -265,7 +269,7 @@
   padding: var(--ptb-large);
 }
 
-.pb-large {
+.mb-large {
   margin: var(--pb-large);
 }
 
@@ -330,12 +334,10 @@ body {
     padding: 0;
 }
 
-*h1, *h2, *h3, *h4 {
-width: 100%;
-}
-
 h1, h2, h3, h4 {
+  width: 100%;
   font-family: var(--headlines) !important;
+  margin: var(--mb);
 }
 
 p, span, .counter, .body-text, .body-text-bold, .primary-text-button, .text-links-features, .text_secondary_buttons {
@@ -755,7 +757,7 @@ button,
   color: var(--zero) !important;
   background-color: var(--purple);
   border-radius: var(--border-radius-60);
-  margin: var(--mtb-medium);
+  margin: var(--mb);
   /* animation */
   -webkit-transition: background-color 0.25s ease-in-out;
   -moz-transition: background-color 0.25s ease-in-out;
@@ -1790,6 +1792,7 @@ ul.our-services li {
 
 #fourme-intro {
   width: 100%;
+  /* padding: var(--ptb-mobile-medium); */
   /* max-width: 1512px; */
   /* padding: var(--p); */
 }
@@ -1804,7 +1807,7 @@ ul.our-services li {
   background-position: center; */
   border: 10px solid var(--fifteen);
   box-shadow: var(--btn-shadow);
-  border-radius: var(--border-radius-20);
+  border-radius: var(--border-radius-10);
 }
 
 .screen {
@@ -1854,7 +1857,7 @@ ul.our-services li {
   min-height: 160px;
 }
 .fourme-advantage h1 {
-  min-width: fit-content;
+  width: fit-content;
 }
 
 .wide:has(#fourme-attributes){
@@ -2705,7 +2708,7 @@ a.post-link:hover .post-title {
   justify-content: flex-start;
   align-items: start;
   /* text-align: left; */
-  padding: var(--pt);
+  padding: var(--pt-medium);
 }
 
 .divisions-explained > div span {

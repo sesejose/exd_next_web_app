@@ -28,7 +28,7 @@ export default function HomeAdvantages() {
         <div id="home-advantages">
           {/* Advantage one */}
 
-          <div className="grid">
+          <div className="grid ptb-mobile-medium">
           
             <div className="col-1-5 home-advantage-et">
               <div className="icons-gradient icons-advantages">

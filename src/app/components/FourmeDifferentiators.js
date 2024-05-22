@@ -17,7 +17,7 @@ export default function FourmeDifferentiators() {
             </div>
 
             <div id="fourme-differentiators">
-                    <div className="grid flex-column-center">
+                <div className="grid-center flex-column-center pb-medium">
                         <div id='pyramid' className="col-1-7">
                             <div className='divisions'>
                                 <div className="one">
@@ -43,38 +43,38 @@ export default function FourmeDifferentiators() {
                                     <span>1</span>
                                     <div>Architecture & Trust</div>
                                 </div>
-                                <div className=''>4me&apos;s robust architecture ensures high reliability and security, built on a multi-tenant platform that guarantees data integrity and privacy. Trust is at the core of our design, providing a dependable foundation for all your service management needs.</div>
+                                <div className=''>4me&apos;s multi-tenant architecture ensures high reliability and data security, providing a trusted foundation for your service management needs.</div>
                             </div>
                             <div className="flex-column-left">
                                 <div className='flex-row-left  bold'>
                                     <span>2</span>
                                     <div>Service Centric Framework</div>
                                 </div>
-                                <div className=''>Our service-centric framework focuses on the seamless delivery of services. It allows for efficient collaboration between internal and external service providers, ensuring that all aspects of service management are streamlined and integrated, leading to higher service quality and satisfaction.</div>
+                                <div className=''>Our framework streamlines service delivery, enhancing collaboration between internal and external providers for improved service quality.</div>
                             </div>
                             <div className="flex-column-left">
                                 <div className='flex-row-left bold'>
                                     <span>3</span>
                                     <div>Standardisation & Extendability All-in-One</div>
                                 </div>
-                                <div className=''>4me combines standardization with flexibility, offering a unified platform that supports both out-of-the-box functionality and extensive customization. This all-in-one approach allows you to standardize processes while extending capabilities to meet unique business requirements without compromising on performance.</div>
+                                <div className=''>4me offers both standardization and customization, enabling you to standardize processes while tailoring capabilities to your specific needs.</div>
                             </div>
                             <div className="flex-column-left">
                                 <div className='flex-row-left bold'>
                                     <span>4</span>
                                     <div>Automatic Weekly Upgrades</div>
                                 </div>
-                                <div className=''>Stay ahead with 4me&apos;s automatic weekly upgrades, which ensure that you always have the latest features and improvements without any disruption to your operations. This continuous enhancement process keeps your service management system current and competitive.</div>
+                                <div className=''>Benefit from 4me&apos;s automatic weekly upgrades, keeping your service management system up-to-date with the latest features without disruptions.</div>
                             </div>
                             <div className="flex-column-left">
                                 <div className='flex-row-left bold'>
                                     <span>5</span>
                                     <div>Visible Total Cost of Ownership (TCO)</div>
                                 </div>
-                                <div className=''>4me provides complete transparency into the total cost of ownership, helping you manage and forecast expenses effectively. With clear visibility into all cost components, you can make informed decisions and optimize your investments in service management.</div>
+                                <div className=''>4me provides transparent insights into the total cost of ownership, allowing for better cost management and investment optimization.</div>
                             </div>
                         </div>
-                    </div>
+                </div>
             </div>
             </section>
 

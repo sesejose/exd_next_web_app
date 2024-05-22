@@ -8,10 +8,10 @@ export default function SolutionUsm() {
 
         <section>
             <div className="grid">
-        <h3 className="col-12 pt-mobile-medium">Unified Service Management (USM)</h3>
-        </div>
+        <h3 className="col-12">Unified Service Management (USM)</h3>
+            </div>
 
-        <div id="solution-usm" className="grid">
+            <div id="solution-usm" className="grid">
         <div className="col-1-9">
             <div className="text-1">
                 In today&apos;s fast-paced and interconnected world, effective management of service delivery is crucial for organizations across industries. Whether it is IT (Information Technology) services, customer support, or facility management, the ability to deliver high-quality services efficiently can make or break a business. 
@@ -80,7 +80,7 @@ export default function SolutionUsm() {
                 
           
         </div>
-        </div>
+            </div>
         </section>
 
         

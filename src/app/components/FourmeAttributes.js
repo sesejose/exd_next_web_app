@@ -7,9 +7,7 @@ export default function FourmeAttributes() {
         <div className="wide">
 
             <section>
-                <div id="fourme-attributes-title">
-
-                <div className="grid-center ptb-mobile-medium">
+                <div id="fourme-attributes-title" className="grid-center ptb-mobile-medium">
 
                     <div className='col-1-8'>
                         <h3>Elevate Your Service Management Experience with 4me</h3> 
@@ -23,12 +21,10 @@ export default function FourmeAttributes() {
                           <span className="material-symbols-rounded">arrow_forward</span>
                       </Link>
                     </div>
-                
-                </div>
             
-            </div>
+                </div>
 
-            <div id="fourme-attributes">
+                <div id="fourme-attributes">
                 <div className="fourme-attributes-container ">
                 {/* <div className="grid"> */}
 
@@ -136,7 +132,7 @@ export default function FourmeAttributes() {
 
 
                 </div>
-            </div>
+                </div>
             </section>
 
             

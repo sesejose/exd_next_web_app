@@ -11,11 +11,11 @@ export default function AboutMeetOurTeam() {
   
           <section id="meet-our-team">
   
-            <div className="grid-center ptb-mobile-medium">
+            <div className="grid-center pt-medium">
                 <div className="col-3-11 text-center"><h2>Meet our team</h2></div>
             </div>
 
-            <div className="grid-blog">
+            <div className="grid-blog ptb-mobile-medium">
                 {/* <div className="col-12 peter-lasse-container ptb-medium"> */}
 
                 {/* Gustav */}

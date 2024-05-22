@@ -1,5 +1,9 @@
 @media only screen and (min-width: 960px) {
 
+  .ptb-mobile-medium {
+    padding: var(--pb-medium) !important;
+  }
+
   section {
     padding: var(--p-large) !important;
   }
@@ -697,7 +701,7 @@ h4 {
   height: auto;
   max-width: 1512px;
   /* padding: var(--p-large); */
-  margin: var(--mt-large);
+  /* margin: var(--mt-large); */
   /* aspect-ratio: 16/9; */
 }
 
@@ -859,10 +863,10 @@ footer {
 }
 }
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1440px) {
 
   .heros-container {
-    height: 60vh;
+    height: 90vh !important;
   }
 
 }
