@@ -43,34 +43,34 @@ export default function SolutionUsm() {
                 <ul className="our-services">
                     <li className="bold">USM Downloads from the USM Portal:</li>
                     <li>
-                        <Link href={'http://google.com'} target="_blank" className="btn-download zero">
+                        <a href={'/download/An Introduction to USM.pdf'} target="_blank" className="btn-download zero" download="An Introduction to USM">
                             <div className="counter">An Introduction to USM – Document </div>
                             <span className="material-symbols-rounded">download</span>
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link href={'http://google.com'} target="_blank" className="btn-download zero">
+                        <a href={'/download/ESM the tool providers new cash cow.pdf'} target="_blank" className="btn-download zero" download="ESM the tool providers new cash cow">
                             <div className="counter">ESM the tool providers new cash cow – Document</div>
                             <span className="material-symbols-rounded">download</span>
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link href={'http://google.com'} target="_blank" className="btn-download zero">
+                        <a href={'/download/ESM with USM 20 guidelines.pdf'} target="_blank" className="btn-download zero" download="ESM with USM 20 guidelines">
                             <div className="counter">ESM with USM 20 guidelines – Document</div>
                             <span className="material-symbols-rounded">download</span>
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link href={'http://google.com'} target="_blank" className="btn-download zero">
+                        <a href={'/download/Government as a service provider.pdf'} target="_blank" className="btn-download zero" download="Government as a service provider">
                             <div className="counter">Government as a service provider – Document</div>
                             <span className="material-symbols-rounded">download</span>
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link href={'http://google.com'} target="_blank" className="btn-download zero">
+                        <a href={'/download/Demystifying the term process.pdf'} target="_blank" className="btn-download zero" download="Demystifying the term process">
                             <div className="counter">Demystifying the term process – Document</div>
                             <span className="material-symbols-rounded">download</span>
-                        </Link>
+                        </a>
                     </li>
                 </ul>
             </div>
