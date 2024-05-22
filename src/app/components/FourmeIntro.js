@@ -13,7 +13,7 @@ export default function FourmeIntro() {
             </div> */}
 
             <section className="flex-column-center">
-                <video id="fourme-intro" width="320" height="171" controls preload="none" loop muted autoPlay className="fourme-intro">
+                <video id="fourme-intro" width="320" height="171" controls preload="none" loop muted className="fourme-intro">
                     <source src="/fourme_self_service_desktop.mp4" type="video/mp4" />
                     {/* <track
                         src="/path/to/captions.vtt"
