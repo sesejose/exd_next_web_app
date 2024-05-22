@@ -1600,7 +1600,6 @@ ul#submenu {
 #solution-ready {
   text-align:left;
   /* padding: 0; */
-
 }
 
 /* Accordion */
@@ -1638,7 +1637,11 @@ ul#submenu {
 }
 
 .accordion__button {
-  
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  margin: 0 !important;
+  /**/
   color: var(--purple) !important;
   cursor: pointer;
   padding: var(--p-medium);
@@ -1656,7 +1659,7 @@ ul#submenu {
 .accordion__button:hover {
   /* background-color: var(--gray); */
   color: var(--zero) !important;
-  background-color: var(--purple-light) !important;
+  background-color: var(--purple) !important;
 }
 
 .accordion__button:before {
