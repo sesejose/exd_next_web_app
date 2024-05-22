@@ -126,7 +126,7 @@
 /* Images */
 --seven-eleven: url('../../../public/seven_eleven_butik.jpg');
 --drc: url('../../../public/drc.jpg');
---milestone: url('../../../public/milestone.jpg');
+/* --milestone: url('../../../public/milestone.jpg'); */
 --det: url('../../../public/det.jpg');
 --novo: url('../../../public/novo.jpg');
   
@@ -538,7 +538,7 @@ color: var(--purple-light) !important;
 }
 .customer-story-container .seven, 
 .customer-story-container .drc, 
-.customer-story-container .milestone, 
+/* .customer-story-container .milestone,  */
 .customer-story-container .novo, 
 .customer-story-container .det {
   -webkit-transition: all 0.35s ease-in-out;
@@ -549,7 +549,7 @@ color: var(--purple-light) !important;
 }
 a.customer-story-container:hover .seven, 
 a.customer-story-container:hover .drc, 
-a.customer-story-container:hover .milestone, 
+/* a.customer-story-container:hover .milestone,  */
 a.customer-story-container:hover .novo, 
 a.customer-story-container:hover .det {
   -webkit-transition: all 0.35s ease-in-out;
@@ -1955,9 +1955,9 @@ a.customer-story-container:hover {
 .drc {
   background-image: var(--drc);
 }
-.milestone {
+/* .milestone {
   background-image: var(--milestone);
-}
+} */
 .novo {
   background-image: var(--novo);
 }
