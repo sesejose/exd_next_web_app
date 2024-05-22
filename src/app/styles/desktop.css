@@ -243,11 +243,6 @@ h4 {
       position: relative;
     }
 
-    /* .home-hero-text h4 {
-      font-size: 1.5rem;
-      margin: 0;
-    } */
-
     /* Home Advantages */
 
     .icons_home_advantages {
@@ -710,14 +705,6 @@ h4 {
   text-align: left !important;
 }
 
-/* .fourme-attributes-container, .fourme-optimize-container, .autom-mate-advantages-container {
-  padding: var(--p-large) !important;
-} */
-
-/* .autom-mate-advantages-container {
-  padding: var(--p-large);
-} */
-
 .fourme-attribute, .fourme-optimize, .autom-mate-advantage {
   /* max-width: 23.4%; */
   max-width: calc(25% - 22.5px);
@@ -819,10 +806,6 @@ footer {
   footer ul.some {
     grid-column: 11 / 13;
   }
-  /* footer ul .trustpilot {
-    grid-column: 5 / 6;
-    margin: var(--mtb);
-  } */
 
   .contact-info-footer {
     grid-column: 1 / -1;

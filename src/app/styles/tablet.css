@@ -21,13 +21,6 @@
     text-align: left;
   }
 
-  /* .wide {
-    padding: var(--p-large);
-  } */
-
-  /* .grid, .grid-center, .grid-blog, .grid, .grid-center, .grid-stories, .grid-blog, .grid-stories{ */
-    /* padding: 0; */
-  /* } */
 
   .grid-blog {
     grid-template-columns: 1fr 1fr;
@@ -69,10 +62,6 @@
   #fourme-attributes-title {
     text-align: center;
   }
-
-  /* .fourme-attribute, .fourme-optimize, .autom-mate-advantage {
-    max-width: 277px;
-  } */
   
   #customers-logos, #meet-our-team {
     flex-direction: row;

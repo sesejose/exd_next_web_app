@@ -23,7 +23,7 @@ export default function SolutionProcessSteps() {
             {/* New item  */}
             <AccordionItem>
               <AccordionItemHeading>
-                <AccordionItemButton><div>Value Framing</div></AccordionItemButton>
+                <AccordionItemButton>Value Framing</AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel>
                 <p>Value framing is the part of our engagement where we align with the customer why the initiative is relevant and how it creates value. We emphasize with the customer to understand the context, identify the stakeholders, and ensure that we document a clear value proposition/vision for how the initiative will create value in the future.​</p>
@@ -32,7 +32,7 @@ export default function SolutionProcessSteps() {
             {/* New item  */}
             <AccordionItem>
               <AccordionItemHeading>
-                <AccordionItemButton><div>Flow of Work​</div></AccordionItemButton>
+                <AccordionItemButton>Flow of Work​</AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel>
                 <p>As we understand Value Framing and the stakeholders, we need to get familiar with the Flow of Work to be transformed into a Digital Product. In this iteration we discuss and visualize how people, tasks and authorizations are involved and how they create value to different stakeholders.<br></br>As digital transformation is heavily dependent on good data, we need to understand the current data quality to establish the required flow of information needed to deliver the agreed value. This is also crucial for reports and dashboards required to manage the digital product in the future.​</p>
@@ -41,7 +41,7 @@ export default function SolutionProcessSteps() {
             {/* New item  */}
             <AccordionItem>
               <AccordionItemHeading>
-                <AccordionItemButton><div>Digital Adoption​</div></AccordionItemButton>
+                <AccordionItemButton>Digital Adoption</AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel>
                 <p>As we are getting insights to the Flow of Work and the information related to it, we start building the Digital Product as an iterative development approach. As part of insight and development iterations we document the requirements to be used for testing and verifications.<br></br>Along the way we ensure rapid demonstrations and dialogs to validate and clarify identified opportunities, constraints and decisions supporting each identified requirement.​</p>
@@ -50,7 +50,7 @@ export default function SolutionProcessSteps() {
             {/* New item  */}
             <AccordionItem>
               <AccordionItemHeading>
-                <AccordionItemButton><div>Digital Realization​</div></AccordionItemButton>
+                <AccordionItemButton>Digital Realization</AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel>
                 <p>As requirements and the Digital Product are being finalized, we will start the handover and testing of the solution. This will include activities like communication & training, support readiness, testing & validation, and clear plan for the go-live activities. As the go-live is completed a model feedback loop is established to catch issues, feedback and enhancements captured from users & stakeholders. Priorities, plans and communication for how to implement suggested features and issues are established as part of the Operating Model for the new digital product.​</p>
