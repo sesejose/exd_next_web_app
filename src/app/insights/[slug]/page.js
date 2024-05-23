@@ -7,7 +7,7 @@ import { Link } from 'next-view-transitions'
 
 // It receive the {params} from the component Article.js dynamic URL
 // If I console.log the params => I'll see that this is the slug defined in the link of the component
-// It uses those { params } to fetch the article clicked from the list at blog/page.js
+// It uses those { params } to fetch the article clicked from the list at insights/page.js
 // Then it defines the variable { post } to set up the elements for the details in the return
 
 

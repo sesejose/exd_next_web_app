@@ -109,7 +109,7 @@ export default function Nav() {
                 </Link>
               </li>
               {/* <li>
-                <Link href={'/blog'}>
+                <Link href={'/insights'}>
                   <p>Insights</p>
                 </Link>
               </li>     */}
@@ -144,7 +144,7 @@ export default function Nav() {
               </div>
             </Link> */}
 
-                {/* <div className="counter">Menu</div> */}
+            {/* <div className="counter">Menu</div> */}
 
             <div className="open">
             <Hamburger size={24} 
@@ -197,7 +197,7 @@ export default function Nav() {
               </Link>
             </li>
             {/* <li>
-              <Link href={"/blog"} onClick={closeMenu}>
+              <Link href={"/insights"} onClick={closeMenu}>
                 Insights
               </Link>
             </li> */}

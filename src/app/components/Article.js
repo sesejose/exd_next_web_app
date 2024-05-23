@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Link } from 'next-view-transitions'
 // import { catUrl } from "../../app/config.js"
 
-// This component receives the props {article} from the blog/page.js
+// This component receives the props {article} from the insights/page.js
 // Uses that props to set up the card for each article in the list
 // Each card links to the article [slug]
 // It will open the article --> page.js inside the [slug]
@@ -21,8 +21,8 @@ export default function Article({ id, category, title, image, excerpt, bodyHeadl
   return (
     <>
       
-      <Link href={`/blog/${slug}`} key={id} className="post-link">
-      {/* <Link href={`/blog/${article.slug}`} key={article.id} article={article} className="post-link"> */}
+      <Link href={`/insights/${slug}`} key={id} className="post-link">
+      {/* <Link href={`/insights/${article.slug}`} key={article.id} article={article} className="post-link"> */}
         <div className="post">
           <div className="post-img-container">
             <Image src={image} width={160} height={90} alt="Image"></Image>
@@ -50,4 +50,4 @@ export default function Article({ id, category, title, image, excerpt, bodyHeadl
 // {/* <Image src={article["_embedded"]["wp:featuredmedia"]["0"].link} width={160} height={90} alt="Image"></Image>
 // <p className="post-category">{allCat.map((cat) => (cat.name))}</p>
 // <p className="post-category">{artCat.name}</p>
-// <Link href={`/blog/${article.slug}`} className="btn-card">Læs mere</Link> */}
+// <Link href={`/insights/${article.slug}`} className="btn-card">Læs mere</Link> */}

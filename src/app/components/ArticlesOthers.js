@@ -14,7 +14,7 @@ export default function ArticleOthers({ article }) {
 
   return (
     <>
-      <Link href={`/blog/${article.slug}`} key={article.id} article={article} className="post-link">
+      <Link href={`/insights/${article.slug}`} key={article.id} article={article} className="post-link">
         <div className="post">
           <div className="img-cat-container">
             {/* <Image src={article.img.guid} width={160} height={90} alt="Image"></Image> */}
