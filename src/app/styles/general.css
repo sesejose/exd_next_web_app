@@ -11,43 +11,43 @@
   
 /* Colors */
   
---blue: rgba(44,12,173,1) 0%; /*#2C0CAD*/
---steel-blue: rgba(45, 65, 85, 1); /*#2D4155*/
---cyan: rgba(15, 193, 229, 1); /*#0FC1E5*/
---light-blue: rgba(69, 118, 187, 1); /*#4576BB*/
---purple: rgba(86, 68, 153, 1); /*#564499*/
---purple-light: rgba(187, 180, 214, 1); /*BBB4D6*/
---pink: rgba(255, 68, 153, 1); /*#FF4499*/
---orange: rgba(239, 57, 34, 1); /*#EF3922 #F9533D*/
---red: rgba(255, 64, 44, 1); /*#FF402C*/
+--blue: rgb(44, 12, 173) 0%; /*#2C0CAD*/
+--steel-blue: rgb(45, 65, 85); /*#2D4155*/
+--cyan: rgb(15, 193, 229); /*#0FC1E5*/
+--light-blue: rgb(69, 118, 187); /*#4576BB*/
+--purple: rgb(86, 68, 153); /*#564499*/
+--purple-light: rgb(187, 180, 214); /*BBB4D6*/
+--pink: rgb(255, 68, 153); /*#FF4499*/
+--orange: rgb(239, 57, 34); /*#EF3922 #F9533D*/
+--red: rgb(255, 64, 44); /*#FF402C*/
 
 
 
---zero: #ffffff;
---five: #fafafa;
---fifteen: #eeeeee;
---twenty: #e6e6e6;
---thirty: #dfdfdf;
---forty: #dcdcdc;
---fifty: #d0d0d0;
---sixty: #bfbfbf;
---seventy: #ababab;
---eighty: #656565;
---ninety: #484848;
---houndred: #222222;
+--zero: rgb(255, 255, 255);
+--five: rgb(250, 250, 250);
+--fifteen: rgb(238, 238, 238);
+--twenty: rgb(230, 230, 230);
+--thirty: rgb(223, 223, 223);
+--forty: rgb(220, 220, 220);
+--fifty: rgb(208, 208, 208);
+--sixty: rgb(191, 191, 191);
+--seventy: rgb(171, 171, 171);
+--eighty: rgb(101, 101, 101);
+--ninety: rgb(72, 72, 72);
+--houndred: rgb(34, 34, 34);
       
 /* Gradients */
---gradient-purple-dark-blue: linear-gradient(360deg, rgba(86,68,153,1) 0%, rgba(45,65,85,1) 100%);
---gradient-purple-light-blue: linear-gradient(180deg, rgba(86,68,153,1) 0%, rgba(69, 118, 187, 1) 100%);
---gradient-cyan-purple: linear-gradient(360deg, rgba(15, 193, 229, 1) 0%, rgba(86, 68, 153, 1) 100%);
+--gradient-purple-dark-blue: linear-gradient(360deg, rgb(86,68,153) 0%, rgb(45,65,85) 100%);
+--gradient-purple-light-blue: linear-gradient(180deg, rgb(86,68,153) 0%, rgb(69, 118, 187) 100%);
+--gradient-cyan-purple: linear-gradient(360deg, rgb(15, 193, 229) 0%, rgb(86, 68, 153) 100%);
 
---gradient-exd: linear-gradient(to right, rgba(15,193,229,1) 0%, rgba(44,12,173,1) 35%, rgba(44,12,173,1) 65%, rgba(239, 57, 34, 1) 100%);
+--gradient-exd: linear-gradient(to right, rgb(15,193,229) 0%, rgb(44,12,173) 35%, rgb(44,12,173) 65%, rgb(239, 57, 34, 1) 100%);
 
---gradient-blue-cyan: linear-gradient(0deg, rgba(15,193,229,1) 0%, rgba(44,12,173,1) 100%);
---gradient-light-blue-purple: linear-gradient(360deg, rgba(69,118,187,1) 0%, rgba(86,68,153,1) 100%);
---gradient-cyan-light-blue: linear-gradient(360deg, rgba(15,193,229,1) 0%, rgba(69,118,187,1) 100%);
---gradient-orange-purple: linear-gradient(360deg, rgba(239,57,34,1) 0%, rgba(86,68,153,1) 100%);
---gradient-zero-fifteen: linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(238,238,238,1) 65%);
+--gradient-blue-cyan: linear-gradient(0deg, rgb(15,193,229) 0%, rgb(44,12,173) 100%);
+--gradient-light-blue-purple: linear-gradient(360deg, rgb(69,118,187) 0%, rgb(86,68,153) 100%);
+--gradient-cyan-light-blue: linear-gradient(360deg, rgb(15,193,229) 0%, rgb(69,118,187) 100%);
+--gradient-orange-purple: linear-gradient(360deg, rgb(239,57,34) 0%, rgb(86,68,153) 100%);
+--gradient-zero-fifteen: linear-gradient(360deg, rgb(255,255,255) 0%, rgb(238,238,238) 65%);
 
   
 /*Margins*/
@@ -471,28 +471,28 @@ section {
       
 /* Gradients as classes (We need to fix them!) */
 .purple-dark-blue {
-  color: linear-gradient(180deg, #564499 0%, #2D4155 100%);}
+  color: linear-gradient(180deg, rgb(86, 68, 153) 0%, rgb(45, 65, 85) 100%);}
 
 .cyan-purple {
-  color: linear-gradient(180deg, rgba(15, 193, 229, 1) 0%, rgba(86, 68, 153, 1) 100%);}
+  color: linear-gradient(180deg, rgb(15, 193, 229) 0%, rgb(86, 68, 153) 100%);}
 
 .gradient-purple-dark-blue {
-  color: linear-gradient(360deg, rgba(86,68,153,1) 0%, rgba(45,65,85,1) 100%); }
+  color: linear-gradient(360deg, rgb(86,68,153) 0%, rgb(45,65,85) 100%); }
 
 .gradient-exd {
-  color: linear-gradient(360deg, rgba(239,57,34,1) 0%, rgba(86,68,153,1) 100%);}
+  color: linear-gradient(360deg, rgb(239,57,34) 0%, rgb(86,68,153) 100%);}
 
 .gradient-light-blue-purple {
-  color: linear-gradient(360deg, rgba(69,118,187,1) 0%, rgba(86,68,153,1) 100%);}
+  color: linear-gradient(360deg, rgb(69,118,187) 0%, rgb(86,68,153) 100%);}
 
 .gradient-cyan-light-blue {
-  color: linear-gradient(360deg, rgba(15,193,229,1) 0%, rgba(69,118,187,1) 100%); }
+  color: linear-gradient(360deg, rgb(15,193,229) 0%, rgb(69,118,187) 100%); }
 
 .gradient-red-purple {
-  color: linear-gradient(360deg, rgba(255, 64, 44, 1) 0%, rgba(86,68,153,1) 100%); }
+  color: linear-gradient(360deg, rgb(255, 64, 44) 0%, rgb(86,68,153) 100%); }
 
 .gradient-zero-fifteen {
-  color: linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(238,238,238,1) 65%);}
+  color: linear-gradient(360deg, rgb(255,255,255) 0%, rgb(238,238,238) 65%);}
 
   
   .text-center {
@@ -706,12 +706,9 @@ button,
 
 .btn:hover {
   box-shadow: var(--hover-shadow);
-  /* background-color: rgba(255, 255, 255, 0.9); */
-  /* border: 2px solid var(--five); */
 }
 
 .btn-10 {
-  /* width: fit-content; */
   height: 90px;
   padding: 15px 32px;
   text-decoration: none;
@@ -1423,7 +1420,7 @@ ul#submenu {
 }
 
 .home-hero-text {
-  background: -webkit-linear-gradient(rgba(44,12,173,1), rgba(239, 57, 34, 1));
+  background: -webkit-linear-gradient(rgb(44,12,173), rgb(239, 57, 34));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1496,7 +1493,7 @@ ul#submenu {
 /* Home Revolutioning */
 
 .wide:has(#home-revolution) {
-  background: linear-gradient(315deg,rgba(44,12,173,1) 0%,rgba(239, 57, 34, 1) 100%);
+  background: linear-gradient(315deg,rgb(44,12,173) 0%,rgb(239, 57, 34) 100%);
 }
 
 .home-revolution-text {
@@ -1726,7 +1723,7 @@ ul.our-services li {
 }
 .wide:has(#products-parallax), 
 .wide:has(#products-ready) {
-  background: linear-gradient(135deg, rgba(15,193,229,1) 0%, rgba(44,12,173,1) 50%, rgba(239, 57, 34, 1) 100%);
+  background: linear-gradient(135deg, rgb(15,193,229) 0%, rgb(44,12,173) 50%, rgb(239, 57, 34) 100%);
   color: var(--zero);
   min-height: 400px;
 }
@@ -1864,7 +1861,7 @@ ul.our-services li {
 .fourme-attribute, .fourme-optimize, .autom-mate-box, .autom-mate-advantage {
   width: 100%;
   max-width: 100%;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgb(255, 255, 255);
   backdrop-filter: blur(80px);
   padding: var(--p);
   border-radius: var(--border-radius-20);
@@ -1998,7 +1995,7 @@ a.customer-story-container:hover {
 /* About Us */
 
 .wide:has(#about-mission-vision) {
-  background: linear-gradient(315deg,rgba(44,12,173,1) 0%,rgba(239, 57, 34, 1) 100%);
+  background: linear-gradient(315deg,rgb(44,12,173) 0%,rgb(239, 57, 34) 100%);
 }
 
 .vision, .mission {
