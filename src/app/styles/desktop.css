@@ -608,7 +608,6 @@ h4 {
  background-size: cover;
 }
 
-
 .offerings {
   /* height: 500px; */
   aspect-ratio: 1 / 1;
@@ -634,8 +633,8 @@ h4 {
 
 #solution-ready {
   text-align:center;
-  /* padding: var(--ptb-large); */
 }
+
 .btn-purple {
   margin: var(--m-auto);
 }
