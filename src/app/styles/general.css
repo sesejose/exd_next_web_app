@@ -1173,6 +1173,7 @@ ul#submenu {
   /* grid-template-rows: 1fr; */
   gap: 1.875rem;
   width: 100%;
+  max-width: 100%;
   margin: var(--m-auto);
   position: relative;
   /* padding: var(--p); */
@@ -2322,7 +2323,7 @@ a.post-link:hover .post-title {
 
 .title-article-opened {
   width: 100%;
-  margin-top: -155px;
+  margin-top: -148px;
   background-color: var(--zero);
   border-radius: var(--border-radius-top-20);
   display: flex;
