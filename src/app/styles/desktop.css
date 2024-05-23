@@ -244,7 +244,6 @@ h4 {
       width: 100%;
       overflow: hidden;
     }
-
     .home-revolution-text {
       flex-direction: column;
       justify-content: center;
@@ -254,12 +253,10 @@ h4 {
       text-align: left;
       position: relative;
     }
-
     .home-revolution-benefits {
       width: 100%;
       margin: var(--mb-large);
     }
-
     #home-advantages-title {
       padding: var(--ptb-large);
       text-align: left !important;

@@ -932,8 +932,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: var(--m-auto);
-  /* background-color: rgba(255, 255, 255, 0.55); */
-  backdrop-filter: blur(80px);
+  background-color: rgb(255, 255, 255);
+  /* backdrop-filter: blur(80px); */
   /* -webkit-text-fill-color: var(--purple) !important; */
   /* box-shadow: var(--shadow); */
   position: fixed;
@@ -982,7 +982,8 @@ nav ul {
   justify-content: flex-start;
   align-items: flex-start;
   padding: var(--p);
-  backdrop-filter: blur(80px);
+  background-color: rgb(255, 255, 255);m  
+  /* backdrop-filter: blur(80px); */
   /* -webkit-text-fill-color: var(--purple) !important; */
 }
 

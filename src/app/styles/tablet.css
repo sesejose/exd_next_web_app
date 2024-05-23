@@ -60,6 +60,8 @@
   #home-advantages-title {
     text-align: center;
   }
+
+  /* Autom Mate Page*/
   .autom-mate-box {
     padding: var(--p-medium);
   }
