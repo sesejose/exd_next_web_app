@@ -613,7 +613,6 @@ a.icons-gradient:hover {
   padding: var(--p);
   background-color: var(--purple);
   color: var(--zero);
-  /* background-color: var(--purple-light); */
   box-shadow: var(--shadow);
   border-radius: var(--border-radius-20);
   /* color: var(--gradient-exd); */

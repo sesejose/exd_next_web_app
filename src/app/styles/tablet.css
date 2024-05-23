@@ -8,7 +8,6 @@
   }
   
   /* Hero Image */
-  
   .home-hero-image, .solution-hero-image, .products-hero-image, .customers-stories-hero-image , .home-revolution-image, .autom-mate-hero-image {
     width: 80%;
     margin: var(--mt-medium);
@@ -16,22 +15,19 @@
   .insights-hero-image, .about-hero-image {
     margin: var(--mt-medium);
   }
-
   .home-hero-text, .solution-hero-text, .products-hero-text, .customers-stories-hero-text, .about-hero-text, .insights-hero-text {
     text-align: left;
   }
 
-
+  /* Grid */
   .grid-blog {
     grid-template-columns: 1fr 1fr;
   }
-
   a.post-link, .post {
     width: 100%;
   }
 
   /* Products */
-
   #products-parallax {
     font-size: 8rem !important;
     letter-spacing: -8px;
@@ -51,24 +47,19 @@
   }
 
   /* Fourme Page */
-
   #fourme-intro {
     width: 100%;
     height: auto;
   }
-
   #fourme-attributes-title {
     text-align: center;
   }
-  
   #customers-logos, #meet-our-team {
     flex-direction: row;
   }
-
   #home-advantages-title {
     text-align: center;
   }
-
   .autom-mate-box {
     padding: var(--p-medium);
   }
@@ -82,12 +73,9 @@
   }
 
   /* Customers Stories Page */
-
   .customer-story-description {
     height: 50%;
     padding: var(--p-medium);
   }
-
-
   
 }
