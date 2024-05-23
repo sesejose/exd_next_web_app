@@ -53,7 +53,7 @@ export default function Insights() {
     <>
     <InsightsHero></InsightsHero>
     <div className="wide">
-      <div className="grid-blog">
+      <div className="grid-blog padding">
         {articles.map(article => (
           <Article 
 
