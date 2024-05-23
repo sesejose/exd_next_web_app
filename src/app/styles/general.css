@@ -2270,7 +2270,8 @@ footer ul li a.close {
 
 .post-description .post-excerpt {
   white-space: normal;
-  height: 150px;
+  /* height: 150px; */
+  height: auto;
   overflow: hidden;
   text-overflow: ellipsis " [..]";
   -o-text-overflow: ellipsis " [..]";

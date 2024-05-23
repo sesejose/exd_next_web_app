@@ -814,19 +814,19 @@ footer {
   }
 
   /* Blog */
-.article-main-image{
-  height: 805.5px;
-}
-.title-article-opened {
-  margin-top: -132px;
-}
-.post-img-body {
-  width: 80%;
-  margin: var(--mtb-medium);
-}
-.overlay {
-  height: 805.5px;
-}
+  .article-main-image{
+    height: 805.5px;
+  }
+  .title-article-opened {
+    margin-top: -132px;
+  }
+  .post-img-body {
+    width: 80%;
+    margin: var(--mtb-medium);
+  }
+  .overlay {
+    height: 805.5px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
