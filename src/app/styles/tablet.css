@@ -45,6 +45,7 @@
     top: 0px;
   }
 
+  
   /* Fourme Page */
   #fourme-intro {
     width: 100%;
@@ -78,6 +79,6 @@
     height: 50%;
     padding: var(--p-medium);
   }
-  
+
   
 }
