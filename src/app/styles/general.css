@@ -2335,12 +2335,27 @@ a.post-link:hover .post-title {
   padding: var(--p-medium);
 }
 
-.post-img-body {
+/* .post-img-body {
   width: 100%;
   height: auto;
-  /* aspect-ratio: 1/1; */
   border-radius: var(--border-radius-10);
   margin: var(--mtb);
+} */
+
+.post-img-body {
+  position: relative;
+  width: 100%;  /* Adjust the width as necessary */
+  height: fit-content;
+  aspect-ratio: 16/9;
+  /* padding-bottom: 56.25%;  16:9 aspect ratio */
+}
+
+.post-img-body img {
+  position: relative;
+  height: auto !important;
+  border-radius: var(--border-radius-10);
+  object-fit: contain;  /* Or cover, depending on your needs */
+  /* padding: var(--ptb); */
 }
 
 

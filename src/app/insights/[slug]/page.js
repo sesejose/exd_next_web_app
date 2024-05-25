@@ -48,8 +48,8 @@ export default async function Post({ params }) {
      const renderImage = (imageUrl) => {
         if (imageUrl) {
             return (
-                <div className="image-container">
-                    <Image src={imageUrl} width={160} height={90} alt="Article Image" className="post-img-body" />
+                <div className="post-img-body">
+                    <Image src={imageUrl} layout="fill" objectFit="contain" alt="Article Image" />
                 </div>
             );
         }
