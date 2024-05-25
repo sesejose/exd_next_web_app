@@ -41,7 +41,7 @@
 --gradient-purple-light-blue: linear-gradient(180deg, rgb(86,68,153) 0%, rgb(69, 118, 187) 100%);
 --gradient-cyan-purple: linear-gradient(360deg, rgb(15, 193, 229) 0%, rgb(86, 68, 153) 100%);
 
---gradient-exd: linear-gradient(to right, rgb(15,193,229) 0%, rgb(44,12,173) 35%, rgb(44,12,173) 65%, rgb(239, 57, 34, 1) 100%);
+--gradient-exd: linear-gradient(to right, rgb(15,193,229) 0%, rgb(44,12,173) 35%, rgb(44,12,173) 65%, rgb(239, 57, 34) 100%);
 
 --gradient-blue-cyan: linear-gradient(0deg, rgb(15,193,229) 0%, rgb(44,12,173) 100%);
 --gradient-light-blue-purple: linear-gradient(360deg, rgb(69,118,187) 0%, rgb(86,68,153) 100%);
@@ -920,6 +920,7 @@ a.back:hover {
 
 main {
   padding-top: 60px ;
+  z-index: 0;
 }
 
 /* Nav */
@@ -1724,7 +1725,8 @@ ul.our-services li {
 }
 .wide:has(#products-parallax), 
 .wide:has(#products-ready) {
-  background: linear-gradient(135deg, rgb(15,193,229) 0%, rgb(44,12,173) 50%, rgb(239, 57, 34) 100%);
+  /* background: linear-gradient (135deg, rgb(15,193,229) 0%, rgb(44,12,173) 50%, rgb(239, 57, 34) 100%); */
+  background: linear-gradient(135deg, rgba(15,193,229,1) 0%, rgba(44,12,173,1) 50%, rgba(239, 57, 34, 1) 100%);
   color: var(--zero);
   min-height: 400px;
 }

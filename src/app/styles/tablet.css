@@ -41,11 +41,11 @@
   .wide:has(#products-parallax-window) {
     min-height: 600px;
   }
+
   .guiding {
     top: 0px;
   }
 
-  
   /* Fourme Page */
   #fourme-intro {
     width: 100%;
