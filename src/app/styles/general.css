@@ -919,6 +919,7 @@ a.back:hover {
 /* main */
 
 main {
+  position: relative;
   padding-top: 60px ;
   z-index: 0;
 }
