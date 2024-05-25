@@ -790,7 +790,6 @@ footer {
   footer ul.some {
     grid-column: 11 / 13;
   }
-
   .contact-info-footer {
     grid-column: 1 / -1;
     margin: var(--mtb);

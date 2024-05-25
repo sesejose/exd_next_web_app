@@ -41,7 +41,6 @@
   .wide:has(#products-parallax-window) {
     min-height: 600px;
   }
-
   .guiding {
     top: 0px;
   }
