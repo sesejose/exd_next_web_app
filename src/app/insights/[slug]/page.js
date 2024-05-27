@@ -76,7 +76,7 @@ export default async function Post({ params }) {
                             {/* <Image src={post.body_image_article.rendered} width={160} height={90} alt="Image" className="post-img-body" /> */}
                             {renderImage(post.body_image_article.rendered)}
                             <div className="span bold purple-light">{post.body_caption_article.rendered}</div>
-                            <h3 className="w-100 ptb-medium">{post.body_headline_article.rendered}</h3>
+                            <h3 className="w-100">{post.body_headline_article.rendered}</h3>
                             <div className="w-100 text-1">
                                 {renderParagraphs(post.body_text_article.value)}
                             </div>
