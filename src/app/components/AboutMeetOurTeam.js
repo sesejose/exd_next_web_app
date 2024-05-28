@@ -28,7 +28,7 @@ export default function AboutMeetOurTeam() {
                                 <p className='bold'>Digital Specialist</p>
                                 <p>Responsible for solution development and support.</p>
                                 <div className="flex-row-center contact-icons">
-                                    <Link href={"http://www.linkedin.com"} target="_blank" className="social">                                        
+                                    <Link href={"https://www.linkedin.com/in/gustav-lundstroem/"} target="_blank" className="social">                                        
                                     </Link>
                                     <Link href={"mailto:gl@exd.dk"} className="btn-secondary">
                                         <div>gl@exd.dk</div>
