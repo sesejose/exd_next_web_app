@@ -50,7 +50,7 @@ export default function AboutMeetOurTeam() {
                                 <p className='bold'>Advisor & Partner</p>
                                 <p>Responsible for customer enaggement & sales.</p>
                                 <div className="flex-row-center contact-icons">
-                                    <Link href={"http://www.linkedin.com"} target="_blank" className="social">
+                                    <Link href={"https://www.linkedin.com/in/jan-br%C3%B8ndum-8968931/"} target="_blank" className="social">
                                         {/* <Image src={linkedin_purple} alt="linkedin"/> */}
                                         
                                     </Link>
@@ -74,7 +74,7 @@ export default function AboutMeetOurTeam() {
                                 <p className='bold'>UX/UI & Digital Specialist</p>
                                 <p>Responsible for service portals, UI, solution development and support.</p>
                                 <div className="flex-row-center contact-icons">
-                                    <Link href={"http://www.linkedin.com"} target="_blank" className="social">
+                                    <Link href={"https://www.linkedin.com/in/sesejose/"} target="_blank" className="social">
                                         {/* <Image src={linkedin_purple} alt="linkedin"/> */}
                                         
                                     </Link>
@@ -98,7 +98,7 @@ export default function AboutMeetOurTeam() {
                                 <p className='bold'>Digital Specialist</p>
                                 <p>Responsible for solution development and support.</p>
                                 <div className="flex-row-center contact-icons">
-                                    <Link href={"http://www.linkedin.com"} target="_blank" className="social">
+                                    <Link href={"https://www.linkedin.com/in/maxlundstroem/"} target="_blank" className="social">
                                         {/* <Image src={linkedin_purple} alt="linkedin"/> */}
                                         
                                     </Link>
@@ -123,7 +123,7 @@ export default function AboutMeetOurTeam() {
                                 <p className='bold'>Digital Specialist</p>
                                 <p>Responsible for solution development and support.</p>
                                 <div className="flex-row-center contact-icons">
-                                    <Link href={"http://www.linkedin.com"} target="_blank" className="social">
+                                    <Link href={"https://www.linkedin.com/in/markus-hoffmann-lund/"} target="_blank" className="social">
                                         {/* <Image src={linkedin_purple} alt="linkedin"/> */}
                                         
                                     </Link>
@@ -147,7 +147,7 @@ export default function AboutMeetOurTeam() {
                                 <p className='bold'>Digital Advisor & Partner</p>
                                 <p>Responsible for solution advisory & customer engagement.</p>
                                 <div className="flex-row-center contact-icons">
-                                    <Link href={"http://www.linkedin.com"} target="_blank" className="social">
+                                    <Link href={"https://www.linkedin.com/in/lassekoch/"} target="_blank" className="social">
                                         {/* <Image src={linkedin_purple} alt="linkedin"/> */}
                                         
                                     </Link>
@@ -172,7 +172,7 @@ export default function AboutMeetOurTeam() {
                                 <p className='bold'>Service Management Advisor & Partner</p>
                                 <p>Responsible for service management advisory/training & customer engagement.</p>
                                 <div className="flex-row-center contact-icons">
-                                    <Link href={"http://www.linkedin.com"} target="_blank" className="social">
+                                    <Link href={"https://www.linkedin.com/in/peterravnholt/"} target="_blank" className="social">
                                         {/* <Image src={linkedin_purple} alt="linkedin"/> */}
 
                                     </Link>
