@@ -1475,6 +1475,10 @@ ul#submenu {
   grid-column: 1 / -1;
 }
 
+#home-advantages-title .btn-purple {
+  display: none;
+}
+
 #home-advantages {
   padding: var(--pb-mobile-medium);
 }
@@ -1780,24 +1784,17 @@ ul.our-services li {
   background: var(--five);
 }
 
-#fourme-intro {
-  width: 100%;
-  /* padding: var(--ptb-mobile-medium); */
-  /* max-width: 1512px; */
-  /* padding: var(--p); */
-}
-
 .fourme-intro {
   width: 100%;
+  border: 10px solid var(--fifteen);
+  box-shadow: var(--btn-shadow);
+  border-radius: var(--border-radius-10);
   /* object-fit: contain;
   aspect-ratio: 16/9;
   background-image: url("../../../public/screens/fourme-screenshot.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center; */
-  border: 10px solid var(--fifteen);
-  box-shadow: var(--btn-shadow);
-  border-radius: var(--border-radius-10);
 }
 
 .screen {
