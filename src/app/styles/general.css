@@ -1475,6 +1475,10 @@ ul#submenu {
   grid-column: 1 / -1;
 }
 
+#home-advantages-title .btn-purple {
+  display: none;
+}
+
 #home-advantages {
   padding: var(--pb-mobile-medium);
 }
@@ -1780,25 +1784,19 @@ ul.our-services li {
   background: var(--five);
 }
 
-#fourme-intro {
-  width: 100%;
-  /* padding: var(--ptb-mobile-medium); */
-  /* max-width: 1512px; */
-  /* padding: var(--p); */
-}
-
 .fourme-intro {
   width: 100%;
+  border: 10px solid var(--fifteen);
+  box-shadow: var(--btn-shadow);
+  border-radius: var(--border-radius-10);
   /* object-fit: contain;
   aspect-ratio: 16/9;
   background-image: url("../../../public/screens/fourme-screenshot.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center; */
-  border: 10px solid var(--fifteen);
-  box-shadow: var(--btn-shadow);
-  border-radius: var(--border-radius-10);
 }
+
 
 .screen {
   width: 100%;
@@ -2263,6 +2261,7 @@ footer ul li a.close {
 }
 
 .post-description {
+  height: 620px;
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
@@ -2273,14 +2272,14 @@ footer ul li a.close {
 
 .post-description .post-excerpt {
   white-space: normal;
-  /* height: 150px; */
+  height: fit-content !important;
   height: auto;
   overflow: hidden;
   text-overflow: ellipsis " [..]";
   -o-text-overflow: ellipsis " [..]";
   -ms-text-overflow: ellipsis " [..]";
   /* -moz-binding: url('ellipsis.xml#ellipsis'); */
-  /* text-overflow: ellipsis " [..]"; */
+  text-overflow: ellipsis " [..]";
 }
 
 .post-category {
@@ -2353,7 +2352,7 @@ a.post-link:hover .post-title {
 
 .post-img-body img {
   position: relative;
-  height: auto !important;
+  /* height: auto !important; */
   border-radius: var(--border-radius-10);
   object-fit: contain;  /* Or cover, depending on your needs */
   /* padding: var(--ptb); */

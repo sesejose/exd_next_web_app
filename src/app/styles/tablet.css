@@ -44,9 +44,10 @@
   .guiding {
     top: 0px;
   }
+  
     
   /* Fourme Page */
-  #fourme-intro {
+  .fourme-intro {
     width: 100%;
     height: auto;
   }
@@ -59,6 +60,10 @@
   #home-advantages-title {
     text-align: center;
   }
+  #home-advantages-title .btn-purple {
+    display: flex;
+  }
+
 
   /* Autom Mate Page*/
   .autom-mate-box {
