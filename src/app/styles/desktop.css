@@ -221,6 +221,7 @@ h4 {
      {
       /* aspect-ratio: 1/1; */
       width: 100% !important;
+      margin: 0;
     }
 
     .home-hero-text, .solution-hero-text, .products-hero-text {
