@@ -48,7 +48,7 @@
   /* Fourme Page */
   .fourme-intro {
     width: 100%;
-    height: auto;
+    /* height: auto; */
   }
   #fourme-attributes-title {
     text-align: center;
