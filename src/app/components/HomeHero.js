@@ -8,8 +8,8 @@ export default function HeroHome() {
     <>
     <div className="wide">
       <section className="heros-container grid-center">
-        <div className="home-hero-image col-7-13"></div>
-        <div className="home-hero-text col-1-7">
+        <div className="home-hero-image col-8-13"></div>
+        <div className="home-hero-text col-1-8">
           <h2>Liberate your potential with Service Management</h2>
           <h4>By removing the unproductive friction, we release the full potential of your customers & employees.</h4>
           <p>
