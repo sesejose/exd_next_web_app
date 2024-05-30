@@ -38,7 +38,7 @@ export default function Article({ id, category, title, image, excerpt, bodyHeadl
               {/* <p className="post-excerpt">{article.excerpt_article}</p> */}
             </div>
             <div className="btn-secondary">
-              <div className="text-1 bold">Read More</div>
+              <div className="bold">Read More</div>
               <span className="material-symbols-rounded">article</span>
             </div>
           </div>
