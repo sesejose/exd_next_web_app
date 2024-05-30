@@ -2264,6 +2264,7 @@ footer ul li a.close {
   height: 620px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 1.25rem;
   padding: var(--p);
   background: var(--fifteen);
