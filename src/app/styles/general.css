@@ -2282,14 +2282,11 @@ footer ul li a.close {
   /* -moz-binding: url('ellipsis.xml#ellipsis'); */
   text-overflow: ellipsis " [..]";
 }
-
 .post-category {
   color: var(--red);
 }
-
 a.post-link {
   width: fit-content;
-  word-break: break-word;
 }
 a.post-link .post {
   /* transition: all 0.35s ease-in-out; */
@@ -2338,13 +2335,6 @@ a.post-link:hover .post-title {
   padding: var(--p-medium);
 }
 
-/* .post-img-body {
-  width: 100%;
-  height: auto;
-  border-radius: var(--border-radius-10);
-  margin: var(--mtb);
-} */
-
 .post-img-body {
   position: relative;
   width: 100%;  /* Adjust the width as necessary */
@@ -2359,6 +2349,10 @@ a.post-link:hover .post-title {
   border-radius: var(--border-radius-10);
   object-fit: contain;  /* Or cover, depending on your needs */
   /* padding: var(--ptb); */
+}
+
+.post-body-link {
+  word-break: break-word;
 }
 
 

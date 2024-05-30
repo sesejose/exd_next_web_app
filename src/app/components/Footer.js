@@ -76,7 +76,7 @@ export default function Footer() {
           <li>
             <div className="text-1 bold">Social</div>
           </li>
-          <li>
+          {/* <li>
             <Link href={""}>
               <div className="flex-row-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-youtube" viewBox="0 0 16 16">
@@ -105,7 +105,7 @@ export default function Footer() {
                 <div>Instagram</div>
               </div>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href={"https://www.linkedin.com/company/expdesign/"} target="_blank">
               <div className="flex-row-center">

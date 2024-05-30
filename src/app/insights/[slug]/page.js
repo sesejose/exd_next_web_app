@@ -83,7 +83,7 @@ export default async function Post({ params }) {
                             <div className="article-quote p-mobile-medium text-center">{post.body_quote_article.rendered}</div>
                             <div className="w-100 text-1">{post.body_more_text_article.rendered}</div>
                             <div className="w-100 bold ptb">{post.body_link_text_article.rendered}</div>
-                            <Link href={`${post.body_link_article.rendered}`} className="w-100 text-link-purple">{post.body_link_article.rendered}</Link>
+                            <Link href={`${post.body_link_article.rendered}`} className="w-100 text-link-purple post-body-link">{post.body_link_article.rendered}</Link>
                             <div className="w-100 bold ptb">{post.body_email_text_article.rendered}</div>
                             <Link href={`mailto:${post.body_email_article.rendered}`} className="w-100 text-link-purple">{post.body_email_article.rendered}</Link>
                         </div>
