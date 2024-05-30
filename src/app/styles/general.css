@@ -2286,6 +2286,7 @@ footer ul li a.close {
 .post-category {
   color: var(--red);
 }
+
 a.post-link {
   width: fit-content;
 }

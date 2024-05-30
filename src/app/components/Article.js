@@ -29,12 +29,14 @@ export default function Article({ id, category, title, image, excerpt, bodyHeadl
             {/* <Image src={article.image_article} width={160} height={90} alt="Image"></Image> */}
           </div>
           <div className="post-description">
-            <p className="post-category">{category}</p>
-            {/* <p className="post-category">{article["_embedded"]["wp:term"]["0"]["0"].name}</p> */}
-            <h4 className="post-title">{title}</h4>
-            {/* <h4 className="post-title">{article.title_article}</h4> */}
-            <p className="post-excerpt">{excerpt}</p>
-            {/* <p className="post-excerpt">{article.excerpt_article}</p> */}
+            <div className="flex-column-left">
+              <p className="post-category pb">{category}</p>
+              {/* <p className="post-category">{article["_embedded"]["wp:term"]["0"]["0"].name}</p> */}
+              <h4 className="post-title">{title}</h4>
+              {/* <h4 className="post-title">{article.title_article}</h4> */}
+              <p className="post-excerpt">{excerpt}</p>
+              {/* <p className="post-excerpt">{article.excerpt_article}</p> */}
+            </div>
             <div className="btn-secondary">
               <div className="text-1 bold">Read More</div>
               <span className="material-symbols-rounded">article</span>
