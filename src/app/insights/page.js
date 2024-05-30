@@ -21,40 +21,45 @@ import { useEffect } from "react";
 
 
 // I fetch the articles and pass the them as props to and through the Article component tag 
-// Asyn was removed
+// Async was removed
 export default function Insights() {
   
   // const response = await fetch(`${reqUrl}`); 
   // const articles = await response.json();
   // console.log(articles);
-
-  const [articles, setArticles] = useState([]);
   
+  const initialPostList = 8; // Number of articles to display initially
+  const incrementInitialPostList = 4; // Number of articles to add each time the "load more" button is clicked
+
+  const [displayPosts, setDisplayPosts] = useState(initialPostList);
+  const [articles, setArticles] = useState([]);
+  /* Your array of articles goes here */
+  
+  /* A - Fetching the Array of Articles */
   useEffect(() => {
     fetch('https://exd-insight.dk/wp-json/wp/v2/article?_embed&per_page=100')
       .then((res) => res.json())
       .then((articles) => {
-        setArticles(articles);
+        setArticles(articles); 
+        // B - Defining the State Articles with the fetched Array
       })
       .catch((err) => {
         console.log(err);
       });
   }, []);  
 
-  // const [id, setId] = useState();
-  // const [category, setCategory] = useState();
-  // const [image, setImage] = useState();
-  // const [title, setTitle] = useState();
-  // const [excerpt, setExcrpt] = useState();
-  // const [content, setContent] = useState();
-  // const [slug, setSlug] = useState();
-
+  // Function triggered by event "L"oad more" 
+  const loadMore = () => {
+    setDisplayPosts(displayPosts + incrementInitialPostList)
+  }
+  
+  // With Slice we take&return the Array of articles from "0" to initial amount (8) and Map it --> return every item (Article) and complete each item with the data   
   return (
     <>
     <InsightsHero></InsightsHero>
     <div className="wide">
       <section className="grid-blog padding">
-        {articles.map(article => (
+        {articles.slice(0, displayPosts).map(article => (
           <Article 
 
           key={article.id}
@@ -78,8 +83,23 @@ export default function Insights() {
           ></Article>
         ))}
       </section>
+        {/* Load More --> evaluates if displayPosts is lower than articles.length and of yes add a button if not "null" */}
+      <section className="grid-center padding">
+      <div class="col-12 ptb-large">
+          {displayPosts < articles.length ? ( 
+            <button onClick={loadMore} className="btn-secondary flex-row-center m-auto">Load more articles</button>
+        ) : null}
+      </div>
+        {/* <div class="col-4-10 ptb-large w-100">
+            <button onClick={loadMore} class="btn-secondary flex-row-center">
+                <span className="material-symbols-rounded">plus</span>
+                <div>Load more articles</div>
+            </button>
+        </div> */}
+      </section>
     </div>
     </>
   );
 }
+
 
