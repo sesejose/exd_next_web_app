@@ -25,8 +25,11 @@
   a.post-link, .post {
     width: 100%;
   }
-
   
+  .post-body-link {
+    word-break: break-word;
+  }
+
   /* Products Page */
   #products-parallax {
     font-size: 8rem !important;
@@ -49,7 +52,6 @@
   /* Fourme Page */
   .fourme-intro {
     width: 100%;
-    /* height: auto; */
   }
   #fourme-attributes-title {
     text-align: center;

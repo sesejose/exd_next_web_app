@@ -705,7 +705,6 @@ h4 {
 }
 
 #fourme-attributes-title {
-  /* padding: var(--p) !important; */
   text-align: left !important;
 }
 
@@ -844,6 +843,9 @@ footer {
   }
   .overlay {
     height: 805.5px;
+  }
+  .post-body-link {
+    word-break: break-word;
   }
 }
 
