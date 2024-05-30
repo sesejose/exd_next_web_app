@@ -2289,6 +2289,7 @@ footer ul li a.close {
 
 a.post-link {
   width: fit-content;
+  word-break: break-word;
 }
 a.post-link .post {
   /* transition: all 0.35s ease-in-out; */
