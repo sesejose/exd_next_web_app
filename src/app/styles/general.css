@@ -2412,6 +2412,7 @@ a.post-link:hover .post-title {
 
 .wide:has(#other-articles) {
 background-color: var(--twenty);
+padding: var(--ptb);
 }
 
 /* Swiper */

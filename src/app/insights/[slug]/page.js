@@ -86,12 +86,12 @@ export default async function Post({ params }) {
                             <Link href={`mailto:${post.body_email_article.rendered}`} className="w-100 text-link-purple">{post.body_email_article.rendered}</Link>
 
                             
-                            <div className="ptb-large flex-row-left w-100">
+                            {/* <div className="ptb-large flex-row-left w-100">
                                 <a href="/insights" className="btn-secondary flex-row-center">
                                     <span className="material-symbols-rounded">arrow_back</span>
                                     <div>Back to Insights</div>
                                 </a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>                
@@ -100,7 +100,10 @@ export default async function Post({ params }) {
             {/* Other articles  */}
             <div className="wide bg">
                 <section id="other-articles">
-                    <div className="grid-blog ptb-mobile-medium">
+                    <div className="w-100">
+                        <h3 className="text-center pb">Ralted articles</h3>
+                    </div>
+                    <div className="grid-blog">
                         {newArray.map((article) => (
                             <ArticleOthers 
                             key={article.id}
