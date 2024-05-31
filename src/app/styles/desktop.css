@@ -746,7 +746,6 @@ h4 {
 }
 
 /* About Page */
-
 .peter-lasse-container {
   flex-direction: row;
 }
@@ -755,7 +754,6 @@ h4 {
 /* insights Page*/
 
 /* Contact Us Page */
-
 #contact-form ul li a:hover {
   color: var(--zero);
 } 
