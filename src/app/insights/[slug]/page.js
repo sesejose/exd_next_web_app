@@ -70,7 +70,7 @@ export default async function Post({ params }) {
                         <div className="col-3-11 flex-column-center pb-large">
                             <h2 className="w-100 title-article-opened">{post.title_article.rendered}</h2>
                             
-                            <Image src={post.body_image_article.rendered} width={160} height={90} alt="Image" className="post-img-body" />
+                            {/* <Image src={post.body_image_article.rendered} width={160} height={90} alt="Image" className="post-img-body" /> */}
                             
                             {renderImage(post.body_image_article.rendered)}
                             <div className="span bold purple-light">{post.body_caption_article.rendered}</div>
