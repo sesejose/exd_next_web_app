@@ -101,7 +101,7 @@ export default async function Post({ params }) {
             <div className="wide bg">
                 <section id="other-articles">
                     <div className="w-100">
-                        <h3 className="text-center pb">Ralted articles</h3>
+                        <h3 className="text-center pb">Related articles</h3>
                     </div>
                     <div className="grid-blog">
                         {newArray.map((article) => (
