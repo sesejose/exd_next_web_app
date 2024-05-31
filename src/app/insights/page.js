@@ -85,7 +85,7 @@ export default function Insights() {
       </section>
         {/* Load More --> evaluates if displayPosts is lower than articles.length and of yes add a button if not "null" */}
       <section className="grid-center padding">
-      <div class="col-12 ptb-large">
+      <div className="col-12 ptb-large">
           {displayPosts < articles.length ? ( 
             <button onClick={loadMore} className="btn-secondary flex-row-center m-auto">Load more articles</button>
         ) : null}
