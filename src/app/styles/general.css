@@ -1800,7 +1800,6 @@ ul.our-services li {
   background-position: center; */
 }
 
-
 .screen {
   width: 100%;
   height: auto;
@@ -1887,6 +1886,114 @@ ul.our-services li {
 #fourme-rewards-title {
   text-align: left;
 }
+
+/* Pyramid */
+
+#fourme-differentiators {
+  width: 100%;
+}
+
+/* Solution */
+
+#fourme-differentiators:first-child  {
+  text-align: left;
+}
+
+#pyramid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  aspect-ratio: 1 / 1;
+  background-image: url("../../../public/pyramid.svg");
+  width: 100%;
+  object-fit: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  position: relative;
+}
+
+.divisions {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: var(--ptb-medium);
+}
+
+.divisions > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#pyramid > div span {
+  color: var(--purple);
+  /* cursor: pointer; */
+  width: 36px;
+  height: 36px;
+  /* padding: var(--p); */
+  background-color: var(--zero);
+  line-height: 2;
+  font-weight: 900;
+  border-radius: var(--border-radius-100);
+}
+/* 
+.one {
+  background-color: var(--purple);
+  color: var(--zero);
+}
+.two {
+  background-color: var(--purple);
+  color: var(--zero);
+}
+.three {
+  background-color: var(--purple);
+  color: var(--zero);
+}
+.four {
+  background-color: var(--purple);
+  color: var(--zero);
+}
+.five {
+  background-color: var(--purple);
+  color: var(--zero);
+}
+.six {
+  background-color: var(--purple);
+  color: var(--zero);
+} */
+
+.divisions-explained {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.divisions-explained > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  /* text-align: left; */
+  padding: var(--pt-medium);
+}
+
+.divisions-explained > div span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--zero);
+  width: 36px;
+  height: 36px;
+  background-color: var(--purple);
+  line-height: 2;
+  font-weight: 900;
+  border-radius: var(--border-radius-100);
+}
+
+/* Autom Mate Page  */
 
 .autom-mate-box {
 border: 1px solid var(--purple-light);
@@ -2604,109 +2711,50 @@ padding: var(--ptb);
   height: var(--slide-height);
 }
 
+/* Search  */
 
-/* Pyramid */
-
-#fourme-differentiators {
-  width: 100%;
+#search {
+  /* display: flex; */
+  /* grid-column: 1 / -1; */
+  /* grid-row: 3 / 4; */
 }
 
-/* Solution */
-
-#fourme-differentiators:first-child  {
-  text-align: left;
-}
-
-#pyramid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-  aspect-ratio: 1 / 1;
-  background-image: url("../../../public/pyramid.svg");
-  width: 100%;
-  object-fit: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: left;
-  position: relative;
-}
-
-.divisions {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-content: center;
-  align-items: center;
-  padding: var(--ptb-medium);
-}
-
-.divisions > div {
+.search-container {
+  float: left;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  height: auto;
+  width: 100%;
 }
 
-#pyramid > div span {
+.form-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid var(--gray);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.form-search input {
+  width: 100%;
+  height: 3rem;
+  padding: var(--p-medium);
+  margin: var(--mtb);
+  border: 2px solid var(--purple-light);
+  border-radius: var(--border-radius-20);
+  font-size: var(--text-2);
+  font-family: var(--headlines);
   color: var(--purple);
-  /* cursor: pointer; */
-  width: 36px;
-  height: 36px;
-  /* padding: var(--p); */
-  background-color: var(--zero);
-  line-height: 2;
-  font-weight: 900;
-  border-radius: var(--border-radius-100);
-}
-/* 
-.one {
-  background-color: var(--purple);
-  color: var(--zero);
-}
-.two {
-  background-color: var(--purple);
-  color: var(--zero);
-}
-.three {
-  background-color: var(--purple);
-  color: var(--zero);
-}
-.four {
-  background-color: var(--purple);
-  color: var(--zero);
-}
-.five {
-  background-color: var(--purple);
-  color: var(--zero);
-}
-.six {
-  background-color: var(--purple);
-  color: var(--zero);
-} */
-
-.divisions-explained {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-content: center;
-  align-items: center;
 }
 
-.divisions-explained > div {
-  display: flex;
-  justify-content: flex-start;
-  align-items: start;
-  /* text-align: left; */
-  padding: var(--pt-medium);
+.form-search input:focus {
+  outline: none;
+  border: 2px solid var(--purple);
 }
 
-.divisions-explained > div span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--zero);
-  width: 36px;
-  height: 36px;
-  background-color: var(--purple);
-  line-height: 2;
-  font-weight: 900;
-  border-radius: var(--border-radius-100);
-}
+
+
