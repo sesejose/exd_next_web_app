@@ -16,6 +16,8 @@ export default function Insights() {
   const [filteredArticles, setFilteredArticles] = useState([]);
   // Separate State for Filtered Articles: Added filteredArticles to store and display the filtered list of articles, avoiding direct mutation of the articles state.
   const [searchText, setSearchText] = useState('');
+  // Filter
+  const [filter, setFilter] = useState('');
   
   
   // async function getData() {
@@ -49,7 +51,7 @@ export default function Insights() {
     setDisplayPosts(displayPosts + incrementInitialPostList);
   };
 
-  // Search Function
+  // Search Function ( Filter )
   useEffect(() => {
     // A variable 
     const filtered = articles.filter((article) => {
@@ -59,56 +61,61 @@ export default function Insights() {
     setFilteredArticles(filtered);
   }, [searchText, articles]);
 
+  // Search Input ON Change
   const handleSearchChange = (event) => {
     setSearchText(event.target.value);
   };
 
-  // // Search Function  
-  // useEffect(() => {
-  //   // function searchArticle() {
-  //     console.log("Articles:", articles);
-  //     const searchBar = document.getElementById("search-field");
-  //     searchBar.addEventListener("keyup", (event) => {
-  //       const text = event.target.value.substring(0, 1).toUpperCase() + event.target.value.substring(1).toLowerCase();
-  //       const filterArticles = articles.filter((article) => {
-  //         return article.title_article.rendered.includes(text);
-  //         // return article.title.includes(text) || article.lastName.includes(text);
-  //       });
-  //       if (text != "") {
-  //         setArticles(filterArticles);
-  //         console.log("Filtered Articles:", filterArticles);
-  //       } 
-  //       // Else = Nothing - It just continue as before.
-  //     });
-  //   // }
-  //   // searchArticle();
-  // }, []);
+  // Search Button ON Submit
+  const handleSearchSubmit = (event) => {
+    event.preventDefault();
+    const filtered = articles.filter((article) => {
+      const text = searchText.toLowerCase();
+      return article.title_article.rendered.toLowerCase().includes(text);
+    });
+    setFilteredArticles(filtered);
+  };
+
+  // Button to filter
+  const handleFilterSelected = (event) => {
+    setFilter(event.target.value);
+    console.log(filter);
+  };
 
   return (
     <>
       <InsightsHero />
       <div className="wide">
-        <section className="w-100">
-          <div id="search" className="grid-center">
-            <div className="col-1-4">Sort</div>
-            <div className="col-4-10 search-container">
-              <form className="form-search" action="search">
+        <section className="grid-center">
+          
+          <div id="search" className="col-1-10">
+            <div className="search-container">
+              <form className="form-search" action="search"  onSubmit={handleSearchSubmit}>
                 <label htmlFor='search-field'></label>
-                <input 
-                  id="search-field" 
-                  className="input" 
-                  type="text" 
-                  placeholder="Search.." 
-                  name="search" 
-                  value={searchText}
-                  onChange={handleSearchChange}
-                />
-                <button className="icons" type="submit">
-                  <img src="assets/icons/bi_search.svg" width="16px" alt="" />
-                </button>
+                <div className="input-group flex-row-center">
+                  <input 
+                    id="search-field" className="input" type="text" placeholder="Search.." name="search" value={searchText} onChange={handleSearchChange}
+                  />
+                  <button className="magnify" type="submit">
+                    <span className="material-symbols-rounded">search</span>
+                  </button>
+                </div>
               </form>
             </div>
-            <div className="col-10-13">Filter</div>
+          </div>
+
+          <div className="col-10-13 flex-row-center">
+            {/* Filter Options Desktop */}
+            <div className="">Filter by Category</div>
+            <select id="filter-desk" required="" className="filter-options" onChange={handleFilterSelected}>
+              {/* <optgroup label="Option Group" className="group"> */}
+              <option value="All" data-action="filter" data-filter="all">All articles</option>
+              <option value="4me" data-action="filter" data-filter="prefect">4me</option>
+              <option value="EX" data-action="filter" data-filter="expelled">EX</option>
+              <option value="CS" data-action="filter" data-filter="Slytherin">Customer Stories</option>
+              <option value="UX" data-action="filter" data-filter="Hufflepuff">User Experience (UX)</option>
+              {/* </optgroup> */}
+            </select>
           </div>
         </section>
 
