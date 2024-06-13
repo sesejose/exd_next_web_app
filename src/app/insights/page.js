@@ -17,7 +17,7 @@ export default function Insights() {
   // Separate State for Filtered Articles: Added filteredArticles to store and display the filtered list of articles, avoiding direct mutation of the articles state.
   const [searchText, setSearchText] = useState('');
   // Filter
-  const [filter, setFilter] = useState('');
+  const [filter, setFilter] = useState('All');
 
 
   // ********************   Fetching Arrticles from WordPress rest API   *****************************************
@@ -82,10 +82,19 @@ export default function Insights() {
 // ********************   Filter   *********************************************************************
 
 // Select Option to filter (setState for filter)
-  const handleFilterSelected = (event) => {
-    setFilter(event.target.value);
-    console.log(filter);
-  };
+const handleFilterSelected = (event) => {
+  const selectedFilter = event.target.value;
+  setFilter(selectedFilter);
+  console.log(selectedFilter);
+  if (selectedFilter === "All") {
+    setFilteredArticles(articles);
+  } else {
+    const filterArticles = articles.filter((article) => {
+      return article.category && article.category.toLowerCase() === selectedFilter.toLowerCase();
+    });
+    setFilteredArticles(filterArticles);
+  }
+};
 
   // Filter Function
   // 1. We define a new const "filterArticles" with the new array with the filtered articles - those that we want.
@@ -131,11 +140,11 @@ export default function Insights() {
             <div className="">Filter by Category</div>
             <select id="filter-desk" required="" className="filter-options" onChange={handleFilterSelected}>
               {/* <optgroup label="Option Group" className="group"> */}
-              <option value="All" data-action="filter" data-filter="all">All articles</option>
-              <option value="4me" data-action="filter" data-filter="prefect">4me</option>
-              <option value="EX" data-action="filter" data-filter="expelled">EX</option>
-              <option value="CS" data-action="filter" data-filter="Slytherin">Customer Stories</option>
-              <option value="UX" data-action="filter" data-filter="Hufflepuff">User Experience (UX)</option>
+              <option value="All">All articles</option>
+              <option value="4me">4me</option>
+              <option value="EX">EX</option>
+              <option value="CS">Customer Stories</option>
+              <option value="UX">User Experience (UX)</option>
               {/* </optgroup> */}
             </select>
           </div>
