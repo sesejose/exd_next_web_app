@@ -1,10 +1,10 @@
 
 'use client'
 
-import Article from "../components/Article";
-import { reqUrl } from "@/app/config";
-import InsightsHero from "../components/InsightsHero";
 import { useState, useEffect } from "react";
+import Article from "../components/Article";
+import InsightsHero from "../components/InsightsHero";
+import { reqUrl } from "@/app/config";
 
 // I fetch the articles and pass them as props to and through the Article component tag 
 export default function Insights() {
@@ -36,23 +36,6 @@ export default function Insights() {
   }, []);
 
 
-   // ********************   Loading More Articles   *****************************************************
-
-
-  // Function triggered by event "Load more"
-  const loadMore = () => {
-    setDisplayPosts(displayPosts + incrementInitialPostList);
-  };
-
-
-  // ********************   Search   *********************************************************************
-
-  // Search Input ON Change
-  const handleSearchChange = (event) => {
-    setSearchText(event.target.value);
-  };
-
-
   // Search Function ( By Filtering )
   // 1. We define a new const "filtered" with the new array with the filtered articles - those that we want.
   // 2. The value for this array will be the return, and this is a list with those articles that includes the Text written in the input field that at the same time defines an State, called at the end as a paramenter.
@@ -66,6 +49,13 @@ export default function Insights() {
     setFilteredArticles(filtered);
   }, [searchText, articles]);
 
+
+  // ********************   Search   *********************************************************************
+
+  // Search Input ON Change
+  const handleSearchChange = (event) => {
+    setSearchText(event.target.value);
+  };
   
 
   // Search Button ON Submit
@@ -79,39 +69,40 @@ export default function Insights() {
   };
 
 
-// ********************   Filter   *********************************************************************
+  // ********************   Filter   *********************************************************************
 
-// Select Option to filter (setState for filter)
-const handleFilterSelected = (event) => {
-  const selectedFilter = event.target.value;
-  setFilter(selectedFilter);
-  console.log(selectedFilter);
-  if (selectedFilter === "All") {
-    setFilteredArticles(articles);
-  } else {
-    const filterArticles = articles.filter((article) => {
-      return article.category && article.category.toLowerCase() === selectedFilter.toLowerCase();
-    });
-    setFilteredArticles(filterArticles);
-  }
-};
+  // Select Option to filter (setState for filter)
+  // Handle filter selection
+  const handleFilterSelected = (event) => {
+    const selectedFilter = event.target.value;
+    setFilter(selectedFilter);
 
-  // Filter Function
-  // 1. We define a new const "filterArticles" with the new array with the filtered articles - those that we want.
-  // 2. The value for this array will be the return, and this is a list with those articles that includes the filter selected, this is the Value of the option.   
-  // 3. As I do in the Search Function I use Dependencies: [filter, articles] are the dependencies of this useEffect. This means that the function inside useEffect will run whenever either filter or articles changes.
-  useEffect(() => {
-    // A variable 
-    const filterArticles = articles.filter((article) => {
-    const filterSelected = filter.toLowerCase();
-    return article.title_article.rendered.toLowerCase().includes(filterSelected);
-    });
-    setFilteredArticles(filterArticles);
-  }, [filter, articles]);
+    if (selectedFilter === "All") {
+      setFilteredArticles(articles);
+    } else {
+      const filterArticles = articles.filter((article) => {
+        const category = article["_embedded"]["wp:term"]["0"]["0"]?.name;
+        if (!category) {
+          console.log('Article without category:', article);
+          return false;
+        }
+        console.log('Article category:', category); // Log the category to debug
+        return category.toLowerCase() === selectedFilter.toLowerCase();
+      });
+      setFilteredArticles(filterArticles);
+      console.log('Filtered Articles:', filterArticles);
+    }
+  };
+
+  
+  // ********************   Loading More Articles   *****************************************************
+  // Function triggered by event "Load more"
+  const loadMore = () => {
+    setDisplayPosts(displayPosts + incrementInitialPostList);
+  };
 
 
   // ********************   Return for Showing Page   *********************************************************************
-
 
   return (
     <>
@@ -143,7 +134,8 @@ const handleFilterSelected = (event) => {
               <option value="All">All articles</option>
               <option value="4me">4me</option>
               <option value="EX">EX</option>
-              <option value="CS">Customer Stories</option>
+              <option value="Customer Stories">Customer Stories</option>
+              <option value="Announcements">Announcements</option>
               <option value="UX">User Experience (UX)</option>
               {/* </optgroup> */}
             </select>
