@@ -10,7 +10,7 @@ import { useState, useEffect } from "react";
 export default function Insights() {
   const initialPostList = 8; // Number of articles to display initially
   const incrementInitialPostList = 4; // Number of articles to add each time the "load more" button is clicked
-
+  // States used in Load more
   const [displayPosts, setDisplayPosts] = useState(initialPostList);
   const [articles, setArticles] = useState([]);
   const [filteredArticles, setFilteredArticles] = useState([]);
@@ -18,20 +18,9 @@ export default function Insights() {
   const [searchText, setSearchText] = useState('');
   // Filter
   const [filter, setFilter] = useState('');
-  
-  
-  // async function getData() {
-  //   const res = await fetch('https://exd-insight.dk/wp-json/wp/v2/article?_embed&per_page=100')
-  //   // The return value is *not* serialized
-  //   // You can return Date, Map, Set, etc.
-   
-  //   if (!res.ok) {
-  //     // This will activate the closest `error.js` Error Boundary
-  //     throw new Error('Failed to fetch data')
-  //   }
-  
-  //   return res.json()
-  // }
+
+
+  // ********************   Fetching Arrticles from WordPress rest API   *****************************************
 
   // Fetching the Array of Articles
   useEffect(() => {
@@ -46,12 +35,28 @@ export default function Insights() {
       });
   }, []);
 
+
+   // ********************   Loading More Articles   *****************************************************
+
+
   // Function triggered by event "Load more"
   const loadMore = () => {
     setDisplayPosts(displayPosts + incrementInitialPostList);
   };
 
-  // Search Function ( Filter )
+
+  // ********************   Search   *********************************************************************
+
+  // Search Input ON Change
+  const handleSearchChange = (event) => {
+    setSearchText(event.target.value);
+  };
+
+
+  // Search Function ( By Filtering )
+  // 1. We define a new const "filtered" with the new array with the filtered articles - those that we want.
+  // 2. The value for this array will be the return, and this is a list with those articles that includes the Text written in the input field that at the same time defines an State, called at the end as a paramenter.
+  // 3. As I do in the Filter Function I used Dependencies: [searchText, articles] are the dependencies of this useEffect. This means that the function inside useEffect will run whenever either searchText or articles changes.
   useEffect(() => {
     // A variable 
     const filtered = articles.filter((article) => {
@@ -61,26 +66,43 @@ export default function Insights() {
     setFilteredArticles(filtered);
   }, [searchText, articles]);
 
-  // Search Input ON Change
-  const handleSearchChange = (event) => {
-    setSearchText(event.target.value);
-  };
+  
 
   // Search Button ON Submit
   const handleSearchSubmit = (event) => {
     event.preventDefault();
     const filtered = articles.filter((article) => {
-      const text = searchText.toLowerCase();
-      return article.title_article.rendered.toLowerCase().includes(text);
+    const text = searchText.toLowerCase();
+    return article.title_article.rendered.toLowerCase().includes(text);
     });
     setFilteredArticles(filtered);
   };
 
-  // Button to filter
+
+// ********************   Filter   *********************************************************************
+
+// Select Option to filter (setState for filter)
   const handleFilterSelected = (event) => {
     setFilter(event.target.value);
     console.log(filter);
   };
+
+  // Filter Function
+  // 1. We define a new const "filterArticles" with the new array with the filtered articles - those that we want.
+  // 2. The value for this array will be the return, and this is a list with those articles that includes the filter selected, this is the Value of the option.   
+  // 3. As I do in the Search Function I use Dependencies: [filter, articles] are the dependencies of this useEffect. This means that the function inside useEffect will run whenever either filter or articles changes.
+  useEffect(() => {
+    // A variable 
+    const filterArticles = articles.filter((article) => {
+    const filterSelected = filter.toLowerCase();
+    return article.title_article.rendered.toLowerCase().includes(filterSelected);
+    });
+    setFilteredArticles(filterArticles);
+  }, [filter, articles]);
+
+
+  // ********************   Return for Showing Page   *********************************************************************
+
 
   return (
     <>
@@ -159,12 +181,7 @@ export default function Insights() {
   );
 }
 
-// </section>
-//         {/* Load More --> evaluates if displayPosts is lower than articles.length and of yes add a button if not "null" */}
-//       <section className="grid-center padding">
-//         <div className="col-12 ptb-large">
-//             {displayPosts < articles.length ? ( 
-//               <button onClick={loadMore} className="btn-secondary flex-row-center m-auto">Load more articles</button>
-//           ) : null}
-//         </div>
-//       </section>
+
+// If the amount of objects in displayPosts (number) is less than the amount in filteredArticles "AND" button is clicked
+// Use the CONST { LoadMore } that has the Value of setting a State for setDisplayPosts (displayPosts + incrementInitialPostList); other 2 states !
+// Once the Value/State for displayPost is defined the amount of Post to display also changes, increments.
