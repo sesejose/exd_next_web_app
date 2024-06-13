@@ -2760,7 +2760,7 @@ select.filter-options {
   background-position:
     calc(100% - 20px), 
     calc(100% - 15px);    
-  padding-right: var(--pr-medium);
+  /* padding-right: var(--pr-medium); */
   &::-ms-expand {
     display: none;
   }    
