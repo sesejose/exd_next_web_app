@@ -56,7 +56,7 @@ export default function AutomMateBoxes(){
                                 {/* <p className="bold pt">Gear 3:</p> */}
                                 <h4 className="ptb">Service Integration & Intelligence</h4>
                                 <p>Service Technology Optimization becomes your strategic advantage, and every day brings new opportunities to elevate your service operations to the next level. Step into the future where robots don&apos;t just do, but think. Amplify your tech capabilities, without the hefty developer price tags. Autom Mate&apos;s future-proof automation & integration capabilities are here to completely transform your service technology.</p>
-                                <p className="bold">Frequent Integrations by domain:</p>   
+                                {/* <p className="bold">Frequent Integrations by domain:</p>    */}
                             </div>
 
                         </div>    
