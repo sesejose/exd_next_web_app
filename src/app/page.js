@@ -1,12 +1,12 @@
 //This is the Homepage
 
-import general from "../app/styles/general.css"
-import desktop from "../app/styles/general.css"
+import general from "../app/styles/general.css";
+import desktop from "../app/styles/general.css";
 import HomeHero from "./components/HomeHero";
 import HomeAdvantages from "./components/HomeAdvantages";
 import HomeRevolutioning from "./components/HomeRevolutioning";
 import EmblaCarousel from "./components/EmblaCarousel";
-import CarouselLogos from "./components/CarouselLogos"
+import CarouselLogos from "./components/CarouselLogos";
 // import HomeAdvantagesTitle from "./components/HomeAdvantagesTitle";
 // import HomeClientStories from "./components/EmblaCarousel";
 
@@ -19,33 +19,31 @@ import CarouselLogos from "./components/CarouselLogos"
 // import '../app/styles/embla.css'
 // import general from '../app/styles/general.css'
 
-const OPTIONS = {}
-const SLIDE_COUNT = 5
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
+const OPTIONS = {};
+const SLIDE_COUNT = 5;
+const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
-const OPTIONS_LOGOS = { loop: true }
-const SLIDE_COUNT_LOGOS = 9
-const SLIDES_LOGOS = Array.from(Array(SLIDE_COUNT_LOGOS).keys())
+const OPTIONS_LOGOS = { loop: true };
+const SLIDE_COUNT_LOGOS = 9;
+const SLIDES_LOGOS = Array.from(Array(SLIDE_COUNT_LOGOS).keys());
 
 export default function Home() {
   return (
-    
     <>
       <HomeHero></HomeHero>
       <HomeAdvantages></HomeAdvantages>
       <HomeRevolutioning></HomeRevolutioning>
-      {/* <EmblaCarousel slides={SLIDES} options={OPTIONS} /> */}
+      <EmblaCarousel slides={SLIDES} options={OPTIONS} />
       <CarouselLogos slides={SLIDES_LOGOS} options={OPTIONS_LOGOS} />
     </>
-    
   );
 }
-
 
 // It was the First Return from Next when creating the project
 //import Image from "next/image";
 //import styles from "./page.module.css";
-{/* <main className={styles.main}>
+{
+  /* <main className={styles.main}>
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
@@ -132,4 +130,5 @@ export default function Home() {
           </p>
         </a>
       </div>
-    </main> */}
+    </main> */
+}
