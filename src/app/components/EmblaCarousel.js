@@ -30,7 +30,7 @@ const EmblaCarousel = (props) => {
 
   return (
     <div className="wide">
-    <div className='grid-center'>
+    <section className='grid-center'>
     <div className="embla col-12">
       
       <div id="client-stories" className='col-1-6'>
@@ -69,7 +69,7 @@ const EmblaCarousel = (props) => {
         <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
       </div>
     </div>
-    </div>
+    </section>
     </div>
   )
 }
