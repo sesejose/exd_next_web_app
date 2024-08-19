@@ -33,7 +33,7 @@ export default function Home() {
       <HomeHero></HomeHero>
       <HomeAdvantages></HomeAdvantages>
       <HomeRevolutioning></HomeRevolutioning>
-      <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+      {/* <EmblaCarousel slides={SLIDES} options={OPTIONS} /> */}
       <CarouselLogos slides={SLIDES_LOGOS} options={OPTIONS_LOGOS} />
     </>
   );
