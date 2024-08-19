@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 // import {  Dropdown,  DropdownTrigger,  DropdownMenu,  DropdownSection,  DropdownItem} from "@nextui-org/react";
 
@@ -7,27 +7,27 @@ import Image from "next/image";
 //import { useContext } from "react";
 import { useState } from "react";
 import { useEffect } from "react";
-import { Link } from 'next-view-transitions'
+import { Link } from "next-view-transitions";
 import exd_logo_color from "../../../public/exd_logo_color.svg";
-import { Squash as Hamburger } from 'hamburger-react';
+import { Squash as Hamburger } from "hamburger-react";
 
 export default function Nav() {
   //const context = useContext(Context);
-  const [isOpen, setOpen] = useState(false)
+  const [isOpen, setOpen] = useState(false);
 
   function openMenu() {
     const menu = document.querySelector("#menu");
     // const iconMenuOpen = document.querySelector("#icon-menu-open");
     // const iconMenuClose = document.querySelector("#icon-menu-close");
     if (menu.style.display === "flex") {
-      menu.classList.remove('menu-in');
-      menu.classList.add('menu-out');
+      menu.classList.remove("menu-in");
+      menu.classList.add("menu-out");
       // menu.style.display = "none";
       // iconMenuOpen.classList.remove("hide");
       // iconMenuClose.classList.add("hide");
     } else {
-      menu.classList.remove('menu-out');
-      menu.classList.add('menu-in');
+      menu.classList.remove("menu-out");
+      menu.classList.add("menu-in");
       menu.style.display = "flex";
       // iconMenuOpen.classList.add("hide");
       // iconMenuClose.classList.remove("hide");
@@ -40,40 +40,39 @@ export default function Nav() {
     // const iconMenuOpen = document.querySelector("#icon-menu-open");
     // const iconMenuClose = document.querySelector("#icon-menu-close");
     if (menu.style.display === "flex") {
-      menu.classList.remove('menu-in');
-      menu.classList.add('menu-out');
+      menu.classList.remove("menu-in");
+      menu.classList.add("menu-out");
       menu.style.display = "none";
-      setOpen(false)
+      setOpen(false);
       // iconMenuOpen.classList.remove("hide");
       // iconMenuClose.classList.add("hide");
     }
     if (submenu.style.display === "flex") {
-        submenu.style.display = "none";
+      submenu.style.display = "none";
     }
   }
 
   function openSubmenuDesk() {
     const submenu = document.querySelector("#submenu");
-    if (submenu.style.display = "none") {
+    if ((submenu.style.display = "none")) {
       submenu.style.display = "flex";
       // submenu.style.opacity = "1";
       // submenu.style.height = "auto";
     }
   }
-  
+
   function closeSubmenuDesk() {
     const submenu = document.querySelector("#submenu");
-    if (submenu.style.display = "flex") {
+    if ((submenu.style.display = "flex")) {
       submenu.style.display = "none";
       // submenu.style.opacity = "0";
       // submenu.style.height = "0";
     }
   }
-  
+
   return (
     <>
       <nav className="nav">
-
         <div className="nav-container">
           <div className="logo">
             {/* Logo  */}
@@ -94,8 +93,16 @@ export default function Nav() {
                   <p>Products</p>
                 </Link>
                 <ul id="submenu" className="" onMouseOut={closeSubmenuDesk}>
-                  <li><Link href={"/fourme"}><p>4me</p></Link></li>
-                  <li><Link href={"/autommate"}><p>Autom Mate</p></Link></li>
+                  <li>
+                    <Link href={"/fourme"}>
+                      <p>4me</p>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href={"/autommate"}>
+                      <p>Autom Mate</p>
+                    </Link>
+                  </li>
                 </ul>
               </li>
               <li>
@@ -108,16 +115,16 @@ export default function Nav() {
                   <p>About Us</p>
                 </Link>
               </li>
-              {/* <li>
-                <Link href={'/insights'}>
+              <li>
+                <Link href={"/insights"}>
                   <p>Insights</p>
                 </Link>
-              </li>     */}
+              </li>
               <li>
-                <Link href={'/contact'}>
+                <Link href={"/contact"}>
                   <p>Contact Us</p>
                 </Link>
-              </li> 
+              </li>
             </ul>
           </div>
 
@@ -129,8 +136,8 @@ export default function Nav() {
               </div>
             </Link>
 
-            <Link href={""} className="icons-gradient hide" >
-                <p className="">DK</p>
+            <Link href={""} className="icons-gradient hide">
+              <p className="">DK</p>
             </Link>
 
             <Link href={""} className="icons-gradient hide">
@@ -147,20 +154,19 @@ export default function Nav() {
             {/* <div className="counter">Menu</div> */}
 
             <div className="open">
-            <Hamburger size={24} 
-            toggled={isOpen} 
-            toggle={setOpen} 
-            onToggle={toggled => {
-                if (toggled) {
-                  openMenu();
-                } else {
-                  closeMenu();
-                }
-              }}/>
-              
-
+              <Hamburger
+                size={24}
+                toggled={isOpen}
+                toggle={setOpen}
+                onToggle={(toggled) => {
+                  if (toggled) {
+                    openMenu();
+                  } else {
+                    closeMenu();
+                  }
+                }}
+              />
             </div>
-
           </div>
         </div>
 
@@ -196,11 +202,11 @@ export default function Nav() {
                 About Us
               </Link>
             </li>
-            {/* <li>
+            <li>
               <Link href={"/insights"} onClick={closeMenu}>
                 Insights
               </Link>
-            </li> */}
+            </li>
             <li>
               <Link href={"/contact"} onClick={closeMenu}>
                 Contact Us
@@ -218,7 +224,6 @@ export default function Nav() {
             </li> */}
           </ul>
         </div>
-
       </nav>
     </>
   );
