@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
 import exd_logo_white from "../../../public/exd_logo_white.svg";
 // import Link from "next/link";
-import { Link } from 'next-view-transitions'
+import { Link } from "next-view-transitions";
 import Image from "next/image";
 
 export default function Footer() {
@@ -17,7 +17,10 @@ export default function Footer() {
                 <Image className="logo-footer" src={exd_logo_white} alt={""} width={"109.01"} height={"90"} priority sizes="(max-width: 700px) 100vw, 700px" />
               </Link>
             </div>
-              <p className="zero ptb counter">Experience Design enables a great Customer & Employee Experience based on the best modern technology. We empathize with employees and customers to simplify and remove friction around the flow of work with great design and simple solutions.</p>
+            <p className="zero ptb counter">
+              Experience Design enables a great Customer & Employee Experience based on the best modern technology. We empathize with employees and customers to simplify and remove friction around the flow of work with great design and simple
+              solutions.
+            </p>
           </li>
         </ul>
 
@@ -26,23 +29,23 @@ export default function Footer() {
             <div className="text-1 bold">Contact</div>
           </li>
           <li>
-          <span className="material-symbols-rounded">phone</span>
-          <a href={"tel:+473337890"}>+45 40 31 34 98</a>
+            <span className="material-symbols-rounded">phone</span>
+            <a href={"tel:+473337890"}>+45 40 31 34 98</a>
           </li>
           <li>
-          <span className="material-symbols-rounded">email</span>
+            <span className="material-symbols-rounded">email</span>
             <Link href={"mailto:partners@exd.dk"}>partners@exd.dk</Link>
           </li>
           <li>
-          <span className="material-symbols-rounded">globe</span>
-          <Link href={"http://exd.dk"}>www.exd.dk</Link>
+            <span className="material-symbols-rounded">globe</span>
+            <Link href={"http://exd.dk"}>www.exd.dk</Link>
           </li>
           <li>
-          <span className="material-symbols-rounded">location_on</span>
+            <span className="material-symbols-rounded">location_on</span>
             <Link href={""}>Linnésgade 25, 1361 Copenhagen</Link>
           </li>
           <li>
-          <span className="material-symbols-rounded">home</span>
+            <span className="material-symbols-rounded">home</span>
             <Link href={""}>CVR. 41994274</Link>
           </li>
         </ul>
@@ -70,6 +73,9 @@ export default function Footer() {
           </li> */}
           <li>
             <Link href={"/contact"}>Contact Us</Link>
+          </li>
+          <li>
+            <Link href={"/privacy"}>Privacy Policy</Link>
           </li>
         </ul>
         <ul className="some">
@@ -173,7 +179,6 @@ export default function Footer() {
             <p>©</p>2023 Copyright Boliglån A/S
           </li>
         </ul> */}
-
       </footer>
     </>
   );
