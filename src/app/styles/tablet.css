@@ -1,20 +1,32 @@
-@media only screen and (min-width: 768px) {
+/* id2; */
 
+@media only screen and (min-width: 768px) {
   /* Nav */
   nav ul li a {
     padding: var(--p);
     font-size: 2.625rem;
   }
-  
+
   /* Hero Image */
-  .home-hero-image, .solution-hero-image, .products-hero-image, .customers-stories-hero-image , .home-revolution-image, .autom-mate-hero-image {
+  .home-hero-image,
+  .solution-hero-image,
+  .products-hero-image,
+  .customers-stories-hero-image,
+  .home-revolution-image,
+  .autom-mate-hero-image {
     width: 80%;
     margin: var(--mt-medium);
   }
-  .insights-hero-image, .about-hero-image {
+  .insights-hero-image,
+  .about-hero-image {
     margin: var(--mt-medium);
   }
-  .home-hero-text, .solution-hero-text, .products-hero-text, .customers-stories-hero-text, .about-hero-text, .insights-hero-text {
+  .home-hero-text,
+  .solution-hero-text,
+  .products-hero-text,
+  .customers-stories-hero-text,
+  .about-hero-text,
+  .insights-hero-text {
     text-align: left;
   }
 
@@ -22,13 +34,14 @@
   .grid-blog {
     grid-template-columns: 1fr 1fr;
   }
-  a.post-link, .post {
+  a.post-link,
+  .post {
     width: 100%;
-  }  
+  }
   .post-body-link {
     word-break: break-word;
   }
-  
+
   /* Products Page */
   #products-parallax {
     font-size: 8rem !important;
@@ -47,7 +60,7 @@
   .guiding {
     top: 0px;
   }
-      
+
   /* Fourme Page */
   .fourme-intro {
     width: 100%;
@@ -55,7 +68,8 @@
   #fourme-attributes-title {
     text-align: center;
   }
-  #customers-logos, #meet-our-team {
+  #customers-logos,
+  #meet-our-team {
     flex-direction: row;
   }
   #home-advantages-title {
@@ -65,7 +79,6 @@
     display: flex;
   }
 
-  
   /* Autom Mate Page*/
   .autom-mate-box {
     padding: var(--p-medium);
@@ -84,8 +97,4 @@
     height: 50%;
     padding: var(--p-medium);
   }
- 
 }
-
-
-
